@@ -3589,7 +3589,8 @@ header img:hover{
 		}
 	.table_responsive {
 		display:inline-table;
-        overflow-x: auto;
+        /*overflow-x: auto;*/
+		overflow: scroll;
 		width: 100%;
         text-align: center;
 		
