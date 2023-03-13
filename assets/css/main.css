@@ -3609,9 +3609,10 @@ header img:hover{
     
     
 .table_responsive {
-		display: block;
-        overflow-x: auto;
-		width: 100%;
+	display:block;
+	overflow-x: auto;
+	width: 90%;
+	text-align: center;
 		
 	 }
 	
