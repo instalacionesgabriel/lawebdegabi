@@ -290,6 +290,10 @@ div#InicioAncho #slider p.gancho {
 	margin-top:0px;
 	margin-right:0px;
 	
+	width: 300px;
+    height: 300px;
+    overflow: scroll;
+	
 	}
 	
 	
@@ -505,12 +509,7 @@ header img:hover{
         
         
         div#contenedor{
-			width: 300px;
-			height: 300px;
-			
-			overflow: scroll;
-
-		display: inline;
+			display: inline;
 	}
             
 		.container.\31 25\25 {
@@ -3593,12 +3592,9 @@ header img:hover{
 
 		}
 	.table_responsive {
-		/*display:inline-table;*/
-        /*overflow-x: auto;*/
-		width: 300px;
-      height: 300px;
-      
-      overflow: scroll;
+		display:inline-table;
+        overflow-x: auto;
+		
 		
 	 }
 	
