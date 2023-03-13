@@ -9,7 +9,20 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table tbody {
+    display: table;
+    width: 100%;
+}
+
+
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -40,10 +53,7 @@
 		content: none;
 	}
 
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
+	
 
 	body {
 		-webkit-text-size-adjust: none;
@@ -278,47 +288,16 @@ div#InicioAncho #slider p.gancho {
 			}
 		
 	
-	table{
-	border: 1px solid #ccc;
-    width: auto;
-	height: 100%;
-    margin:0;
-    padding:0;
-    border-collapse: collapse;
-    border-spacing: 0;
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	
-	}
 	
 	
-	table tr {
-	 border: 1px solid #ddd;
-    padding: 5px;
-  }
+	
+	
 
-  table th, table td {
-    padding: 5px;
-   	font-size: 14px;
-	margin: auto;  
-  }
-
-  table th {
-    /*text-transform: uppercase;*/
-    font-size: 14px;
-    letter-spacing: 1px;
-  }
+  
+  
 	
-	table tr:hover {
-	background:#37c0fb}	/*Te hace un marcador en todas las filas de color gris*/
 	
-	table td:hover {
-	background: white;
-	/*background: #37c0fb;*/ /*Te hace un marcador en  una sola columna de color azul  #024959 Este en verde*/
-	color: #474747;/*Color amarillo*/
-	font-size: auto;
-}	/*Y un color en blanco de fuente*/
+	
 	
 		
 	.español {
@@ -2242,7 +2221,7 @@ header img:hover{
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table, blockquote {
+	p, ul, ol, dl, blockquote {
 		margin: 0 0 2em 0;
 	}
 
@@ -2583,37 +2562,7 @@ header img:hover{
 
 /* Tables */
 
-	table {
-		width: 100%;
-	}
-
-		table.default {
-			width: 100%;
-		}
-
-			table.default tbody tr {
-				border-bottom: solid 1px #e0e0e0;
-			}
-
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default th {
-				font-weight: 600;
-				padding: 0.5em 1em 0.5em 1em;
-				text-align: left;
-			}
-
-			table.default thead {
-				background-color: #555555;
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				color: #fff;
-			}
-
+	
 /* Button */
 
 	input[type="submit"],
@@ -3561,7 +3510,7 @@ header img:hover{
 .contenido #page-wrapper .container header article .historia p {
 	text-align: center;
 }
-.contenido #page-wrapper .container header article .historia table tbody tr td {
+.contenido #page-wrapper .container header article .historia {
 	text-align: center;
     
 }
@@ -3587,13 +3536,7 @@ header img:hover{
 /*		margin: auto;*/
 
 		}
-	.table_responsive {
-		display:inline-table;
-        overflow-x: auto;
-		width: 100%;
-        text-align: center;
-		
-	 }
+	
 	
 .Titulo-motos{
 	margin-top: 15px;	
@@ -3606,13 +3549,7 @@ header img:hover{
     
     
     
-.table_responsive {
-		display: block;
-        overflow-x: auto;
-		width: 100%;
-		
-	 }
-	
+
 	.Titulo-motos{
 	margin-top: 15px;	
 	}
@@ -3711,17 +3648,6 @@ header img:hover{
 /*		margin: auto;*/
 
 		}
-	.table_responsive {
-        overflow-x: auto;
-		width: 100%;
-		
-	}
-	.table_responsive thead tr th {
-	margin-bottom: 0px;
-	margin-top: 0px;	
-    font-size: 60.0%;
-			
-	}
 	
 	
 	
