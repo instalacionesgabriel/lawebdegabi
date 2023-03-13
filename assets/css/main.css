@@ -3588,15 +3588,12 @@ header img:hover{
 
 		}
 	.table_responsive {
-		display: block;
-overflow-x: auto;
-white-space: nowrap;
-	 }
-
-	 table tbody {
-		display: table;
+		display:inline-table;
+        overflow-x: auto;
 		width: 100%;
-		}
+        text-align: center;
+		
+	 }
 	
 .Titulo-motos{
 	margin-top: 15px;	
@@ -3610,16 +3607,12 @@ white-space: nowrap;
     
     
 .table_responsive {
-	display: block;
-	overflow-x: auto;
-	white-space: nowrap;
+		display: block;
+        overflow-x: auto;
+		width: 100%;
 		
 	 }
-
-	 table tbody {
-		display: table;
-		width: 100%;
-	}
+	
 	.Titulo-motos{
 	margin-top: 15px;	
 	}
@@ -3719,17 +3712,10 @@ white-space: nowrap;
 
 		}
 	.table_responsive {
-        display: block;
-overflow-x: auto;
-white-space: nowrap;
+        overflow-x: auto;
+		width: 100%;
 		
 	}
-
-	table tbody {
-		display: table;
-		width: 100%;
-		}
-		
 	.table_responsive thead tr th {
 	margin-bottom: 0px;
 	margin-top: 0px;	
