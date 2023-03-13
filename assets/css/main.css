@@ -3588,10 +3588,9 @@ header img:hover{
 
 		}
 	.table_responsive {
-		display:inline-table;
-        overflow-x: auto;
-		width: 100%;
-        text-align: center;
+		display: block;
+overflow-x: auto;
+white-space: nowrap;
 		
 	 }
 	
@@ -3607,9 +3606,9 @@ header img:hover{
     
     
 .table_responsive {
-		display: block;
-        overflow-x: auto;
-		width: 100%;
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
 		
 	 }
 	
@@ -3712,8 +3711,9 @@ header img:hover{
 
 		}
 	.table_responsive {
-        overflow-x: auto;
-		width: 100%;
+        display: block;
+overflow-x: auto;
+white-space: nowrap;
 		
 	}
 	.table_responsive thead tr th {
