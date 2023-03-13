@@ -290,13 +290,12 @@ div#InicioAncho #slider p.gancho {
 	margin-top:0px;
 	margin-right:0px;
 	
-	width: 300px;
-    height: 300px;
-    overflow: scroll;
+	
 	
 	}
+
 	
-	
+
 	table tr {
 	 border: 1px solid #ddd;
     padding: 5px;
@@ -3593,7 +3592,7 @@ header img:hover{
 		}
 	.table_responsive {
 		display:inline-table;
-        overflow-x: auto;
+        overflow:scroll;
 		
 		
 	 }
