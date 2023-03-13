@@ -33,7 +33,6 @@ body {
 }
 
 
-
 @font-face {
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?4ydlu0');
@@ -400,7 +399,7 @@ body {
 	text-align: center;									
 }										
 										
-					display: block;					
+					display: block;		
 					position: relative;					
 					font-weight: 600;					
 					text-align: center;					
@@ -514,11 +513,7 @@ body {
 	margin: 20px;	
 	}
 	
-	.table_responsive {
-       display: block;
-       overflow-x: auto;
-     }
-}
+	
 
 	/*@media screen and (min-width: 950px){		
 			
