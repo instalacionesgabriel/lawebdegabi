@@ -3609,7 +3609,7 @@ header img:hover{
     
 .table_responsive {
 		display: block;
-        overflow-x: auto;
+        overflow-x: scroll;
 		width: 100%;
 		
 	 }
@@ -3713,7 +3713,7 @@ header img:hover{
 
 		}
 	.table_responsive {
-        overflow-x: auto;
+        overflow: scroll;
 		width: 100%;
 		
 	}
