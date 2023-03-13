@@ -3591,8 +3591,12 @@ header img:hover{
 
 		}
 	.table_responsive {
-		display:inline-table;
-        overflow:scroll;
+		/*display:inline-table;
+        overflow-x: auto;*/
+		overflow:scroll;
+		height:200px;
+		width:500px;
+		
 		
 		
 	 }
