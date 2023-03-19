@@ -3571,6 +3571,8 @@ header img:hover{
 @media (min-width: 1920px) and (max-width: 2444px){
  .Eliga-any {
     margin-left: 1210px;
+	
+	
      
     
 }   
@@ -3588,7 +3590,7 @@ header img:hover{
 /*7-1920X1080*/
 @media (min-width: 1681px) and (max-width: 1920px){
     .Eliga-any {
-    margin-left: 1214px;
+    margin-left: 600px;
      
     
 }
@@ -3606,7 +3608,7 @@ header img:hover{
 /*6-1680x1050*/
 @media (min-width: 1665px) and (max-width: 1680px){
     .Eliga-any {
-    margin-left: 1029px;
+    margin-left: 520px;
      
     
 }
@@ -3638,7 +3640,8 @@ header img:hover{
     
     
     .Eliga-any {
-    margin-left: 790px;
+    margin-left: 520px;
+	
      
     
 }
@@ -3675,8 +3678,8 @@ header img:hover{
 @media (min-width: 668px) and (max-width: 1279px){
         
     .Eliga-any {
-    margin-left: 800px;
-     
+    margin-left: 400px;
+	
     
 }
     #Div4 {
@@ -3699,7 +3702,7 @@ header img:hover{
     .Eliga-any {
     margin-left: 94px;
      
-    
+   
 }
     #Div4 {
 	
