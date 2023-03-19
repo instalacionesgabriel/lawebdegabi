@@ -176,6 +176,28 @@ section {
 
 }
 
+@media (min-width: 320px) and (max-width: 479px){
+	#Div1{
+	font-size: 1.8em;
+	margin: 0px;
+	padding-bottom: 0px;
+	}
+	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
+}
 
 
 /*Pantalla del movil*/
