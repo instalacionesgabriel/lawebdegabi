@@ -160,7 +160,20 @@ section {
 	padding-bottom: 0px;
 	}
 	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
 	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
 }
 
 
@@ -240,7 +253,20 @@ section {
 		font-size: 11px;
 	}	
 	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
 	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
 
 }
 
@@ -254,7 +280,20 @@ section {
 	}
 	
 	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
 	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
 	
 }
 /*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
