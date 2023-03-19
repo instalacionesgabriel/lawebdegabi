@@ -11,7 +11,8 @@ table {
 	margin-top: 20px;
 	border-collapse: collapse;
 	border-spacing: 0px;
-	font-size: 11px;
+	font-size: 13px;
+	
 }
 
 table tr {
@@ -160,26 +161,17 @@ section {
 	}
 	
 	
-	    
-	
-/*
-	header img:hover{
-	cursor: pointer;
-	transform: scale(4);
-	-moz-transform: scale(4);	
-	-webkit-transform: scale(4);	
-	-ms-transform: scale(4);	
-	-o-transform: scale(4);	
-		
-		
 }
-*/
-	
-	
 
-}
+
+
 /*Pantalla del movil*/
-@media (min-width: 320px) and (max-width: 479px){
+
+
+
+
+
+@media (min-width: 480px) and (max-width: 800px){
 	#Div1{
 	font-size: 1.9em;
 	margin: 20px;
@@ -193,7 +185,9 @@ section {
 	padding-bottom: 0px;
 	}
 	
-	    
+	
+
+
 	table {
 		display: block;
 		overflow-x: auto;
@@ -206,10 +200,13 @@ section {
 	}
 
 	
+
+	
+	
 }
 
 
-@media (min-width: 480px) and (max-width: 845px){
+@media (min-width: 640px) and (max-width: 1136px){
 	table {
 		display: block;
 		overflow-x: auto;
@@ -220,11 +217,17 @@ section {
 		display: table;
 		width: 100%;
 
-	
+			
+			
+}
+
+
 
 }
 
-@media (min-width: 576px) and (max-width: 767.99px){
+
+/*pantalla de asus*/
+@media (min-width: 720px) and (max-width: 1280px){
 	
 	    
 	#Div2{
@@ -233,23 +236,15 @@ section {
 	margin: 0px;
 	padding-bottom: 0px;
 	}
-	
-/*
-	header img:hover{
-	cursor: pointer;
-	transform: scale(5);
-	-moz-transform: scale(5);	
-	-webkit-transform: scale(5);	
-	-ms-transform: scale(5);	
-	-o-transform: scale(5);	
-}
-*/
+	table{
+		font-size: 11px;
+	}	
 	
 	
-	
+
 }
 
-@media (min-width: 992px) and (max-width: 1199.99px){
+@media (min-width: 750px) and (max-width: 1334px){
 		
 	#Div2{
 	text-align: center;
@@ -260,54 +255,7 @@ section {
 	
 	
 	
-	    
-/*
-	header img:hover{
-	cursor: pointer;
-	transform: scale(5);
-	-moz-transform: scale(5);	
-	-webkit-transform: scale(5);	
-	-ms-transform: scale(5);	
-	-o-transform: scale(5);
-}
-	
-*/
 	
 }
-/*Pantalla principal Asus*/
-@media (min-width: 1200px) and (max-width: 1280px){
-	
-	
-	#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-	
-	
-	
-	    
-	
-}
-@media (min-width: 1300px) and (max-width: 1679.99px){
-	
-	
-	#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-	
-	
-	
-
-}
-
-@media (min-width: 1680px) and (max-width: 1919.99px){
-	    
-	
-}
-
+/*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
 
