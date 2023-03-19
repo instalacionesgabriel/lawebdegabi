@@ -3568,9 +3568,32 @@ header img:hover{
 }
 
 /*8-2560 x 1440*/
+@media (min-width: 2445px) and (max-width: 5000px){
+	.Eliga-any {
+	   margin-left: 600px;
+	   
+	   
+	   
+		
+	   
+   }   
+	   #Div4 {
+	   
+	   color: #fffefe;
+	   text-align: center;
+	   
+   }
+	#Div3 {
+		   margin-top: -50px;
+   }
+	   
+   }
+   /*7-1920X1080*/
+
 @media (min-width: 1920px) and (max-width: 2444px){
  .Eliga-any {
-    margin-left: 1210px;
+    margin-left: 600px;
+	
 	
 	
      
