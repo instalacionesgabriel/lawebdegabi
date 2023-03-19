@@ -9,16 +9,7 @@
 
 /* Reset */
 
-/*table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-}
 
-table tbody {
-    display: table;
-    width: 100%;
-}*/
 
 
 
@@ -359,19 +350,19 @@ header img:hover{
 }
 
 
-
+/*
 .zoom:hover{
 	transform: scale(1.5s);
-}
-
+}*/
+/*
 .zoom {
 	transition: transform .2s;
-}
+}*/
 
 
-	header img:hover {
-	margin-top: 46px;
-	}
+	/*header img:hover {
+	margin-left: 3px;
+	}*/
 
 	
 	.formula1ymotogp{
@@ -599,7 +590,7 @@ header img:hover{
 
 @media screen and (max-width: 480px) {
     
-	
+        
         
 		.container.\31 25\25 {
 			width: 100%;
@@ -2392,48 +2383,48 @@ header img:hover{
 	.image {
 		border: 0;
 		display: inline-block;
-		position: relative;
+		position:relative; 
 		border-radius: 5px;
 	}
 
-		.image img {
+		/*.image img {
 			display: block;
 			border-radius: 5px;
-		}
+		}*/
 
-		.image.left {
+		/*.image.left {
 			display: block;
 			float: left;
-			margin: 0 2em 2em 0;
+			margin: 2em 2em 0 0;
 			position: relative;
 			top: 0.25em;
-		}
+		}*/
 
-			.image.left img {
+			/*.image.left img {
 				display: block;
 				width: 100%;
-			}
+			}*/
 
-		.image.fit {
+		/*.image.fit {
 			display: block;
-		}
+		}*/
 
-			.image.fit img {
+			/*.image.fit img {
 				display: block;
 				width: 100%;
-			}
+			}*/
 
-		.image.featured {
+		/*.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
-		}
+		}*/
 
-			.image.featured img {
+			/*.image.featured img {
                 position:absolute
 				z-index: 1;/*Para poder poner debajo la foto y que le boton de subir que arriba*/
 				display: block;
 				width: 100%;
-			}
+			}/*
 
 /* Icon */
 
@@ -3650,7 +3641,7 @@ header img:hover{
 		}
 	
 	
-	
+	/*
 	header img:hover{
 	cursor: pointer;
 	transform: scale(5);
@@ -3658,10 +3649,10 @@ header img:hover{
 	-moz-transform: scale(5);
 	-ms-transform: scale(5);
 	-o-transform: scale(5);
-}
-	header img:hover {
-	margin-bottom: 46px;
-	}
+}*/
+	/*header img:hover {
+	margin-bottom: 15px;
+	}*/
 	
 	.Titulo-motos{
 	margin-top: auto;
@@ -3690,11 +3681,8 @@ header img:hover{
 }
     
 }
-/*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
+/*3 2 y 1-375x667 320x568 y 290x568*/
 @media (min-width: 375px) and (max-width: 667px){
-	
-
-
         
     .Eliga-any {
     margin-left: 94px;
@@ -3714,10 +3702,7 @@ header img:hover{
 }    
 @media (min-width: 100px) and (max-width: 374px){
         
-    
-	
-	
-	.Eliga-any {
+    .Eliga-any {
     margin-left: 100px;
      
     

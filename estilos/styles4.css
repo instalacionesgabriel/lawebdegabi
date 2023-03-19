@@ -3,26 +3,63 @@
 	font-size: 17px;
 }
 
+/*
 table {
-	border: 3px solid #ccc;
+    display: block;
+	
+   overflow-x: auto;
+    white-space: nowrap;
+}
+
+table tbody {
+    display: table;
+    width: 100%;
+}
+*/
+
+/*
+.table_responsive {
+	flex: 1 1 auto;
+	padding: 1rem 1rem;
+}
+*/
+
+
+table {
+	border: 1px solid #ccc;
 	width: 100%;
-	margin: 0px;
-	padding: 5px;
-	margin-top: 20px;
+	margin-left: auto;
+  margin-right: auto;
+	padding: 0;
 	border-collapse: collapse;
-	border-spacing: 0px;
-	font-size: 11px;
+	border-spacing: 1 px;
+	font-size: 13px;
 }
 
 table tr {
-	border: 1px solid #ddd;
-	padding: 3px;
+	/*border: 1px solid #ddd;
+	/*padding: 5px;*/
 }
 
 table tr:nth-child(even) {
-	background-color: #666;
-	color: white;
+	/*background-color: #999;
+	color: white;*/
 }
+
+table td, table th {
+	padding: 3px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+table th {
+	text-transform: uppercase;
+	font-family: 15px;
+	letter-spacing: 1px;
+	border: 1px solid #ddd;
+}
+
+
 
 .titulof1{
 	background-color: #fff;
@@ -31,17 +68,6 @@ table tr:nth-child(even) {
 }
 
 
-
-table td, table th {
-	padding: 3px;
-	text-align: center;
-}
-
-table th {
-	text-transform: uppercase;
-	font-family: 18px;
-	letter-spacing: 1px;
-}
 
 
 .textog {
@@ -160,7 +186,7 @@ section {
 	}
 	
 	
-	    
+	
 	
 /*
 	header img:hover{
@@ -174,7 +200,9 @@ section {
 		
 }
 */
-	
+/*.table_responsive{
+	display: none;
+}*/
 	
 
 }
@@ -193,38 +221,16 @@ section {
 	padding-bottom: 0px;
 	}
 	
-	    
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
+	/*.table_responsive{
+		display: none;
+	}*/
 	
-	table tbody {
-		display: table;
-		width: 100%;
-	}
 
 	
+
 }
-
 
 @media (min-width: 480px) and (max-width: 845px){
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
-	
-	table tbody {
-		display: table;
-		width: 100%;
-
-	
-
-}
-
-@media (min-width: 576px) and (max-width: 767.99px){
 	
 	    
 	#Div2{
@@ -233,6 +239,10 @@ section {
 	margin: 0px;
 	padding-bottom: 0px;
 	}
+
+	/*.table_responsive{
+		display: none;
+	}*/
 	
 /*
 	header img:hover{
@@ -244,12 +254,67 @@ section {
 	-o-transform: scale(5);	
 }
 */
+table {
 	
+	width: 50%;
+	margin-left: auto;
+  margin-right: auto;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 1 px;
+	font-size: 13px;
+}
+
+
+
+
+
+
+.table_responsive tr {
+	margin-bottom: 8px;
+	/*border-bottom:  4px solid #ddd;*/
+	display: block;
+	border-top: 20px;
+}
+
+.table_responsive td {
+	display: block;
+	border-bottom: 4 px solid #ddd;
+	text-align: right;
 	
 	
 }
+	
+	.table_responsive td:last-child {
+		border-bottom: 0px;
+	}
 
-@media (min-width: 992px) and (max-width: 1199.99px){
+	.table_responsive td:before {
+		content: attr(data-label);
+		font-weight: bold;
+		text-transform: uppercase;
+		float: left;
+		
+	}
+
+	.table_responsive th{
+		display: none;
+	}
+
+	
+/*
+	header img:hover{
+		cursor: pointer;
+		transform: scale(5);
+		-moz-transform: scale(5);	
+		-webkit-transform: scale(5);	
+		-ms-transform: scale(5);	
+		-o-transform: scale(5);
+}
+*/
+
+		
+@media (min-width: 575px) and (max-width: 1199.99px){
 		
 	#Div2{
 	text-align: center;
@@ -259,7 +324,9 @@ section {
 	}
 	
 	
-	
+	/*.table_responsive{
+		display: none;
+	}*/
 	    
 /*
 	header img:hover{
@@ -272,8 +339,7 @@ section {
 }
 	
 */
-	
-}
+
 /*Pantalla principal Asus*/
 @media (min-width: 1200px) and (max-width: 1280px){
 	
@@ -285,7 +351,9 @@ section {
 	padding-bottom: 0px;
 	}
 	
-	
+	/*.table_responsive{
+		display: none;
+	}*/
 	
 	    
 	
@@ -300,14 +368,19 @@ section {
 	padding-bottom: 0px;
 	}
 	
+	/*.table_responsive{
+		display: none;
+	}*/
 	
 	
 
 }
 
 @media (min-width: 1680px) and (max-width: 1919.99px){
-	    
-	
+	 
+	/*.table_responsive{
+		display: none;
+	}*/
 }
 
 
