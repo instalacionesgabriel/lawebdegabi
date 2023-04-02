@@ -155,6 +155,8 @@ section {
 
 
 /*//////////////////////////////////////////////*/
+
+/*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
 @media (min-width: 100px) and (max-width: 320px){
 	#Div1{
 	font-size: 1.8em;
@@ -181,10 +183,11 @@ section {
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
+	display: none;
 	}
 
 }
-
+/*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
 @media (min-width: 320px) and (max-width: 479px){
 	#Div1{
 	font-size: 1.8em;
@@ -210,6 +213,7 @@ section {
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
+	display: none;
 	}
 
 
@@ -220,7 +224,7 @@ section {
 
 
 
-
+/*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
 
 @media (min-width: 480px) and (max-width: 800px){
 	#Div1{
@@ -234,6 +238,7 @@ section {
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
+	display: none;
 	}
 	
 	
@@ -256,7 +261,7 @@ section {
 	
 }
 
-
+/*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
 @media (min-width: 640px) and (max-width: 1136px){
 	table {
 		display: block;
@@ -281,7 +286,7 @@ section {
 
 }
 
-
+/*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
 /*pantalla de asus*/
 @media (min-width: 720px) and (max-width: 1280px){
 	
@@ -312,7 +317,7 @@ section {
 
 
 }
-
+/*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
 @media (min-width: 750px) and (max-width: 1334px){
 		
 	#Div2{
@@ -339,7 +344,7 @@ section {
 
 	
 }
-
+/*480 × 800, 640 × 1136, 720 × 1280, 750 × 1334, 1080 × 1920 y 1440 × 2560.* Medidas de moviles*/
 @media (min-width: 1335px) and (max-width: 1920px){
 		
 	#Div2{
