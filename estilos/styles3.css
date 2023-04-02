@@ -29,6 +29,7 @@ table tr:nth-child(even) {
 	background-color: #fff;
 	color: black;	
 	background: #fff;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -183,7 +184,7 @@ section {
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
-	display: none;
+	
 	}
 
 }
@@ -213,7 +214,7 @@ section {
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
-	display: none;
+	
 	}
 
 
@@ -238,7 +239,7 @@ section {
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
-	display: none;
+	
 	}
 	
 	
