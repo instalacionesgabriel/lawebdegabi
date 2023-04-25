@@ -49,7 +49,7 @@ ul.tabs a {
 
 
 ul.tabs a:hover{
-			background-color: rgba(124, 127, 128, 0.97);
+			background-color:#004a60;
 }
 
 
@@ -59,7 +59,8 @@ ul.tabs li {
 }
 
 ul.tabs li a {
-	color: #000;
+	
+	
 	text-decoration: none;
 	font-size: 16px;
 	text-align: center;
@@ -69,7 +70,7 @@ ul.tabs li a {
 
 
 .active-depor {
-	background-color: rgba(181, 48, 48, 0.97);
+	background-color:rgba(181, 48, 48, 0.97);
 	
 }
 
@@ -110,7 +111,7 @@ ul.tabs li a {
     padding: 3px 0 0 0;
     margin: 4px 4px;
     background: #4682B4;
-    background: -moz-linear-gradient(top, #87CEEB 0%, #4682B4 100%);
+    background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
  
     box-shadow: inset 0px 0px 6px #fff;
