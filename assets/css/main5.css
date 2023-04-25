@@ -27,9 +27,7 @@ table tbody {
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		color: #37c0fb;
-		/*color: #666;*/
-		
+		color: # 666;
 	font-family: inherit;
 		/*vertical-align: baseline;*/
 	}
@@ -2194,7 +2192,6 @@ header img:hover{
 
 	body, input, select, textarea {
 		color: #474747;
-		
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2713,8 +2710,7 @@ header img:hover{
 
 	#nav {
 		cursor: default;
-		/*background-color: #333;*/
-		background-color: #004a60;
+		background-color: #333;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -2755,10 +2751,6 @@ header img:hover{
 
 				#nav > ul > li:hover a {
 					color: #fff;
-					
-
-					
-					
 				}
 
 				#nav > ul > li.current {
@@ -2784,12 +2776,10 @@ header img:hover{
 
 					#nav > ul > li.current a {
 						color: #fff;
-						
 					}
 
 				#nav > ul > li.active a {
 					color: #fff;
-					
 				}
 
 				#nav > ul > li.active.current:before {
@@ -2803,8 +2793,7 @@ header img:hover{
 /* Dropotron */
 
 	.dropotron {
-		/*background-color: #333;*/
-		background-color: #004a60;
+		background-color: #333;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
@@ -2830,8 +2819,6 @@ header img:hover{
 
 			.dropotron > li.active > a, .dropotron > li:hover > a {
 				color: #fff;
-				
-				
 			}
 
 		.dropotron.level-0 {
@@ -2857,10 +2844,8 @@ header img:hover{
 			bottom: 0;
 			left: 0;
 			width: 100%;
-			/*background: #212121;
-			background: rgba(27, 27, 27, 0.75);*/
-			background: (102, 102, 102);
-			/*aqui*/
+			background: #212121;
+			background: rgba(27, 27, 27, 0.75);
 			color: #fff;
 			padding: 1.5em 0;
 		}
@@ -3219,9 +3204,7 @@ header img:hover{
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				/*background-color: #333;*/
-				background-color: #004a60;
-
+				background-color: #333;
 				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -3280,11 +3263,8 @@ header img:hover{
 					}
 
 			#navPanel {
-				/*background-color: #1f1f1f;*/
-				background-color: #004a60;
-				/*aqui*/
+				background-color: #1f1f1f;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
-
 				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
 				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
 				background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -3314,10 +3294,7 @@ header img:hover{
 				#navPanel .link {
 					border-bottom: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
-					
-					/*color: #888;*/
-					/*aqui*/
-					color: #ffffff;
+					color: #888;
 					display: block;
 					height: 48px;
 					line-height: 48px;
