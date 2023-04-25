@@ -19,10 +19,17 @@ table tbody {
     display: table;
     width: 100%;
 }*/
+em{
+color: white;
+/*background: #004a60;*/
+background: rgba(181, 48, 48, 0.97);;
+font-size: 20px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+}
 
 
-
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -144,7 +151,7 @@ table tbody {
 		
 		
 	.historia td{
-	border:1 px solid # 000;/*Crea un borde interior en negro*/
+	border:1 px solid #000;/*Crea un borde interior en negro*/
 	padding: 0.1px;
 	text-align:left;
 		}
@@ -179,7 +186,7 @@ div#InicioAncho{
 
 div#InicioAncho #slider {
 	border-radius: 10px;
-	border: 2px solid # 000;
+	border: 2px solid #000;
 	margin: 0 auto;
 	margin-top: 5px;
 	margin-bottom: 50px;
@@ -266,7 +273,7 @@ div#InicioAncho #slider p.gancho {
 		
 
 		.clasificacionsmarphones td{
-	border:1 px solid # 000;/*Crea un borde interior en negro*/
+	border:1 px solid #000;/*Crea un borde interior en negro*/
 	padding: 0.1px;
 	text-align:left;
 		}
@@ -332,7 +339,7 @@ div#InicioAncho #slider p.gancho {
 		
 		
 	.enlacesmarphones td{
-	border:1 px solid # 000;/*Crea un borde interior en negro*/
+	border:1 px solid #000;/*Crea un borde interior en negro*/
 	padding: 5px;
 	text-align:center;
 		}
@@ -422,7 +429,7 @@ header img:hover{
 
 	@media screen and (max-width: 1680px) {
         
-        
+        /*si*/
 
         
 .historia {
@@ -458,7 +465,8 @@ header img:hover{
 	}
 
 	@media screen and (max-width: 1280px) {
-                
+		/*no*/
+		
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 1200px;
@@ -485,6 +493,9 @@ header img:hover{
 
 	
 	@media screen and (min-width: 840px) {
+		/*si*/
+		
+
 		.clasificacion {
 			display: inline;
 		}
@@ -496,7 +507,8 @@ header img:hover{
 		}
 	
 		@media screen and (max-width: 840px) {
-			
+		
+
 
 			/*Cambia el menu de menu grande a pequeño*/
 			.clasificacionsmarphones {
@@ -544,8 +556,9 @@ header img:hover{
 	
 	
 	@media screen and (max-width: 980px) {
+		/*no*/
+		
 
-        
         
         div#contenedor{
 		display: inline;
@@ -576,9 +589,11 @@ header img:hover{
 	}
 
 @media screen and (min-width: 950px){
-	.table_movil{
-		display: none;
-	}
+	/*si*/
+	
+	
+	
+	
 
     
     
@@ -589,6 +604,10 @@ header img:hover{
 
 
 	@media screen and (max-width: 840px) {
+		/*no*/
+		
+
+
         .clasificacion {
 		display: inline;
 	}
@@ -633,7 +652,8 @@ header img:hover{
 
     /**/
 	@media screen and (max-width: 736px) {
-          
+        /*no*/
+		  
         
         
         div#contenedor{
@@ -665,7 +685,8 @@ header img:hover{
 	}
 
 @media screen and (max-width: 480px) {
-    
+	/*no*/
+	
 	
         
 		.container.\31 25\25 {
@@ -951,7 +972,8 @@ header img:hover{
 	}
 
 	@media screen and (max-width: 1680px) {
-
+/*si*/
+		
 		.row > * {
 			padding: 40px 0 0 40px;
 		}
@@ -1166,7 +1188,9 @@ header img:hover{
 	}
 
 	@media screen and (max-width: 1280px) {
-
+		/*no*/
+		
+		
 		.row > * {
 			padding: 30px 0 0 30px;
 		}
@@ -1381,7 +1405,9 @@ header img:hover{
 	}
 
 	@media screen and (max-width: 980px) {
-
+		/*no*/
+		
+		
 		.row > * {
 			padding: 30px 0 0 30px;
 		}
@@ -1596,7 +1622,7 @@ header img:hover{
 	}
 
 	@media screen and (max-width: 840px) {
-
+		/*no*/
 		.row > * {
 			padding: 30px 0 0 30px;
 		}
@@ -1811,7 +1837,8 @@ header img:hover{
 	}
 
 	@media screen and (max-width: 736px) {
-
+		/*no*/
+		
 		.row > * {
 			padding: 20px 0 0 20px;
 		}
@@ -2026,6 +2053,8 @@ header img:hover{
 	}
 
 	@media screen and (max-width: 480px) {
+		/*no*/
+		
 
 		.row > * {
 			padding: 20px 0 0 20px;
@@ -3101,7 +3130,8 @@ table{
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
-
+		/*si*/
+		
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3120,7 +3150,8 @@ table{
 /* Normal */
 
 	@media screen and (max-width: 1280px) {
-
+		/*no*/
+		
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3186,7 +3217,8 @@ table{
 /* Narrow */
 
 	@media screen and (max-width: 980px) {
-
+		/*no*/
+		
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3203,7 +3235,8 @@ table{
 	}
 
 	@media screen and (max-width: 840px) {
-
+		/*no*/
+		
 		/* Basic */
 
 			html, body {
@@ -3500,7 +3533,8 @@ table{
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
-
+		/*no*/
+		
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3566,7 +3600,8 @@ table{
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
-
+		/*no*/
+		
 		/* Lists */
 
 			ul.actions li {
@@ -3667,6 +3702,7 @@ table{
   
 
 @media (min-width: 391px) and (max-width: 999px){
+	/*no*/
 	
 
     
@@ -3685,7 +3721,7 @@ table{
 
 
 @media (min-width: 100px) and (max-width: 390px){
-    
+    /*no*/
     
     
 
@@ -3730,7 +3766,8 @@ table{
    /*7-1920X1080*/
 
 @media (min-width: 1920px) and (max-width: 2444px){
- .Eliga-any {
+	/*no*/
+	.Eliga-any {
     margin-left: 600px;
 	
 	
@@ -3751,7 +3788,9 @@ table{
 }
 /*7-1920X1080*/
 @media (min-width: 1681px) and (max-width: 1920px){
-    .Eliga-any {
+    /*no*/
+	
+	.Eliga-any {
     margin-left: 600px;
     
     
@@ -3768,8 +3807,33 @@ table{
     
 }
 /*6-1680x1050*/
+
+
+@media (min-width: 1280px) and (max-width: 1680px){
+    /*si*/
+	.table_movil{
+		display: none;
+	}    
+	
+    
+}
+
+
+@media (max-width:1270px){
+	.table_responsive{
+		display: none;
+	}
+}
+
+
+
 @media (min-width: 1665px) and (max-width: 1680px){
-    .Eliga-any {
+    /*si*/
+	.table_movil{
+		display: none;
+	}    
+	
+	.Eliga-any {
     margin-left: 520px;
      
     
@@ -3789,7 +3853,9 @@ table{
 
 /*5-1440x900 Pantalla principal*/
 @media (min-width: 1280px) and (max-width: 1664px){
-    #Div4 {
+    /*no*/
+	
+	#Div4 {
 	
 	color: #fffefe;
     text-align: center;
@@ -3838,7 +3904,7 @@ table{
 }
 /*4-1024x768*/
 @media (min-width: 668px) and (max-width: 1279px){
-        
+	/*no*/
     .Eliga-any {
     margin-left: 300px;
 	
@@ -3858,10 +3924,7 @@ table{
 }
 /*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
 @media (min-width: 375px) and (max-width: 667px){
-	
-	.table_responsive{
-		display: none;
-	}
+	/*no*/
 	
 
         
@@ -3880,10 +3943,12 @@ table{
     	margin-top: -50px;
 }
     
-}    
+}
+
+
+
 @media (min-width: 100px) and (max-width: 374px){
-        
-    
+    /*no*/
 	
 	
 	.Eliga-any {
@@ -3900,7 +3965,4 @@ table{
  #Div3 {
     	margin-top: -50px;
 }
-    
-
-}      
     
