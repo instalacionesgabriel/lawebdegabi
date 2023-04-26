@@ -544,4 +544,13 @@ body {
 }
 
 
+@media (min-width: 521px) and (max-width: 962px){
+	
+	.table_movil img{
+		
+		padding: 4px;
+		width: 51%;
+	}
+
+}
 
