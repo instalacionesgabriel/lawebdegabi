@@ -423,6 +423,12 @@ header img:hover{
 	
 	
 	
+
+.contenedorcalendario {
+	width: 1000px;
+	margin: auto;
+}
+
 	
 
 
@@ -3846,6 +3852,12 @@ table{
 	.table_pantalla td:hover {
 		background: white;
 		background: none;
+	}
+
+	.contenedorcalendario {
+		
+		width: 480px;
+		margin: auto;
 	}
 
 }
