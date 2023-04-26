@@ -26,10 +26,7 @@ table tr:nth-child(even) {
 }
 
 
-.p{
-	display: none;
-	text-align: center;
-}
+
 
 .titulof1{
 	background-color: #fff;
@@ -136,7 +133,7 @@ margin: 5px;
 		background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		padding: 16px;
-		color: black;
+		color: white;
 } 
 
 

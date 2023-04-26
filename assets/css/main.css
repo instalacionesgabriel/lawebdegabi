@@ -169,7 +169,10 @@ text-align: center;
 
 
 
-
+			.color{
+			
+				color: white;
+			}
 
 
 
@@ -3787,7 +3790,7 @@ table{
     
 }   
     #Div4 {
-	
+		
 	color: #fffefe;
     text-align: center;
     
@@ -3962,8 +3965,10 @@ table{
 }
  #Div3 {
     	margin-top: -50px;
+		
 }
     
+
 }
 /*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
 @media (min-width: 375px) and (max-width: 667px){
@@ -3984,8 +3989,13 @@ table{
 }
  #Div3 {
     	margin-top: -50px;
+		
+
+
+
 }
     
+
 }
 
 
