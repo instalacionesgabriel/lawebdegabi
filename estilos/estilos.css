@@ -524,5 +524,24 @@ body {
 	margin: 20px;	
 	}
 	
-	
+
+	.table_movil img{
+		display: none;
+		padding: 40px;
+		width: 100%;
+	}
+
 }
+
+@media (min-width: 479px) and (max-width: 521px){
+	
+	.table_movil img{
+		
+		padding: 0px;
+		width: 81%;
+	}
+
+}
+
+
+
