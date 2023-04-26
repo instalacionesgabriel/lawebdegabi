@@ -2694,7 +2694,9 @@ table{
   }
 	
 	table tr:hover {
-	background:#37c0fb}	/*Te hace un marcador en todas las filas de color gris*/
+	background:#37c0fb;
+		
+}	/*Te hace un marcador en todas las filas de color gris*/
 	
 	table td:hover {
 	background: white;
@@ -3818,8 +3820,15 @@ table{
 		display: none;
 	}
 	
-	
-	
+	.table_pantalla tr:hover {
+		background:#37c0fb;
+		background: none;
+	}
+
+	.table_pantalla td:hover {
+		background: white;
+		background: none;
+	}
     
 }
 
@@ -3828,8 +3837,17 @@ table{
 	.table_responsive{
 		display: none;
 	}
-
 	
+	.table_pantalla tr:hover {
+		background:#37c0fb;
+		background: none;
+	}
+
+	.table_pantalla td:hover {
+		background: white;
+		background: none;
+	}
+
 }
 
 
