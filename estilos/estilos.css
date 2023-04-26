@@ -504,6 +504,13 @@ body {
 }							
 				
 
+
+.table_movil img{
+	text-align: center;
+	padding:  15px;
+	width: 80%;
+}
+
 @media (min-width: 320px) and (max-width: 479px){
 	
 	header img:hover {
