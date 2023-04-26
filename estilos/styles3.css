@@ -32,12 +32,19 @@ table tr:nth-child(even) {
 	font-family: 'Times New Roman', Times, serif;
 }
 
-
+/*
 
 table td, table th {
 	color: rgb(251, 251, 253);
 	padding: 3px;
 	text-align: center;
+}
+*/
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;   
 }
 
 table th {
@@ -58,6 +65,11 @@ table th {
 	font-size: 14px;
 }
 
+
+.table_pantalla td{
+	color: black;
+	font-size: 14px;
+}
 
 .textog {
 	font-size: 2em;
