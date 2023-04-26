@@ -506,9 +506,8 @@ body {
 
 
 .table_movil img{
-	text-align: center;
-	padding:  15px;
-	width: 80%;
+	padding: 40px;
+	width: 100%;
 }
 
 @media (min-width: 320px) and (max-width: 479px){
