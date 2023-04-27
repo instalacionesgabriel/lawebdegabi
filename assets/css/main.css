@@ -3865,7 +3865,7 @@ table{
 
 	.contenedorcalendario {
 		
-		width: 480px;
+		width: 950px;
 		margin: auto;
 	}
 
@@ -3907,7 +3907,11 @@ table{
 @media (min-width: 1280px) and (max-width: 1664px){
     /*no*/
 	
-	
+	.contenedorcalendario {
+		
+				width: 950px;
+				margin: auto;
+			}
 
 
 	#Div4 {
