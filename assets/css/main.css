@@ -424,7 +424,7 @@ header img:hover{
 	
 
 .contenedorcalendario {
-	width: 1000px;
+	width: 1400px;
 	margin: auto;
 }
 
@@ -2689,7 +2689,7 @@ table{
 
   table th, table td {
     padding: 5px;
-	text-align: center;
+	text-align:left;
     
   }
 
