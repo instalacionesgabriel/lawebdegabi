@@ -2,9 +2,10 @@
 	text-align: center;
 	background: #004a60;
 	font-size: 20px;
+	margin-top: 50px;
 	margin: 0px;
 	margin-bottom: 5px;
-	margin-top: -20px;	
+	margin-top: 0px;	
 	color: white;
 }
 
@@ -22,7 +23,7 @@
 ul.tabs {
 	
 	margin: 5px;
-	padding-top: -20px;
+	padding-top: 0px;
 	width: 100%;
 	background: #fff;
 	list-style: none;
@@ -38,18 +39,21 @@ ul.tabs a {
 }
 
 .Eliga-any {
+	
+	
     border: 8px solid #CCC;
     background-color: #E0E0E0;
     padding: .5em;
     overflow: hidden;
-    margin-left: 0px;
+    
      
     
 }
 
 
 ul.tabs a:hover{
-			background-color:#004a60;
+	/*background-color:#004a60;*/
+			background-color:#87CEEB;
 }
 
 
@@ -93,6 +97,7 @@ ul.tabs li a {
 }
 
 .categorias{
+	
 	width: 100%;
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -103,6 +108,7 @@ ul.tabs li a {
 }
 
 .categorias li{
+	
 	display: inline-flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -129,13 +135,16 @@ ul.tabs li a {
 
 
 .categorias li a:hover{
+	
 	color: #000;
 }
 
 .categorias li a  {
+	
     color: #004a60;
 }
 .activocat {
+	
 	background: #b53030;
     margin-bottom: 8px;
     

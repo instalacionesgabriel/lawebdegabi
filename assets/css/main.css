@@ -22,7 +22,7 @@ table tbody {
 em{
 color: white;
 /*background: #004a60;*/
-background: rgba(181, 48, 48, 0.97);;
+background: rgba(181, 48, 48, 0.97);
 font-size: 20px;
 padding: 10px 10px 10px 10px;
 text-align: center;
@@ -83,6 +83,7 @@ text-align: center;
 /* Containers */
 
 	.container {
+		
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -436,7 +437,16 @@ header img:hover{
 
 	@media screen and (max-width: 1680px) {
         
-        /*si*/
+        /*pantalla LG*/
+		.categorias{
+			margin-left: 425px;
+		}
+		.Eliga-any {
+			
+			margin-left: 80px;
+
+		}
+		
 
         
 .historia {
@@ -472,6 +482,19 @@ header img:hover{
 	}
 
 	@media screen and (max-width: 1280px) {
+           /*Pantalla Asus*/
+		.categorias{
+			margin-left: 320px;
+		}
+		.Eliga-any {
+			
+			margin-left: 90px;
+			
+	
+		}
+				
+
+		
 		/*no*/
 		
 		.container.\31 25\25 {
@@ -3742,29 +3765,13 @@ table{
 	margin-top: 15px;	
 	}
 	
-	.categorias{
-        
-	width: 100%;
-}
-	.categorias li{
-	 width: 100px;
-    height: 35px;
-        
-        
-	}
+	
     
 }
 
 /*8-2560 x 1440*/
 @media (min-width: 2445px) and (max-width: 5000px){
-	.Eliga-any {
-	   margin-left: 600px;
 	   
-	   
-	   
-		
-	   
-   }   
 	   #Div4 {
 	   
 	   color: #fffefe;
@@ -3780,8 +3787,6 @@ table{
 
 @media (min-width: 1920px) and (max-width: 2444px){
 	/*no*/
-	.Eliga-any {
-    margin-left: 600px;
 	
 	
 	
@@ -3803,11 +3808,7 @@ table{
 @media (min-width: 1681px) and (max-width: 1920px){
     /*no*/
 	
-	.Eliga-any {
-    margin-left: 600px;
-    
-    
-}
+	
     #Div4 {
 	
 	color: #fffefe;
@@ -3824,6 +3825,9 @@ table{
 
 @media (min-width: 1280px) and (max-width: 1680px){
     /*si*/
+	
+	
+	
 	.table_movil{
 		display: none;
 	}
@@ -3890,11 +3894,7 @@ table{
 	
 
 
-	.Eliga-any {
-    margin-left: 520px;
-     
-    
-}
+	
     #Div4 {
 	
 	color: #fffefe;
@@ -3931,12 +3931,7 @@ table{
     
     
     
-    .Eliga-any {
-    margin-left: 520px;
-	
-     
     
-}
     
     ul.tabs li {
 	width: 95px;
@@ -3969,12 +3964,7 @@ table{
 /*4-1024x768*/
 @media (min-width: 668px) and (max-width: 1279px){
 	/*no*/
-    .Eliga-any {
-    margin-left: 300px;
-	
-	
     
-}
     #Div4 {
 	
 	color: #fffefe;
@@ -3990,16 +3980,19 @@ table{
 }
 /*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
 @media (min-width: 375px) and (max-width: 667px){
-	/*no*/
+	/*pantalla movil*/
 	
 
-        
-    .Eliga-any {
+	.categorias{
+		margin-left: 60px;
+	}
+	.Eliga-any {
 		
-    margin-left: 140px;
+		margin-left: 90px;
+
+	}
+			
     
-   
-}
     #Div4 {
 	
 	color: #fffefe;
@@ -4024,11 +4017,7 @@ table{
     /*no*/
 	
 	
-	.Eliga-any {
-    margin-left: 100px;
-     
-    
-}
+	
     #Div4 {
 	
 	color: #fffefe;
