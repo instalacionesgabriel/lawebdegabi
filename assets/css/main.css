@@ -3963,8 +3963,17 @@ table{
 }
 /*4-1024x768*/
 @media (min-width: 668px) and (max-width: 1279px){
-	/*no*/
-    
+	/*pantalla movil horizontal*/
+
+	.categorias{
+		margin-left: 200px;
+	}
+    .elegiraño {
+		
+		margin-left: 125px;
+		
+
+	}
     #Div4 {
 	
 	color: #fffefe;
