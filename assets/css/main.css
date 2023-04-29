@@ -438,14 +438,14 @@ header img:hover{
 	@media screen and (max-width: 1680px) {
         
         /*pantalla LG*/
-		.categorias{
+		/*.categorias{
 			margin-left: 425px;
 		}
 		.Eliga-any {
 			
 			margin-left: 80px;
 
-		}
+		}*/
 		
 
         
@@ -483,7 +483,7 @@ header img:hover{
 
 	@media screen and (max-width: 1280px) {
            /*Pantalla Asus*/
-		.categorias{
+		/*.categorias{
 			margin-left: 320px;
 		}
 		.Eliga-any {
@@ -491,7 +491,7 @@ header img:hover{
 			margin-left: 90px;
 			
 	
-		}
+		}*/
 				
 
 		
@@ -3982,7 +3982,7 @@ table{
 @media (min-width: 375px) and (max-width: 667px){
 	/*pantalla movil*/
 	
-
+/*
 	.categorias{
 		margin-left: 60px;
 	}
@@ -3991,7 +3991,7 @@ table{
 		margin-left: 90px;
 
 	}
-			
+			*/
     
     #Div4 {
 	
