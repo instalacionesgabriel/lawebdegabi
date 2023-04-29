@@ -484,7 +484,8 @@ header img:hover{
 	@media screen and (max-width: 1280px) {
            /*Pantalla Asus*/
 		.categorias{
-			margin-left: 320px;
+			
+			margin-left: 310px;
 		}
 		.elegiraño {
 			
@@ -3966,7 +3967,8 @@ table{
 	/*pantalla movil horizontal*/
 
 	.categorias{
-		margin-left: 200px;
+		
+		margin-left: 225px;
 	}
     .elegiraño {
 		
@@ -3994,7 +3996,7 @@ table{
 
 	.categorias{
 		
-		margin-left: 50px;
+		margin-left: 40px;
 	}
 	.elegiraño {
 		
@@ -4031,8 +4033,7 @@ table{
 
 	.categorias{
 		
-		margin:auto;
-		padding: auto;
+		margin-left: 10px;
 	}
 	.elegiraño {
 		
