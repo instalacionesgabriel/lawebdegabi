@@ -3220,3 +3220,70 @@ table{
     }
   }
 	
+
+
+
+
+@media screen and (max-width: 1680px) {
+        
+	/*pantalla LG*/
+	.table_pantalla td img{
+		/*centrar imagen
+		display: block;
+		margin: auto;*/
+		width: 200px;
+
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	   /*Pantalla Asus*/
+ 
+	   .table_pantalla td img{
+		/*centrar imagen
+		display: block;
+		margin: auto;*/
+		width: 150px;
+
+	}
+}
+
+
+@media (min-width: 668px) and (max-width: 1279px){
+	/*pantalla movil horizontal*/
+
+ 
+
+}
+/*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
+@media (min-width: 375px) and (max-width: 667px){
+	/*pantalla movil*/
+	
+	.table_pantalla td img{
+		/*centrar imagen
+		display: block;
+		margin: auto;*/
+		width: 75px;
+
+	}
+}
+    
+
+
+
+
+
+
+@media (min-width: 100px) and (max-width: 374px){
+    /*Pantalla Redmi9*/
+	
+	.table_pantalla td img{
+		/*centrar imagen
+		display: block;
+		margin: auto;*/
+		width: 50px;
+
+	}
+
+	}
+    

@@ -435,24 +435,11 @@ header img:hover{
 
 
 
+
+
 	@media screen and (max-width: 1680px) {
         
-        /*pantalla LG*/
-		.categorias{
-			margin-left: 440px;
-		}
-		.elegiraño {
-			
-			margin-left: 125px;
-
-		}
-		
-
         
-.historia {
-	display: inline;
-	color: #FFF;
-	}
         
         
         
@@ -483,14 +470,42 @@ header img:hover{
 
 	@media screen and (max-width: 1280px) {
            /*Pantalla Asus*/
-		.categorias{
+		  
+		   #Power-Contenedor{
+			text-align: center;
+		  }
+		 
+		   #Anyadir-Rutina-btn {
+			background-color: #21211d;
+			color: #FFF;
+			padding: 10px;
+			padding-left: 80px;
+			display: flex;
+			margin: 10px;
+			border-radius: 20px;
+			text-decoration: none;
+			cursor: pointer;
+		  }
+		  
+
+
+
+
+		 
+		   .table_humor{
+			text-align: center;
+		width: auto;
+			
+		}
+		
+		
+		   .categorias{
 			
 			margin-left: 310px;
 		}
 		.elegiraño {
 			
 			margin-left: 125px;
-			
 	
 		}
 				
@@ -517,7 +532,7 @@ header img:hover{
 		}
 
 		.container {
-			width: 960px;
+			width: 1050px;
 		}
 
 	}
@@ -3885,8 +3900,81 @@ table{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1665px) and (max-width: 1680px){
-    /*si*/
+    /*pantalla LG*/
+	#Power-Contenedor{
+		text-align: center;
+	  }
+	 
+	   #Anyadir-Rutina-btn {
+		background-color: #21211d;
+		color: #FFF;
+		padding: 10px;
+		padding-left: 80px;
+		display: flex;
+		margin: 10px;
+		border-radius: 20px;
+		text-decoration: none;
+		cursor: pointer;
+	  }
+
+
+
+		.table_humor {
+			text-align: center;
+		width: auto;
+			
+		}
+
+		.table_humor a{
+			display: flex;
+		}
+
+		.categorias{
+			margin-left: 440px;
+		}
+		.elegiraño {
+			
+			margin-left: 125px;
+
+		}
+		
+		.table_calendario{
+
+		}
+        
+		.contenedorcalendario{
+			width: 1190px;
+		}
+.historia {
+	display: inline;
+	color: #FFF;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	/*si*/
 	.table_movil{
 		display: none;
 	}    
@@ -3987,12 +4075,35 @@ table{
 		
 }
     
+	
 
 }
 /*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
 @media (min-width: 375px) and (max-width: 667px){
 	/*pantalla movil*/
+
+	#Power-Contenedor{
+		text-align:initial;
+	  }
+	 
+	   #Anyadir-Rutina-btn {
+		background-color: #21211d;
+		color: #FFF;
+		padding: 10px;
+		padding-left: 400px;
+		display: flex;
+		margin: 10px;
+		border-radius: 20px;
+		text-decoration: none;
+		cursor: pointer;
+	  }
 	
+
+	
+	.table_humor{
+		text-align: center;
+		width: 450px;
+	}
 
 	.categorias{
 		
@@ -4015,21 +4126,41 @@ table{
  #Div3 {
     	margin-top: -50px;
 		
+		
+
 
 
 
 }
     
 
-
 }
 
 
 
 @media (min-width: 100px) and (max-width: 374px){
-    /*no*/
+    /*pantalla redmi9*/
 	
-	
+	#Power-Contenedor{
+		text-align:initial;
+	  }
+	 
+	   #Anyadir-Rutina-btn {
+		background-color: #21211d;
+		color: #FFF;
+		padding: 10px;
+		padding-left: 350px;
+		display: flex;
+		margin: 10px;
+		border-radius: 20px;
+		text-decoration: none;
+		cursor: pointer;
+	  }
+
+	.table_humor{
+		text-align: center;
+		width: 350px;
+	}
 
 	.categorias{
 		

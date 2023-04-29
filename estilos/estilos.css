@@ -510,6 +510,17 @@ body {
 	width: 100%;
 }
 
+
+.linea {
+	border-top: 1px solid black;
+	height: 2px;
+	max-width: 200px;
+	padding: 10px;
+	margin: 20px auto 0 auto;
+  }
+
+  
+
 @media (min-width: 320px) and (max-width: 479px){
 	
 	header img:hover {
@@ -525,32 +536,32 @@ body {
 	}
 	
 
-	.table_movil img{
+	/*.table_movil img{
 		
 		padding: 40px;
 		width: 100%;
-	}
+	}*/
 
 }
 
 @media (min-width: 479px) and (max-width: 521px){
 	
-	.table_movil img{
+	/*.table_movil img{
 		
 		padding: 0px;
 		width: 81%;
-	}
+	}*/
 
 }
 
 
 @media (min-width: 521px) and (max-width: 962px){
 	
-	.table_movil img{
+	/*.table_movil img{
 		
 		padding: 4px;
 		width: 51%;
 	}
-
+*/
 }
 
