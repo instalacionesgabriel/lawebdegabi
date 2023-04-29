@@ -433,7 +433,10 @@ header img:hover{
 
 	
 
-
+.tablemusica{
+	display: flex;
+	justify-content: center;
+}
 
 
 
@@ -470,6 +473,14 @@ header img:hover{
 
 	@media screen and (max-width: 1280px) {
            /*Pantalla Asus*/
+
+		   .tableutilidades{
+		
+			width: 85%;
+			margin-left: 90px;
+			
+			
+		}
 		  
 		   #Power-Contenedor{
 			text-align: center;
@@ -3918,6 +3929,14 @@ table{
 
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
+	.tableutilidades{
+		
+		width: 85%;
+		margin-left: 120px;
+		
+		
+	}
+
 	#Power-Contenedor{
 		text-align: center;
 	  }
@@ -4082,6 +4101,19 @@ table{
 @media (min-width: 375px) and (max-width: 667px){
 	/*pantalla movil*/
 
+	.tableutilidades{
+		display: flex;
+		width: 350px;
+		margin-left: 30px;
+		
+		
+	}
+
+	.tableutilidades img{
+		width: 95%;		
+
+	}
+
 	#Power-Contenedor{
 		text-align:initial;
 	  }
@@ -4090,7 +4122,7 @@ table{
 		background-color: #21211d;
 		color: #FFF;
 		padding: 10px;
-		padding-left: 400px;
+		padding-left: 200px;
 		display: flex;
 		margin: 10px;
 		border-radius: 20px;
@@ -4101,8 +4133,11 @@ table{
 
 	
 	.table_humor{
-		text-align: center;
-		width: 450px;
+		margin: 0 auto;
+		width: 350px;
+		padding-left: 50px;
+		
+		
 	}
 
 	.categorias{
@@ -4141,6 +4176,19 @@ table{
 @media (min-width: 100px) and (max-width: 374px){
     /*pantalla redmi9*/
 	
+	.tableutilidades{
+		display: flex;
+		width: 300px;
+		margin-left: 20px;
+		
+		
+	}
+
+	.tableutilidades img{
+		width: 85%;		
+
+	}
+
 	#Power-Contenedor{
 		text-align:initial;
 	  }
@@ -4157,9 +4205,12 @@ table{
 		cursor: pointer;
 	  }
 
-	.table_humor{
-		text-align: center;
-		width: 350px;
+	  .table_humor{
+		margin: 0 auto;
+		width: 325px;
+		padding-left: 40px;
+		
+		
 	}
 
 	.categorias{
