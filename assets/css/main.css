@@ -39,7 +39,7 @@ text-align: center;
 		/*color: #37c0fb;*/
 		
 		/*color: #666;*/
-		color: rgb(56, 35, 148);
+		color: black;
 		
 	font-family: inherit;
 		/*vertical-align: baseline;*/
@@ -211,7 +211,7 @@ div#InicioAncho #slider img {
 	width: 100%;
 }
 div#InicioAncho #slider a{
-	/*text-decoration: none;*/
+	text-decoration: none;
 }
 div#InicioAncho #slider p.gancho {
 	color: #DF7401;
@@ -494,7 +494,7 @@ header img:hover{
 			display: flex;
 			margin: 10px;
 			border-radius: 20px;
-			/*text-decoration: none;*/
+			text-decoration: none;
 			cursor: pointer;
 		  }
 		  
@@ -2359,7 +2359,7 @@ header img:hover{
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		color: black;
 		/*color: #37c0fb;*/
-		/*text-decoration: none;*/
+		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
 
@@ -2390,7 +2390,7 @@ header img:hover{
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
-			/*text-decoration: none;*/
+			text-decoration: none;
 		}
 
 		h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
@@ -2496,7 +2496,7 @@ header img:hover{
 		display: block;
 		outline: 0;
 		padding: 0.75em;
-		/*text-decoration: none;*/
+		text-decoration: none;
 		width: 100%;
 	}
 
@@ -2594,9 +2594,9 @@ header img:hover{
 /* Icon */
 
 	.icon {
-		/*text-decoration: none;*/
+		text-decoration: none;
 		position: relative;
-		/*text-decoration: none;*/
+		
 	}
 
 		.icon:before {
@@ -2794,7 +2794,7 @@ table{
 		line-height: 2.75em;
 		min-width: 9em;
 		text-align: center;
-		/*text-decoration: none;*/
+		text-decoration: none;
 		font-weight: 600;
 		letter-spacing: -0.025em;
 	}
@@ -2944,7 +2944,7 @@ table{
 
 				#nav > ul > li a {
 					color: #c0c0c0;
-					/*text-decoration: none;*/
+					text-decoration: none;
 					border: 0;
 					display: block;
 					padding: 1.5em 0.5em 1.35em 0.5em;
@@ -3026,7 +3026,7 @@ table{
 
 			.dropotron > li > a {
 				color: #c0c0c0;
-				/*text-decoration: none;*/
+				text-decoration: none;
 				border: 0;
 			}
 
@@ -3461,7 +3461,7 @@ table{
 					}
 
 				#titleBar .toggle {
-					/*text-decoration: none;*/
+					text-decoration: none;
 					border: 0;
 					height: 60px;
 					left: 0;
@@ -3537,7 +3537,7 @@ table{
 					height: 48px;
 					line-height: 48px;
 					padding: 0 1em 0 1em;
-					/*text-decoration: none;*/
+					text-decoration: none;
 				}
 
 					#navPanel .link:first-child {
@@ -3952,7 +3952,7 @@ table{
 		display: flex;
 		margin: 10px;
 		border-radius: 20px;
-		/*text-decoration: none;*/
+		text-decoration: none;
 		cursor: pointer;
 	  }
 
@@ -4129,7 +4129,7 @@ table{
 		display: flex;
 		margin: 10px;
 		border-radius: 20px;
-		/*text-decoration: none;*/
+		text-decoration: none;
 		cursor: pointer;
 	  }
 	
@@ -4204,7 +4204,7 @@ table{
 		display: flex;
 		margin: 10px;
 		border-radius: 20px;
-		/*text-decoration: none;*/
+		text-decoration: none;
 		cursor: pointer;
 	  }
 
