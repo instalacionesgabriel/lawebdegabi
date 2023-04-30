@@ -1,6 +1,24 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
+/*Te quita la barra despladora horizontal y vertical pero no deja que sale el boton para inicio hacia arriba*/
+/*html,body{
+	overflow-x: hidden;
+	color:black;
+	font-family:'Opens Sans',helvetica;  
+	height:100%;
+	width:101%;
+	margin: 0px;
+	padding: 0px;
+  }
+  
+*/
+
+/* Oculta la barra*/
+::-webkit-scrollbar {
+    display: none;
+}
+
 /*
 	Arcana by HTML5 UP
 	html5up.net | @ajlkn
@@ -9,16 +27,6 @@
 
 /* Reset */
 
-/*table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-table tbody {
-    display: table;
-    width: 100%;
-}*/
 em{
 color: white;
 /*background: #004a60;*/
@@ -75,9 +83,9 @@ text-align: center;
 /* Box Model */
 
 	*, *:before, *:after {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
+		/*-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;*/
+		/*box-sizing: border-box;*/
 	}
 
 /* Containers */
@@ -440,6 +448,69 @@ header img:hover{
 
 
 
+
+
+poner u nombre
+#linkpersonal {
+	text-align: center;
+	padding: 3em 0 0 0;
+	/*background-color: #fff;*/
+	background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
+	background-position: top left,					top left,					top left;
+	background-size: 100% 6em,					100% 6em,					auto;
+	background-repeat: no-repeat,					no-repeat,					repeat;
+}
+
+	#linkpersonal h4 {
+		/*padding: 0 0 2.75em 0;*/
+		text-align: center;
+		margin: 0;
+	}
+
+		#linkpersonal h4 a {
+			
+			font-size: 1.0em;
+			letter-spacing: -0.025em;
+			border: 0;
+		}
+
+		#linkpersonal h4 a:hover {
+		background: rgba(181, 48, 48, 0.97);
+		padding: 5px 15px 5px 15px;
+			}
+
+
+
+			#linkpersonal h3 {
+				/*padding: 0 0 2.75em 0;*/
+				text-align: center;
+				margin: 0;
+			}
+		
+				#linkpersonal h3 a {
+					
+					font-size: 1.0em;
+					letter-spacing: -0.025em;
+					border: 0;
+				}
+		
+					
+				#linkpersonal tr td{
+					/*padding: 0 0 2.75em 0;*/
+					text-align: center;
+					margin: 0;
+				}
+			
+					#linkpersonal tr td a {
+						
+						font-size: 1.0em;
+						letter-spacing: -0.025em;
+						border: 0;
+					}
+					
+
+
+		
 	@media screen and (max-width: 1680px) {
         
         
@@ -2893,7 +2964,7 @@ table{
 	#header {
 		text-align: center;
 		padding: 3em 0 0 0;
-		background-color: #fff;
+		/*background-color: #fff;*/
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
@@ -3305,9 +3376,9 @@ table{
 		
 		/* Basic */
 
-			html, body {
+			/*html, body {
 				overflow-x: hidden;
-			}
+			}*/
 
 			body, input, select, textarea {
 				font-size: 13pt;
@@ -4104,6 +4175,18 @@ table{
 @media (min-width: 375px) and (max-width: 667px){
 	/*pantalla movil*/
 
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+
+
+
 	.tableutilidades{
 		display: flex;
 		width: 350px;
@@ -4178,6 +4261,16 @@ table{
 
 @media (min-width: 100px) and (max-width: 374px){
     /*pantalla redmi9*/
+
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
 	
 	.tableutilidades{
 		display: flex;

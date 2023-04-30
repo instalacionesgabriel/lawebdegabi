@@ -35,14 +35,7 @@ table tr:nth-child(even) {
 	font-family: 'Times New Roman', Times, serif;
 }
 
-/*
 
-table td, table th {
-	color: rgb(251, 251, 253);
-	padding: 3px;
-	text-align: center;
-}
-*/
 
 td, th {
     border: 1px solid #ccc;
@@ -197,16 +190,7 @@ section {
 	padding-bottom: 0px;
 	}
 	
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
 	
-	table tbody {
-		display: table;
-		width: 100%;
-
 			
 			
 }
@@ -228,16 +212,7 @@ section {
 	padding-bottom: 0px;
 	}
 	
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
 	
-	table tbody {
-		display: table;
-		width: 100%;
-
 			
 			
 }
@@ -277,16 +252,7 @@ section {
 	
 
 
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
 	
-	table tbody {
-		display: table;
-		width: 100%;
-	}
 
 	
 
@@ -296,17 +262,7 @@ section {
 
 /*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
 @media (min-width: 640px) and (max-width: 1136px){
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
-	
-	table tbody {
-		display: table;
-		width: 100%;
-
-			
+		
 			
 }
 
@@ -334,19 +290,7 @@ section {
 		font-size: 11px;
 	}	
 	
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
 	
-	table tbody {
-		display: table;
-		width: 100%;
-
-			
-			
-}
 
 	
 
@@ -362,19 +306,7 @@ section {
 	}
 	
 	
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
 	
-	table tbody {
-		display: table;
-		width: 100%;
-
-			
-			
-}
 
 	
 }
@@ -389,15 +321,7 @@ section {
 	}
 	
 	
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
 	
-	table tbody {
-		display: table;
-		width: 100%;
 
 			
 			
