@@ -215,7 +215,8 @@ background-position:-64px -156px;}
 	font-weight: normal;
 	text-shadow: none;}
 .tooltip .tooltip-content a{color:#fff;text-decoration:none;text-shadow:none}
-.tooltip .tooltip-content a:hover{text-decoration:underline}
+/*Te pone subrayado los enlaces*/
+/*.tooltip .tooltip-content a:hover{text-decoration:underline}*/
 .tooltip p{padding:4px}
 #content_footer{border-top:1px solid #fff;background:#000;
 background:-webkit-gradient(linear,left top,left bottom,from(#1d1c1c),to(#000));
@@ -227,7 +228,8 @@ background:linear-gradient(top left,#1d1c1c,#000)}
 #footer p{ width: 540px; }
 #footer p.link_footer{ padding: 0; position: absolute; left: 0; top: 38px; }
 #footer p.text_footer{ margin: 0; color: #777; position: absolute; left: 0; top: 35px; }
-#footer a:hover{ color: #ffd100; text-decoration: underline; }
+
+/*#footer a:hover{ color: #ffd100; text-decoration: underline; }*/
 #footer p a{ color: #fff; font-weight: bold; text-decoration: none; padding: 5px;}
 
 a.logo_footer,a.mdw_footer,a.cclogo{top:22px;text-indent:-99999px;position:absolute;text-align:center}
@@ -235,9 +237,10 @@ a.logo_footer{right:44px;height:28px;width:190px;background-position:-141px 0}
 a.mdw_footer{right:245px;height:35px;width:145px;background-position:-141px -28px}
 a.cclogo{right:0px;width:35px;height:35px;background-position:-286px -28px}
 #vbseo{background-color:#000;color:#999;}
-#vbseo a{color:#ccc;text-decoration:underline}
+
+/*#vbseo a{color:#ccc;text-decoration:underline}*/
 
 #announce{-moz-border-radius:8px;border-radius:8px;-webkit-border-radius:8px;background-color:#A0CAF8;border:1px solid #4397F3;font-size:1.5em;margin:0 auto;padding:10px;width:85%;text-align:center;margin-top:35px}
-#announce a{color:#333;text-decoration:underline}
+/*#announce a{color:#333;text-decoration:underline}*/
 #announceclose{float:right;margin-right:50px;color:#666;text-decoration:none}
 #announce a:hover,#announceclose:hover{color:#222 !important}
