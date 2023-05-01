@@ -4078,7 +4078,7 @@ table{
 		width: 0 auto;
 		margin-left: 0px;
 		max-width: 1200px;
-				min-width:1200px;
+		min-width:1200px;
 	}
 	
 	.table_musica {
@@ -4230,16 +4230,19 @@ table{
 	.table_musica {
 		margin-left: 40px;
 		max-width: 945px;
-				min-width: 945px;
+		min-width: 945px;
 	
 	}
 
 	.table_campeonatos{
-		display: block;
-		max-width: 960px;
+		margin: 0 auto;
+		max-width: 945px;
+		min-width: 945px;
 		
-		overflow-x: auto;
-		white-space: nowrap;
+		overflow: scroll;
+		}
+		
+		
 	}
 	
 	.container.\31 25\25 {
@@ -4288,6 +4291,19 @@ table{
 /*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
 @media (min-width: 375px) and (max-width: 667px){
 	/*pantalla movil*/
+	.table_campeonatos{
+		margin: 0 auto;
+		max-width: 400px;
+		min-width: 400px;
+		
+		overflow: scroll;
+		}
+		
+		
+	}
+
+
+
 	.table_enlaces{
 		display: none;
 	}
@@ -4303,7 +4319,7 @@ table{
 	.table_musica {
 		margin-left: 40px;
 		max-width: 400px;
-				min-width: 400px;
+		min-width: 400px;
 	
 	}
 
