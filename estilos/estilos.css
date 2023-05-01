@@ -258,23 +258,7 @@ body {
 						
 						
 						
-		.enlacesmarphones {				
-			width:90%;			
-			height: auto;			
-			border: 1 px solid black;			
-			border: 1;			
-			display:none;			
-			text-align:center;			
-						
-		}				
-						
-						
-						
-		.enlacesmarphones td{				
-		border:1 px solid # 000;/*Crea un borde interior en negro*/				
-		padding: 5px;				
-		text-align:center;				
-			}			
+					
 						
 						
 	header img{					
@@ -341,6 +325,8 @@ body {
 	display: none;
 	
 }
+
+
 
 
 
