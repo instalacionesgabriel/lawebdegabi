@@ -1,24 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-/*Te quita la barra despladora horizontal y vertical pero no deja que sale el boton para inicio hacia arriba*/
-/*html,body{
-	overflow-x: hidden;
-	color:black;
-	font-family:'Opens Sans',helvetica;  
-	height:100%;
-	width:101%;
-	margin: 0px;
-	padding: 0px;
-  }
-  
-*/
-
-/* Oculta la barra*/
-::-webkit-scrollbar {
-    display: none;
-}
-
 /*
 	Arcana by HTML5 UP
 	html5up.net | @ajlkn
@@ -27,16 +9,15 @@
 
 /* Reset */
 
+
 em{
 color: white;
 /*background: #004a60;*/
-background: rgba(181, 48, 48, 0.97);
+background: rgba(181, 48, 48, 0.97);;
 font-size: 20px;
 padding: 10px 10px 10px 10px;
 text-align: center;
 }
-
-
 
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -47,7 +28,7 @@ text-align: center;
 		/*color: #37c0fb;*/
 		
 		/*color: #666;*/
-		color: black;
+		color: rgb(0, 0, 0);
 		
 	font-family: inherit;
 		/*vertical-align: baseline;*/
@@ -83,15 +64,14 @@ text-align: center;
 /* Box Model */
 
 	*, *:before, *:after {
-		/*-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;*/
-		/*box-sizing: border-box;*/
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
 	}
 
 /* Containers */
 
 	.container {
-		
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -180,7 +160,8 @@ text-align: center;
 
 
 
-			
+
+
 
 
 
@@ -433,87 +414,19 @@ header img:hover{
 	
 	
 	
-
-.contenedorcalendario {
-	width: 1400px;
-	margin: auto;
-}
-
 	
 
-.tablemusica{
-	display: flex;
-	justify-content: center;
-}
 
 
-
-
-
-poner u nombre
-#linkpersonal {
-	text-align: center;
-	padding: 3em 0 0 0;
-	/*background-color: #fff;*/
-	background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
-	background-position: top left,					top left,					top left;
-	background-size: 100% 6em,					100% 6em,					auto;
-	background-repeat: no-repeat,					no-repeat,					repeat;
-}
-
-	#linkpersonal h4 {
-		/*padding: 0 0 2.75em 0;*/
-		text-align: center;
-		margin: 0;
-	}
-
-		#linkpersonal h4 a {
-			
-			font-size: 1.0em;
-			letter-spacing: -0.025em;
-			border: 0;
-		}
-
-		#linkpersonal h4 a:hover {
-		background: rgba(181, 48, 48, 0.97);
-		padding: 5px 15px 5px 15px;
-			}
-
-
-
-			#linkpersonal h3 {
-				/*padding: 0 0 2.75em 0;*/
-				text-align: center;
-				margin: 0;
-			}
-		
-				#linkpersonal h3 a {
-					
-					font-size: 1.0em;
-					letter-spacing: -0.025em;
-					border: 0;
-				}
-		
-					
-				#linkpersonal tr td{
-					/*padding: 0 0 2.75em 0;*/
-					text-align: center;
-					margin: 0;
-				}
-			
-					#linkpersonal tr td a {
-						
-						font-size: 1.0em;
-						letter-spacing: -0.025em;
-						border: 0;
-					}
-					
-
-
-		
 	@media screen and (max-width: 1680px) {
         
+        /*si*/
+
         
+.historia {
+	display: inline;
+	color: #FFF;
+	}
         
         
         
@@ -542,82 +455,7 @@ poner u nombre
 
 	}
 
-	@media screen and (max-width: 1280px) {
-           /*Pantalla Asus*/
-
-		   .tableutilidades{
-		
-			width: 85%;
-			margin-left: 90px;
-			
-			
-		}
-		  
-		   #Power-Contenedor{
-			text-align: center;
-		  }
-		 
-		   #Anyadir-Rutina-btn {
-			background-color: #21211d;
-			color: #FFF;
-			padding: 10px;
-			padding-left: 80px;
-			display: flex;
-			margin: 10px;
-			border-radius: 20px;
-			text-decoration: none;
-			cursor: pointer;
-		  }
-		  
-
-
-
-
-		 
-		   .table_humor{
-			text-align: center;
-		width: auto;
-			
-		}
-		
-		
-		   .categorias{
-			
-			margin-left: 310px;
-		}
-		.elegiraño {
-			
-			margin-left: 125px;
 	
-		}
-				
-
-		
-		/*no*/
-		
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 1200px;
-			min-width: 960px;
-		}
-
-		.container.\37 5\25 {
-			width: 720px;
-		}
-
-		.container.\35 0\25 {
-			width: 480px;
-		}
-
-		.container.\32 5\25 {
-			width: 240px;
-		}
-
-		.container {
-			width: 1050px;
-		}
-
-	}
 
 	
 	@media screen and (min-width: 840px) {
@@ -2667,7 +2505,7 @@ poner u nombre
 	.icon {
 		text-decoration: none;
 		position: relative;
-		
+		text-decoration: none;
 	}
 
 		.icon:before {
@@ -2810,10 +2648,9 @@ table{
     padding: 3px;
   }
 
-  table th, table td {
+  table th, table td  {
     padding: 5px;
-	text-align:left;
-    
+    text-align: center;
   }
 
   table th {
@@ -2823,9 +2660,7 @@ table{
   }
 	
 	table tr:hover {
-	background:#37c0fb;
-		
-}	/*Te hace un marcador en todas las filas de color gris*/
+	background:#37c0fb}	/*Te hace un marcador en todas las filas de color gris*/
 	
 	table td:hover {
 	background: white;
@@ -2834,6 +2669,19 @@ table{
 	font-size: auto;
 }	/*Y un color en blanco de fuente*/
 	
+
+.table_podios_españoles th{
+	font-size: 14px;
+	color: #000000;
+}
+
+.table_podios_españoles td{
+	font-size: 14px;
+	color: #000000;
+}
+
+
+
 
 /* Button */
 
@@ -2964,7 +2812,7 @@ table{
 	#header {
 		text-align: center;
 		padding: 3em 0 0 0;
-		/*background-color: #fff;*/
+		background-color: #fff;
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
@@ -3258,16 +3106,10 @@ table{
 			font-size: 0.9em;
 		}
 
-
-		
-
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
 		/*si*/
-		
-		
-
 		
 		/* Basic */
 
@@ -3376,9 +3218,9 @@ table{
 		
 		/* Basic */
 
-			/*html, body {
+			html, body {
 				overflow-x: hidden;
-			}*/
+			}
 
 			body, input, select, textarea {
 				font-size: 13pt;
@@ -3872,7 +3714,14 @@ table{
 
 /*8-2560 x 1440*/
 @media (min-width: 2445px) and (max-width: 5000px){
+	.Eliga-any {
+	   margin-left: 600px;
 	   
+	   
+	   
+		
+	   
+   }   
 	   #Div4 {
 	   
 	   color: #fffefe;
@@ -3888,6 +3737,8 @@ table{
 
 @media (min-width: 1920px) and (max-width: 2444px){
 	/*no*/
+	.Eliga-any {
+    margin-left: 600px;
 	
 	
 	
@@ -3895,7 +3746,7 @@ table{
     
 }   
     #Div4 {
-		
+	
 	color: #fffefe;
     text-align: center;
     
@@ -3909,7 +3760,11 @@ table{
 @media (min-width: 1681px) and (max-width: 1920px){
     /*no*/
 	
-	
+	.Eliga-any {
+    margin-left: 600px;
+    
+    
+}
     #Div4 {
 	
 	color: #fffefe;
@@ -3926,181 +3781,25 @@ table{
 
 @media (min-width: 1280px) and (max-width: 1680px){
     /*si*/
-	
-	
-	
-	.table_movil{
-		display: none;
-	}
-	
-	.table_pantalla tr:hover {
-		background:#37c0fb;
-		background: none;
-	}
-
-	.table_pantalla td:hover {
-		background: white;
-		background: none;
-	}
-    
-}
-
-
-@media (max-width:1270px){
-	.table_responsive{
-		display: none;
-	}
-
-	.table_calendario {
-		overflow-x: auto;
-		white-space: nowrap;
-		width: auto;
-		margin: auto;
-	}
-	
-	
-
-	
-	
-	
-	.table_pantalla tr:hover {
-		background:#37c0fb;
-		background: none;
-	}
-
-	.table_pantalla td:hover {
-		background: white;
-		background: none;
-	}
-
-	.contenedorcalendario {
-		
-		width: 450px;
-		margin: auto;
-	}
-
-	
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 1665px) and (max-width: 1680px){
-    /*pantalla LG*/
-	.tableutilidades{
-		
-		width: 85%;
-		margin-left: 120px;
-		
-		
-	}
-
-	#Power-Contenedor{
-		text-align: center;
-	  }
-	 
-	   #Anyadir-Rutina-btn {
-		background-color: #21211d;
-		color: #FFF;
-		padding: 10px;
-		padding-left: 80px;
-		display: flex;
-		margin: 10px;
-		border-radius: 20px;
-		text-decoration: none;
-		cursor: pointer;
-	  }
-
-
-
-		.table_humor {
-			text-align: center;
-		width: auto;
-			
-		}
-
-		.table_humor a{
-			display: flex;
-		}
-
-		.categorias{
-			margin-left: 440px;
-		}
-		.elegiraño {
-			
-			margin-left: 125px;
-
-		}
-		
-		.table_calendario{
-
-		}
-        
-		.contenedorcalendario{
-			width: 1190px;
-		}
-.historia {
-	display: inline;
-	color: #FFF;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	/*si*/
 	.table_movil{
 		display: none;
 	}    
 	
-	
-	
-
-
-	
-    #Div4 {
-	
-	color: #fffefe;
-    text-align: center;
     
 }
- #Div3 {
-    	margin-top: -50px;
-}
-    
-}
+
+
+
+
+
+
+
 
 
 /*5-1440x900 Pantalla principal*/
 @media (min-width: 1280px) and (max-width: 1664px){
     /*no*/
 	
-	.contenedorcalendario {
-		
-				width: 950px;
-				margin: auto;
-			}
-
-
 	#Div4 {
 	
 	color: #fffefe;
@@ -4113,7 +3812,12 @@ table{
     
     
     
+    .Eliga-any {
+    margin-left: 520px;
+	
+     
     
+}
     
     ul.tabs li {
 	width: 95px;
@@ -4143,38 +3847,13 @@ table{
 }
 
 }
-/*4-1024x768*/
-@media (min-width: 668px) and (max-width: 1279px){
-	/*pantalla movil horizontal*/
-
-	.categorias{
-		
-		margin-left: 225px;
+@media (min-width: 100px) and (max-width: 320px){
+	#Div1{
+	font-size: 1.8em;
+	margin: 0px;
+	padding-bottom: 0px;
 	}
-    .elegiraño {
-		
-		margin-left: 125px;
-		
-
-	}
-    #Div4 {
 	
-	color: #fffefe;
-    text-align: center;
-    
-}
- #Div3 {
-    	margin-top: -50px;
-		
-}
-    
-	
-
-}
-/*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
-@media (min-width: 375px) and (max-width: 667px){
-	/*pantalla movil*/
-
 	table {
 		display: block;
 		overflow-x: auto;
@@ -4185,59 +3864,239 @@ table{
 		display: table;
 		width: 100%;
 
-
-
-	.tableutilidades{
-		display: flex;
-		width: 350px;
-		margin-left: 30px;
-		
-		
-	}
-
-	.tableutilidades img{
-		width: 95%;		
-
-	}
-
-	#Power-Contenedor{
-		text-align:initial;
-	  }
-	 
-	   #Anyadir-Rutina-btn {
-		background-color: #21211d;
-		color: #FFF;
-		padding: 10px;
-		padding-left: 200px;
-		display: flex;
-		margin: 10px;
-		border-radius: 20px;
-		text-decoration: none;
-		cursor: pointer;
-	  }
-	
-
-	
-	.table_humor{
-		margin: 0 auto;
-		width: 350px;
-		padding-left: 50px;
-		
-		
-	}
-
-	.categorias{
-		
-		margin-left: 40px;
-	}
-	.elegiraño {
-		
-		margin-left: 125px;
-		
-
-	}
 			
+			
+}
+
+#Div2{
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	
+	}
+
+}
+/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
+@media (min-width: 320px) and (max-width: 479px){
+	#Div1{
+	font-size: 1.8em;
+	margin: 0px;
+	padding-bottom: 0px;
+	}
+	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+#Div2{
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	
+	}
+
+
+}
+
+
+/*Pantalla del movil*/
+
+
+
+/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
+
+@media (min-width: 480px) and (max-width: 800px){
+	#Div1{
+	font-size: 1.9em;
+	margin: 20px;
+	padding-bottom: 15px;
+	}	
+	
+	#Div2{
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	
+	}
+	
+	
+
+
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+	}
+
+	
+
+	
+	
+}
+
+
+@media (min-width: 640px) and (max-width: 1136px){
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
+#Div2{
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	}
+
+}
+
+
+/*pantalla de asus*/
+@media (min-width: 720px) and (max-width: 1280px){
+	
+	
+	.table_podios_españoles {
+	width: 1000px;
+	}
+	.categorias{
+	   padding-left: 315px;
+	}
+	    
+	#Div2{
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	}
+	table{
+		font-size: 11px;
+	}	
+	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
+
+}
+
+@media (min-width: 750px) and (max-width: 1334px){
+		
+	#Div2{
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	}
+	
+	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
+	
+}
+
+@media (min-width: 1335px) and (max-width: 1920px){
+		
+	#Div2{
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	}
+	
+	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
+	
+}
+
+
+
     
+@media (min-width: 1665px) and (max-width: 1680px){
+    /*pantalla LG*/
+	.categorias{
+        
+		width: 100%;
+	}
+		.categorias li{
+		 width: 100px;
+		height: 35px;
+		
+			
+			
+		}
+
+
+
+	.table_movil{
+		display: none;
+	}    
+	
+	.Eliga-any {
+    margin-left: 520px;
+     
+    
+}
     #Div4 {
 	
 	color: #fffefe;
@@ -4246,81 +4105,106 @@ table{
 }
  #Div3 {
     	margin-top: -50px;
-		
-		
-
-
-
-
 }
     
+}
 
+@media screen and (max-width: 1280px) {
+	/*Pantalla Asus*/
+
+	.table_campeonatos{
+		display: block;
+		max-width: 960px;
+		
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	.container.\31 25\25 {
+		width: 100%;
+		max-width: 1200px;
+		min-width: 960px;
+	}
+
+	.container.\37 5\25 {
+		width: 720px;
+	}
+
+	.container.\35 0\25 {
+		width: 480px;
+	}
+
+	.container.\32 5\25 {
+		width: 240px;
+	}
+
+	.container {
+		width: 960px;
+	}
+
+}
+
+@media (min-width: 668px) and (max-width: 1279px){
+	/*pantalla movil horizontal*/
+    .Eliga-any {
+    margin-left: 300px;
+	
+	
+    
+}
+    #Div4 {
+	
+	color: #fffefe;
+    text-align: center;
+    
+}
+ #Div3 {
+    	margin-top: -50px;
+}
+    
+}
+/*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
+@media (min-width: 375px) and (max-width: 667px){
+	/*pantalla movil*/
+	.categorias{
+		padding-left: 50px;
+	 }
+	 
+
+
+	.table_responsive{
+		display: none;
+	}
+
+        
+    .Eliga-any {
+    margin-left: 94px;
+    
+   
+}
+    #Div4 {
+	
+	color: #fffefe;
+    text-align: center;
+    
+}
+ #Div3 {
+    	margin-top: -50px;
+}
+    
 }
 
 
 
 @media (min-width: 100px) and (max-width: 374px){
-    /*pantalla redmi9*/
-
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
-	
-	table tbody {
-		display: table;
-		width: 100%;
-	
-	.tableutilidades{
-		display: flex;
-		width: 300px;
-		margin-left: 20px;
-		
-		
-	}
-
-	.tableutilidades img{
-		width: 85%;		
-
-	}
-
-	#Power-Contenedor{
-		text-align:initial;
-	  }
-	 
-	   #Anyadir-Rutina-btn {
-		background-color: #21211d;
-		color: #FFF;
-		padding: 10px;
-		padding-left: 135px;
-		display: flex;
-		margin: 10px;
-		border-radius: 20px;
-		text-decoration: none;
-		cursor: pointer;
-	  }
-
-	  .table_humor{
-		margin: 0 auto;
-		width: 325px;
-		padding-left: 40px;
-		
-		
-	}
-
-	.categorias{
-		
-		margin-left: 10px;
-	}
-	.elegiraño {
-		
-		margin-left: 125px;
-		
-
-	}
+    /*no*/
 	
 	
+	.Eliga-any {
+    margin-left: 100px;
+     
+    
+}
     #Div4 {
 	
 	color: #fffefe;
@@ -4330,4 +4214,3 @@ table{
  #Div3 {
     	margin-top: -50px;
 }
-    

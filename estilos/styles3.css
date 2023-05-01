@@ -22,11 +22,8 @@ table tr {
 
 table tr:nth-child(even) {
 	background-color: #c0bbbb;
-	color: white;
+	color: rgb(3, 3, 3);
 }
-
-
-
 
 .titulof1{
 	background-color: #fff;
@@ -37,10 +34,10 @@ table tr:nth-child(even) {
 
 
 
-td, th {
-    border: 1px solid #ccc;
-    padding: 5px;
-    text-align: left;   
+table td, table th {
+	color: rgb(0, 0, 0);
+	padding: 3px;
+	text-align: center;
 }
 
 table th {
@@ -50,10 +47,27 @@ table th {
 }
 
 
-
-.table_responsive td{
-	color: black;
+/*
+.table_responsive td th{
+	color: rgb(146, 63, 63);
 	font-size: 14px;
+}*/
+
+
+.table_pantalla td{
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+}
+
+
+.table_campeonatos td{
+	color: rgb(0, 0, 0);
+	font-size: 13px;
+}
+
+.table_campeonatos{
+	width: 1200px;
+	overflow: auto;
 }
 
 .table_movil td{
@@ -61,11 +75,6 @@ table th {
 	font-size: 14px;
 }
 
-
-.table_pantalla td{
-	color: black;
-	font-size: 14px;
-}
 
 .textog {
 	font-size: 2em;
@@ -75,12 +84,10 @@ table th {
 /*	background: #999;*/
 }
 
-
-
 #Div1{
 	text-align: center;
 	font-size: 1.8em;
-	padding-top: 0px;
+	margin: 20px;
 	padding-bottom: 10px;
 }
 
@@ -114,25 +121,24 @@ table th {
 
 #Div3 p{
 margin: 5px;
-    margin-top: 100px;
-		text-align: center;
+    margin-top: 80px;
+   
 		font-size: 1.8em;
 	cursor:default;
-		/*background-color: rgba(124, 127, 128, 0.97);*/
-		background-color: rgba(181, 48, 48, 0.97);
+		background-color: rgba(124, 127, 128, 0.97);
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		padding: 16px;
-		color: white;
+		color: black;
 } 
 
 
 #Div4 a{
 
-	padding-top: 20px;
+		font-size: 1.8em;
 	cursor: pointer;
 		background-color: rgba(181, 48, 48, 0.97);
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -149,10 +155,9 @@ margin: 5px;
 }
 
 #Div4 a {
-	
-    padding: 5px;
-	font-size: 1.5em;
-	margin: 20px;
+    
+	font-size: 1.8em;
+	margin: 0px;
 	text-align: center;
 	color: #fffefe;
 
@@ -181,153 +186,5 @@ section {
 
 
 /*//////////////////////////////////////////////*/
-
-/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
-@media (min-width: 100px) and (max-width: 320px){
-	#Div1{
-	font-size: 1.8em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-	
-	
-			
-			
-}
-
-#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	
-	}
-
-}
-/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
-@media (min-width: 320px) and (max-width: 479px){
-	#Div1{
-	font-size: 1.8em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-	
-	
-			
-			
-}
-#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	
-	}
-
-
-}
-
-
-/*Pantalla del movil*/
-
-
-
-/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
-
-@media (min-width: 480px) and (max-width: 800px){
-	#Div1{
-	font-size: 1.9em;
-	margin: 20px;
-	padding-bottom: 15px;
-	}	
-	
-	#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	
-	}
-	
-	
-
-
-	
-
-	
-
-	
-	
-}
-
-/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
-@media (min-width: 640px) and (max-width: 1136px){
-		
-			
-}
-
-#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-
-}
-
-/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
-/*pantalla de asus*/
-@media (min-width: 720px) and (max-width: 1280px){
-	
-	    
-	#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-	table{
-		font-size: 11px;
-	}	
-	
-	
-
-	
-
-}
-/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
-@media (min-width: 750px) and (max-width: 1334px){
-		
-	#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-	
-	
-	
-
-	
-}
-/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
-@media (min-width: 1335px) and (max-width: 1920px){
-		
-	#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-	
-	
-	
-
-			
-			
-}
-
-	
-}
 
 /*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/

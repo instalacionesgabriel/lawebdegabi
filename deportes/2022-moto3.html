@@ -32,14 +32,12 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	
-        <script type="text/JavaScript">
-            <!--
-            function myF(targ,selObj,restore){
-              eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
-              if (restore) selObj.selectedIndex=0;
-            }
-            //-->
-            </script>
+        <script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+        </script>
 
     
     
@@ -115,87 +113,89 @@
 			
          <!--Para poner comentarios en html-->
          
-         <div class="elegiraño">
-         <option value="#"selected>Elegir año</option>
-         <form id="form1">
-            <select name="menu1" onchange="myF('parent',this,0)">
-              <option value="	2022.html" selected> 2022 </option>
-              <option value="	2021.html"> 2021 </option>
-              <option value="	2020.html"> 2020 </option>
-              <option value="	2019.html"> 2019 </option>
-              <option value="	2018.html"> 2018 </option>
-              <option value="	2017.html"> 2017 </option>
-              <option value="	2016.html"> 2016 </option>
-              <option value="	2015.html"> 2015 </option>
-              <option value="	2014.html"> 2014 </option>
-              <option value="	2013.html"> 2013 </option>
-              <option value="	2012.html"> 2012 </option>
-              <option value="	2011.html"> 2011 </option>
-              <option value="	2010.html"> 2010 </option>
-              <option value="	2009.html"> 2009 </option>
-              <option value="	2008.html"> 2008 </option>
-              <option value="	2007.html"> 2007 </option>
-              <option value="	2006.html"> 2006 </option>
-              <option value="	2005.html"> 2005 </option>
-              <option value="	2004.html"> 2004 </option>
-              <option value="	2003.html"> 2003 </option>
-              <option value="	2002.html"> 2002 </option>
-              <option value="	2001.html"> 2001 </option>
-              <option value="	2000.html"> 2000 </option>
-              <option value="	1999.html"> 1999 </option>
-              <option value="	1998.html"> 1998 </option>
-              <option value="	1997.html"> 1997 </option>
-              <option value="	1996.html"> 1996 </option>
-              <option value="	1995.html"> 1995 </option>
-              <option value="	1994.html"> 1994 </option>
-              <option value="	1993.html"> 1993 </option>
-              <option value="	1992.html"> 1992 </option>
-              <option value="	1991.html"> 1991 </option>
-              <option value="	1990.html"> 1990 </option>
-              <option value="	1989.html"> 1989 </option>
-              <option value="	1988.html"> 1988 </option>
-              <option value="	1987.html"> 1987 </option>
-              <option value="	1986.html"> 1986 </option>
-              <option value="	1985.html"> 1985 </option>
-              <option value="	1984.html"> 1984 </option>
-              <option value="	1983.html"> 1983 </option>
-              <option value="	1982.html"> 1982 </option>
-              <option value="	1981.html"> 1981 </option>
-              <option value="	1980.html"> 1980 </option>
-              <option value="	1979.html"> 1979 </option>
-              <option value="	1978.html"> 1978 </option>
-              <option value="	1977.html"> 1977 </option>
-              <option value="	1976.html"> 1976 </option>
-              <option value="	1975.html"> 1975 </option>
-              <option value="	1974.html"> 1974 </option>
-              <option value="	1973.html"> 1973 </option>
-              <option value="	1972.html"> 1972 </option>
-              <option value="	1971.html"> 1971 </option>
-              <option value="	1970.html"> 1970 </option>
-              <option value="	1969.html"> 1969 </option>
-              <option value="	1968.html"> 1968 </option>
-              <option value="	1967.html"> 1967 </option>
-              <option value="	1966.html"> 1966 </option>
-              <option value="	1965.html"> 1965 </option>
-              <option value="	1964.html"> 1964 </option>
-              <option value="	1963.html"> 1963 </option>
-              <option value="	1962.html"> 1962 </option>
-              <option value="	1961.html"> 1961 </option>
-              <option value="	1960.html"> 1960 </option>
-              <option value="	1959.html"> 1959 </option>
-              <option value="	1958.html"> 1958 </option>
-              <option value="	1957.html"> 1957 </option>
-              <option value="	1956.html"> 1956 </option>
-              <option value="	1955.html"> 1955 </option>
-              <option value="	1954.html"> 1954 </option>
-              <option value="	1953.html"> 1953 </option>
-              <option value="	1952.html"> 1952 </option>
-              <option value="	1951.html"> 1951 </option>
-              <option value="	1950.html"> 1950 </option>
-              <option value="	1949.html"> 1949 </option>
-            </select>
-          </form>
-        </div>
+          <p></p>    
+     	<span class="Eliga-any">Año
+      	
+      	<select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+        <option value="#"selected>Elegir año</option>
+        <option value="	2022.html" selected> 2022 </option>
+        <option value=" 2021.html"> 2021 </option>
+        <option value="	2020.html"> 2020 </option>
+        <option value="	2019.html"> 2019 </option>
+        <option value="	2018.html"> 2018 </option>
+        <option value="	2017.html"> 2017 </option>
+        <option value="	2016.html"> 2016 </option>
+        <option value="	2015.html"> 2015 </option>
+        <option value="	2014.html"> 2014 </option>
+        <option value="	2013.html"> 2013 </option>
+        <option value="	2012.html"> 2012 </option>
+        <option value="	2011.html"> 2011 </option>
+        <option value="	2010.html"> 2010 </option>
+        <option value="	2009.html"> 2009 </option>
+        <option value="	2008.html"> 2008 </option>
+        <option value="	2007.html"> 2007 </option>
+        <option value="	2006.html"> 2006 </option>
+        <option value="	2005.html"> 2005 </option>
+        <option value="	2004.html"> 2004 </option>
+        <option value="	2003.html"> 2003 </option>
+        <option value="	2002.html"> 2002 </option>
+        <option value="	2001.html"> 2001 </option>
+        <option value="	2000.html"> 2000 </option>
+        <option value="	1999.html"> 1999 </option>
+        <option value="	1998.html"> 1998 </option>
+        <option value="	1997.html"> 1997 </option>
+        <option value="	1996.html"> 1996 </option>
+        <option value="	1995.html"> 1995 </option>
+        <option value="	1994.html"> 1994 </option>
+        <option value="	1993.html"> 1993 </option>
+        <option value="	1992.html"> 1992 </option>
+        <option value="	1991.html"> 1991 </option>
+        <option value="	1990.html"> 1990 </option>
+        <option value="	1989.html"> 1989 </option>
+        <option value="	1988.html"> 1988 </option>
+        <option value="	1987.html"> 1987 </option>
+        <option value="	1986.html"> 1986 </option>
+        <option value="	1985.html"> 1985 </option>
+        <option value="	1984.html"> 1984 </option>
+        <option value="	1983.html"> 1983 </option>
+        <option value="	1982.html"> 1982 </option>
+        <option value="	1981.html"> 1981 </option>
+        <option value="	1980.html"> 1980 </option>
+        <option value="	1979.html"> 1979 </option>
+        <option value="	1978.html"> 1978 </option>
+        <option value="	1977.html"> 1977 </option>
+        <option value="	1976.html"> 1976 </option>
+        <option value="	1975.html"> 1975 </option>
+        <option value="	1974.html"> 1974 </option>
+        <option value="	1973.html"> 1973 </option>
+        <option value="	1972.html"> 1972 </option>
+        <option value="	1971.html"> 1971 </option>
+        <option value="	1970.html"> 1970 </option>
+        <option value="	1969.html"> 1969 </option>
+        <option value="	1968.html"> 1968 </option>
+        <option value="	1967.html"> 1967 </option>
+        <option value="	1966.html"> 1966 </option>
+        <option value="	1965.html"> 1965 </option>
+        <option value="	1964.html"> 1964 </option>
+        <option value="	1963.html"> 1963 </option>
+        <option value="	1962.html"> 1962 </option>
+        <option value="	1961.html"> 1961 </option>
+        <option value="	1960.html"> 1960 </option>
+        <option value="	1959.html"> 1959 </option>
+        <option value="	1958.html"> 1958 </option>
+        <option value="	1957.html"> 1957 </option>
+        <option value="	1956.html"> 1956 </option>
+        <option value="	1955.html"> 1955 </option>
+        <option value="	1954.html"> 1954 </option>
+        <option value="	1953.html"> 1953 </option>
+        <option value="	1952.html"> 1952 </option>
+        <option value="	1951.html"> 1951 </option>
+        <option value="	1950.html"> 1950 </option>
+        <option value="	1949.html"> 1949 </option>
+        </select>
+      	
+      	
+      	</span>
          
 
      	</ul>
@@ -265,7 +265,7 @@
       	<div class="secciones">
       		<article id="tab1">
       			<h1>Clasificación General-2022 Moto3</h1>
-                  <table class="table_pantalla" border="1">		
+                  <table class="table_responsive" border="1">		
        
                     <td height=20 width=59 style='height:15.0pt;width:44pt'>Posición</td>
                     <td width=58 style='width:44pt'>Número</td>
@@ -1449,7 +1449,7 @@
       		
       			<h1>Qatar - Losail 06/03/22 Moto3</h1>
       			
-      		<table class="table_pantalla" border="1">
+      		<table class="table_responsive" border="1">
                 <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
   outline: 0px'>
   <td height=19 style='height:14.4pt'>Pos.</td>
@@ -1832,7 +1832,7 @@
       		</article>
       		<article id="tab3">
       			<h1>Indonesia - Pertamina Mandalika Circuit 20/03/22 Moto3</h1>
-      			<table class="table_pantalla" border="1">
+      			<table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -2173,7 +2173,7 @@
       		</article>
               <article id="tab4">
                 <h1>Argentina - Termas de Río Hondo 03/04/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -2523,7 +2523,7 @@
       		
             <article id="tab5">
                 <h1>Usa - Circuit of the Americas 10/04/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -2872,7 +2872,7 @@
             </article>
             <article id="tab6">
                 <h1>Portugal - Algarve 24/04/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -3234,7 +3234,7 @@
 
       		<article id="tab7">
       			<h1>España - Jerez 01/05/22 Moto3</h1>
-      			<table class="table_pantalla" border="1">
+      			<table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -3574,7 +3574,7 @@
         	</article>
             <article id="tab8">
                 <h1>Francia - Le Mans 15/05/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -3925,7 +3925,7 @@
       		
       		<article id="tab9">
       			<h1>Italia - Mugello 29/05/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -4267,7 +4267,7 @@
       		
       		<article id="tab10">
       			<h1>Cataluña - Montmelò 05/06/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -4630,7 +4630,7 @@
       		
       		<article id="tab11">
       			<h1>Alemania - Sachsenring 19/06/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -5399,7 +5399,7 @@
       		
       		<article id="tab12">
       			<h1>Holanda - Assen 26/06/22 Moto3</h1>
-                 <table class="table_pantalla" border="1">
+                 <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -6225,7 +6225,7 @@
       		
       		<article id="tab13">
       			<h1>Gran Bretaña - Silvestone Circuit 07/08/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -6971,7 +6971,7 @@
       		
       		<article id="tab14">
       			<h1>Austria - Spielberg 21/08/22  Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -7743,7 +7743,7 @@
       		
       		<article id="tab15">
       			<h1>Italia - Misano 04/09/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -8569,7 +8569,7 @@
       		
       		<article id="tab16">
       			<h1>España - Motorland Aragón 18/09/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -9153,7 +9153,7 @@
       		<article id="tab17">
       			<h1>Japón - Motegi 25/09/22 Moto3</h1>
       			
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -9525,7 +9525,7 @@
       		
       		<article id="tab18">
       			<h1>Thailandia - Chang International Circuit 02/10/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -9894,7 +9894,7 @@
       		</article>
       		<article id="tab19">
                 <h1>Australia - Philip Asland 16/10/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -10256,7 +10256,7 @@
             </article>
             <article id="tab20">
                 <h1>Malasia - Sepang 23/10/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
@@ -10628,7 +10628,7 @@
       		 		
       		<article id="tab21">
       			<h1>España - Ricardo Tormo 06/11/22 Moto3</h1>
-                <table class="table_pantalla" border="1">
+                <table class="table_responsive" border="1">
                     <tr height=19 style='height:14.4pt;box-sizing: content-box !important;
                     outline: 0px'>
                     <td height=19 style='height:14.4pt'>Pos.</td>
