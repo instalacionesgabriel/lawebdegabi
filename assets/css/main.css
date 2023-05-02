@@ -412,9 +412,10 @@ header img:hover{
 	.titulo {
 	text-align: center;
 	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 200px;
-	margin-left: auto;
+	margin-right: 12px;
+	margin-bottom: 100px;
+	margin-left: 12px;
+
 }
 	
 	
@@ -4277,7 +4278,7 @@ table{
 }
 
 @media (min-width: 375px) and (max-width: 667px){
-		/*400px 720px*/ /*pantalla movil*/
+		/*430px 720px*/ /*pantalla movil*/
 		.enlacesmarphones{
 			
 			width: 100%;
@@ -4309,11 +4310,13 @@ table{
 
 	.table_campeonatos{
 		display: block;
-		max-width: 440px;
+		margin-left: 12px;
+		max-width: 400px;
 		
 		overflow-x: auto;
 		white-space: nowrap;
 	}
+	
 
 	.table_calendario {
 	/*display: none;*/
