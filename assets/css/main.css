@@ -329,12 +329,15 @@ div#InicioAncho #slider p.gancho {
 		display:none;
 		text-align:center;
 		
+		
+
 	}
 		
 		
 		
 	.enlacesmarphones td{
-		font-size: 14px;
+		border-collapse: collapse;
+		font-size: 15px;
 	border:1 px solid #000;/*Crea un borde interior en negro*/
 	padding: 16px;
 	text-align:center;
@@ -4278,9 +4281,11 @@ table{
 }
 
 @media (min-width: 375px) and (max-width: 667px){
-		/*430px 720px*/ /*pantalla movil*/
+		/*394px 720px*/ /*pantalla movil*/
+		
 		.enlacesmarphones{
-			
+			margin-left: 30px;
+			/*width: 365px;*/
 			width: 100%;
 		}
 
@@ -4294,7 +4299,9 @@ table{
 	
 		.table_humor{
 		/*display: none;*/
-		width: 95%;
+		width: 360px;
+		margin-left: 10px;
+		
 		text-align: center;
 }
 
@@ -4302,16 +4309,47 @@ table{
 	.table_musica img{
 		/*Centrar imagen*/
 		display: block;
-		width: 60%;
+		
 		margin-left: auto;
 		margin-right: auto;
 		
 	}
+/*Para aumentar imagen
+.table_musica img{
+		width: 100%;
+	transition: all 300ms;
+	position: relative;	
+	}
+
+	.table_musica img:hover{
+		transform: scale(1.15);
+	}
+*/
+	.table_musica img{
+		width: 60%;
+	transition: all 300ms;
+	position: relative;	
+	}
+
+	.table_musica img:hover{
+		transform: scale(1.15);
+	}
+	.table_musica{
+		margin-left: 25px;
+		margin-right: 20px;	
+	}
+
+
+		.table_utilidades{
+		margin-left: 30px;
+		width: 370px;	
+}
+
 
 	.table_campeonatos{
 		display: block;
 		margin-left: 12px;
-		max-width: 400px;
+		max-width: 375px;
 		
 		overflow-x: auto;
 		white-space: nowrap;
@@ -4320,11 +4358,21 @@ table{
 
 	.table_calendario {
 	/*display: none;*/
-	width: 395px;
+	width: 380px;
 	padding-left: 10px;
 	
 	}
 
+	.table_utilidades img{
+		width: 90%;
+		transition: all 300ms;
+	position: relative;	
+	}
+
+
+	.table_utilidades img:hover{
+		transform: scale(1.15);
+	}
 
 	.table_inicio img{
 		display: inline;
