@@ -221,24 +221,6 @@ body {
 						
 						
 						
-		.enlaces {				
-			width:100%;			
-			height: auto;			
-			border: 1 px solid black;			
-			border: 1;			
-			display:none;			
-			text-align:center;			
-			}			
-						
-						
-						
-		.enlaces td{				
-			width: auto;			
-			height:auto;			
-			border: 1 px solid black;			
-			color: black;			
-			padding: 26px;			
-				}		
 						
 						
 						
@@ -325,8 +307,6 @@ body {
 	display: none;
 	
 }
-
-
 
 
 

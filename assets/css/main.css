@@ -318,11 +318,11 @@ div#InicioAncho #slider p.gancho {
 
 			
 	.enlacesmarphones {
-		display: none;
-		
+		width:100%;
 		height: auto;
 		border: 1 px solid black;
 		border: 1;
+		display:none;
 		text-align:center;
 		
 	}
@@ -330,14 +330,11 @@ div#InicioAncho #slider p.gancho {
 		
 		
 	.enlacesmarphones td{
+		font-size: 13px;
 	border:1 px solid #000;/*Crea un borde interior en negro*/
-	
+	padding: 5px;
 	text-align:center;
 		}
-
-
-		
-
 
 
 header img{
@@ -438,7 +435,7 @@ header img:hover{
 		#linkpersonal h4 a {
 			
 			font-size: 1.0em;
-			letter-spacing: -0.025em;
+			letter-spacing: 0.025em;
 			border: 0;
 		}
 
@@ -477,40 +474,6 @@ header img:hover{
 					}
 
 
-.table_musica {
-	margin-left: 40px;
-	max-width: 400px;
-			min-width: 400px;
-
-}
-
-
-
-.linea {
-	margin: auto;
-	border-top: 5px solid black;
-	width: 100%;
-
-	padding-left: 40px;
-	margin: 10px auto 10px auto;
-	justify-content: center;
-  }
-  
-  
-  .table_humor h2{
-	text-align: center;
-}
-
-.table_humor h3{
-	text-align: center;
-}
-
-
-.table_enlaces{
-	margin-left: 40px;
-	max-width: 1200px;
-			min-width:1200px;
-}
 
 	@media screen and (max-width: 1680px) {
         
@@ -672,7 +635,9 @@ header img:hover{
 		display: inline;
 	}
 	
-	
+	.enlaces{
+			display: inline;
+	}
         /*Cambia el menu de menu grande a pequeño*/
 		.clasificacionsmarphones {
 		display: inline;
@@ -3969,7 +3934,7 @@ table{
 	}
 
 }
-
+/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
 @media (min-width: 320px) and (max-width: 479px){
 	#Div1{
 	font-size: 1.8em;
@@ -4002,11 +3967,11 @@ table{
 }
 
 
+/*Pantalla del movil*/
 
 
 
-
-
+/*480 Ã— 800, 640 Ã— 1136, 720 Ã— 1280, 750 Ã— 1334, 1080 Ã— 1920 y 1440 Ã— 2560.* Medidas de moviles*/
 
 @media (min-width: 480px) and (max-width: 800px){
 	#Div1{
@@ -4069,59 +4034,6 @@ table{
 }
 
 
-/*pantalla de asus*/
-
-@media (min-width: 720px) and (max-width: 1280px){
-
-	.table_enlaces{
-		display: inline;
-		width: 0 auto;
-		margin-left: 0px;
-		max-width: 1200px;
-		min-width:1200px;
-	}
-	
-	.table_musica {
-		
-		margin-left: 30px;
-		max-width: 960px;
-				min-width: 600px;
-				overflow: hidden;
-	}
-	
-	.table_podios_españoles {
-	width: 1000px;
-	}
-	.categorias{
-	   padding-left: 315px;
-	}
-	    
-	#Div2{
-	text-align: center;
-	font-size: 1.2em;
-	margin: 0px;
-	padding-bottom: 0px;
-	}
-	table{
-		font-size: 17px;
-	}	
-	
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
-	
-	table tbody {
-		display: table;
-		width: 100%;
-
-			
-			
-}
-
-
-}
 
 @media (min-width: 750px) and (max-width: 1334px){
 		
@@ -4182,13 +4094,6 @@ table{
     
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
-	.table_musica {
-		margin-left: 40px;
-		max-width: 1200px;
-				min-width: 1200px;
-	
-	}
-
 	.categorias{
         
 		width: 100%;
@@ -4201,7 +4106,12 @@ table{
 			
 		}
 
-
+		.link_enlaces{
+			display: flexbox;
+			min-width: 1200px;
+			max-width: 1300px;
+			margin: 40px;
+		}
 
 	.table_movil{
 		display: none;
@@ -4226,23 +4136,49 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
-
-	.table_musica {
-		margin-left: 40px;
-		max-width: 945px;
-		min-width: 945px;
-	
+	.link_enlaces{
+		display: flexbox;
+		min-width: 900px;
+		max-width: 1000px;
+		margin: 25px;
 	}
 
-	.table_campeonatos{
-		margin: 0 auto;
-		max-width: 945px;
-		min-width: 945px;
+	.table_podios_españoles {
+		width: 1000px;
+		}
+		.categorias{
+		   padding-left: 315px;
+		}
+			
+		#Div2{
+		text-align: center;
+		font-size: 1.2em;
+		margin: 0px;
+		padding-bottom: 0px;
+		}
+		table{
+			font-size: 15px;
+		}	
 		
-		overflow: scroll;
+		table {
+			display: block;
+			overflow-x: auto;
+			white-space: nowrap;
 		}
 		
+		table tbody {
+			display: table;
+			width: 100%;
+	
+				
+				
+	}
+	.table_campeonatos{
+		display: block;
+		max-width: 960px;
 		
+		overflow-x: auto;
+		white-space: nowrap;
 	}
 	
 	.container.\31 25\25 {
@@ -4291,56 +4227,13 @@ table{
 /*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
 @media (min-width: 375px) and (max-width: 667px){
 	/*pantalla movil*/
-	.table_campeonatos{
-		margin: 0 auto;
-		max-width: 400px;
-		min-width: 400px;
-		
-		overflow: scroll;
-		}
-		
-		
-	}
-
-
-
-	.table_enlaces{
-		display: none;
-	}
-
-
-	.table_utilidades {
-		margin-left: 40px;
-		max-width: 400px;
-				min-width: 400px;
-	
-	}
-
-	.table_musica {
-		margin-left: 40px;
-		max-width: 400px;
-		min-width: 400px;
-	
-	}
-
-
-	.enlacesmarphones {
-		
-		width: auto;
-		
-	}
-
-
-	.table_movil img{
-		width: 350px;
-		margin: 15px;
-	}
-
 	.categorias{
 		padding-left: 50px;
 	 }
 	 
-
+	 .link_enlaces{
+		display: none;
+	 }
 
 	.table_responsive{
 		display: none;
