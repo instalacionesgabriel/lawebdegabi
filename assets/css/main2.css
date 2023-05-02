@@ -1847,7 +1847,9 @@
 	}
 
 		a:hover {
-			color: #37c0fb;
+			
+			/*color: #37c0fb;*/
+			color: black;
 			border-bottom-color: transparent;
 			
 		}
@@ -2376,7 +2378,8 @@ table{
 
 	#nav {
 		cursor: default;
-		background-color: #333;
+		/*background-color: #333;*/
+		background-color: #004a60;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -2459,7 +2462,8 @@ table{
 /* Dropotron */
 
 	.dropotron {
-		background-color: #333;
+		/*background-color: #333;*/
+		background-color: #004a60;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
@@ -2870,7 +2874,9 @@ table{
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background-color: #333;
+				
+		/*background-color: #333;*/
+		background-color: #004a60;
 				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -2929,7 +2935,8 @@ table{
 					}
 
 			#navPanel {
-				background-color: #1f1f1f;
+					/*background-color: #1f1f1f;*/
+					background-color: #004a60;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
 				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
 				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2960,7 +2967,9 @@ table{
 				#navPanel .link {
 					border-bottom: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
-					color: #888;
+					/*color: #888;*/
+					/*aqui*/
+					color: #ffffff;
 					display: block;
 					height: 48px;
 					line-height: 48px;
@@ -3211,3 +3220,70 @@ table{
     }
   }
 	
+
+
+
+
+@media screen and (max-width: 1680px) {
+        
+	/*pantalla LG*/
+	.table_pantalla td img{
+		/*centrar imagen
+		display: block;
+		margin: auto;*/
+		width: 200px;
+
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	   /*Pantalla Asus*/
+ 
+	   .table_pantalla td img{
+		/*centrar imagen
+		display: block;
+		margin: auto;*/
+		width: 150px;
+
+	}
+}
+
+
+@media (min-width: 668px) and (max-width: 1279px){
+	/*pantalla movil horizontal*/
+
+ 
+
+}
+/*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
+@media (min-width: 375px) and (max-width: 667px){
+	/*pantalla movil*/
+	
+	.table_pantalla td img{
+		/*centrar imagen
+		display: block;
+		margin: auto;*/
+		width: 75px;
+
+	}
+}
+    
+
+
+
+
+
+
+@media (min-width: 100px) and (max-width: 374px){
+    /*Pantalla Redmi9*/
+	
+	.table_pantalla td img{
+		/*centrar imagen
+		display: block;
+		margin: auto;*/
+		width: 50px;
+
+	}
+
+	}
+    
