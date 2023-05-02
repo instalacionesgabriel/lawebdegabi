@@ -4189,18 +4189,18 @@ table{
 		width: 95%;
 	}
 
-
-
 	.link_enlaces{
 		display: flexbox;
 		min-width: 900px;
 		max-width: 1000px;
 		margin: 25px;
 	}
-
+		/*Pantalla Asus*/
 	.table_podios_españoles {
 		width: 100%;
 		}
+		
+		
 		.categorias{
 		   padding-left: 315px;
 		}
@@ -4220,14 +4220,12 @@ table{
 			overflow-x: auto;
 			white-space: nowrap;
 		}
-		
+		/*Pantalla Asus*/
 		table tbody {
 			display: table;
 			width: 100%;
 	
-				
-				
-	}
+		}
 	.table_campeonatos{
 		display: block;
 		max-width: 960px;
@@ -4245,7 +4243,7 @@ table{
 	.container.\37 5\25 {
 		width: 720px;
 	}
-
+	/*Pantalla Asus*/
 	.container.\35 0\25 {
 		width: 480px;
 	}
@@ -4264,16 +4262,13 @@ table{
 	/*pantalla movil horizontal*/
     .Eliga-any {
     margin-left: 300px;
-	
-	
+	}
     
-}
-    #Div4 {
-	
+	#Div4 {
 	color: #fffefe;
-    text-align: center;
-    
+    text-align: center;    
 }
+
  #Div3 {
     	margin-top: -50px;
 }
@@ -4288,7 +4283,6 @@ table{
 			white-space: normal;
 		}
 
-
 		.enlacesmarphones{
 			margin-left: 30px;
 			/*width: 365px;*/
@@ -4300,9 +4294,6 @@ table{
 		text-align: center;
 		width: 100%;
 	}
-
-
-	
 		.table_humor{
 		/*display: none;*/
 		width: 360px;
@@ -4310,8 +4301,7 @@ table{
 		
 		text-align: center;
 }
-
-
+		/*394px 720px*/ /*pantalla movil*/
 	.table_musica img{
 		/*Centrar imagen*/
 		display: block;
@@ -4330,7 +4320,7 @@ table{
 	.table_musica img:hover{
 		transform: scale(1.15);
 	}
-*/
+*/		/*394px 720px*/ /*pantalla movil*/
 	.table_musica img{
 		width: 60%;
 	transition: all 300ms;
@@ -4351,20 +4341,142 @@ table{
 		width: 370px;	
 }
 
-
+		/*394px 720px*/ /*pantalla movil*/
 	.table_campeonatos{
-		
 		margin-left: 12px;
 		max-width: 440px;
 		
 		overflow-x: auto;
 		white-space: nowrap;
 	}
-	
-
+	 	
 	.table_calendario {
 	/*display: none;*/
 	width: 460px;
+	padding-left: 10px;
+	}
+
+	.table_utilidades img{
+		width: 90%;
+		transition: all 300ms;
+	position: relative;	
+	}
+		/*394px 720px*/ /*pantalla movil*/
+	.table_utilidades img:hover{
+		transform: scale(1.15);
+	}
+
+	.table_inicio img{
+		display: inline;
+		width: 350px;
+		margin-top: 15px;
+	}
+	
+	.categorias{
+		padding-left: 50px;
+	 }
+	 
+	 .link_enlaces{
+		display: none;
+	 }
+
+	.table_responsive{
+		display: none;
+	}
+
+	/*394px 720px*/ /*pantalla movil*/    
+    .Eliga-any {
+    margin-left: 94px;   
+}
+
+    #Div4 {	
+	color: #fffefe;
+    text-align: center;	    
+}
+ 
+	#Div3 {
+    	margin-top: -50px;
+		margin-bottom: 25px;
+}
+    
+}
+
+@media (min-width: 100px) and (max-width: 374px){
+  		/*Redmi  355px X 618px */
+	
+		  table {
+			display: block;
+			overflow-x: none;
+			white-space: normal;
+		}
+
+
+		.enlacesmarphones{
+			margin-left: 10px;
+			/*width: 365px;*/
+			width: 100%;
+		}
+
+	.table_descargas{
+		/*display: none;*/
+		text-align: center;
+		width: 100%;
+	}
+
+
+	/*Redmi*/
+		.table_humor{
+		/*display: none;*/
+		width: 360px;
+		margin-left: 10px;
+		
+		text-align: center;
+}
+
+
+	.table_musica img{
+		/*Centrar imagen*/
+		display: block;
+		
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+
+	.table_musica img{
+		width: 60%;
+	transition: all 300ms;
+	position: relative;	
+	}
+/*Redmi*/
+	.table_musica img:hover{
+		transform: scale(1.15);
+	}
+	.table_musica{
+		margin-left: 25px;
+		margin-right: 20px;	
+	}
+
+
+		.table_utilidades{
+		margin-left: 30px;
+		width: 330px;	
+}
+
+
+	.table_campeonatos{
+		
+		margin-left: 12px;
+		max-width: 325px;
+		
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+/*Redmi*/
+	.table_calendario {
+	/*display: none;*/
+	width: 345px;
 	padding-left: 10px;
 	
 	}
@@ -4385,13 +4497,9 @@ table{
 		width: 350px;
 		margin-top: 15px;
 	}
-	
-	
-
-
-
+	/*Redmi*/
 	.categorias{
-		padding-left: 50px;
+		padding-left: 10px;
 	 }
 	 
 	 .link_enlaces{
@@ -4401,43 +4509,28 @@ table{
 	.table_responsive{
 		display: none;
 	}
-
-        
+       
     .Eliga-any {
-    margin-left: 94px;
-    
-   
+    margin-left: 94px;   
 }
-    #Div4 {
-	
+    #Div4 {	
 	color: #fffefe;
-    text-align: center;
-    
+    text-align: center;    
 }
+
  #Div3 {
     	margin-top: -50px;
 		margin-bottom: 25px;
-}
-    
+}    
+
+#jumpMenu{
+	
+	width: 95%;
+	margin: 20px;
+	margin-left: 10px;	
+	}
+
 }
 
 
 
-@media (min-width: 100px) and (max-width: 374px){
-    /*no*/
-	
-	
-	.Eliga-any {
-    margin-left: 100px;
-     
-    
-}
-    #Div4 {
-	
-	color: #fffefe;
-    text-align: center;
-    
-}
- #Div3 {
-    	margin-top: -50px;
-}
