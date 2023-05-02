@@ -4277,6 +4277,11 @@ table{
 
 @media (min-width: 375px) and (max-width: 667px){
 		/*394px 720px*/ /*pantalla movil*/
+		.fa-stack-2x{
+			
+			margin-left: -25px;
+		}
+
 		table {
 			display: block;
 			overflow-x: none;
@@ -4403,7 +4408,13 @@ table{
 
 @media (min-width: 100px) and (max-width: 374px){
   		/*Redmi  355px X 618px */
-	
+
+		.fa-stack-2x{
+			
+			margin-left: -30px;
+		}
+
+
 		  table {
 			display: block;
 			overflow-x: none;
