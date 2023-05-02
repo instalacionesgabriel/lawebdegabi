@@ -4364,7 +4364,7 @@ table{
 
 	.table_calendario {
 	/*display: none;*/
-	width: 380px;
+	width: 460px;
 	padding-left: 10px;
 	
 	}
@@ -4416,6 +4416,7 @@ table{
 }
  #Div3 {
     	margin-top: -50px;
+		margin-bottom: 25px;
 }
     
 }
