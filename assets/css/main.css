@@ -511,10 +511,74 @@ header img:hover{
 					}
 
 
+
+/*Para el boton desde aqui*/
+					*, ::before, ::after {
+						margin: 0;
+						padding: 0;
+						box-sizing: border-box;
+					}
+			
+					.btn {
+						color: white;
+						text-decoration: none;
+						font-size: 20px;
+						padding: 14px 34px;
+						font-family: sans-serif;
+						display: inline-block;
+						margin: 5px;
+						box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+						transition: all 300ms ease-in-out;
+					}
+			
+					.btn:hover {
+							opacity: .7;
+					}
+			
+					.btn-primary {
+						background: #2980b9;
+			
+					}
+			
+			
+					.btn-success{
+						background: #2ecc71;
+					}
+			
+					.btn-info {
+						background: #e67e22;
+					}	
+			
+					.btn-warning {
+						background: #1289a7;
+					}
+			
+					.btn-danger {
+						background: #d63031;
+					}
+			
+					.btn-dark {
+					background: #34495e;
+			
+					}
+
+/*Para el boton desde aqui hasta aqui*/
+
+
+
+
+
+
+
+					
+
+
+
 					@media screen and (max-width: 1680px) {
         
         /*si*/
-
+		
+		
         
 .historia {
 	display: inline;
@@ -4134,6 +4198,13 @@ table{
     
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
+
+	.btn {
+		padding-left: 70px;
+
+	}
+
+
 	.categorias{
         
 		width: 100%;
@@ -4270,13 +4341,26 @@ table{
 }
 
  #Div3 {
-    	margin-top: -50px;
+	
+    	
+		margin-bottom: 35px;
 }
     
 }
 
 @media (min-width: 375px) and (max-width: 667px){
 		/*394px 720px*/ /*pantalla movil*/
+		.btn {
+			
+			display: inline-block;
+			
+			padding: 4px 4px 4px 4px;
+			
+			
+			margin: 21px;
+				}
+
+
 		.fa-stack-2x{
 			
 			margin-left: -25px;
@@ -4401,7 +4485,7 @@ table{
 }
  
 	#Div3 {
-    	margin-top: -50px;
+    	margin-top: 0px;
 		margin-bottom: 25px;
 }
     
@@ -4409,6 +4493,18 @@ table{
 
 @media (min-width: 100px) and (max-width: 374px){
   		/*Redmi  355px X 618px */
+
+		  .btn {
+			
+			display: inline-block;
+			
+			padding: 1px 1px ;
+			
+			
+			margin: 17px;
+				}
+
+
 
 		.elegiraño{
 			/*display: none;*/
