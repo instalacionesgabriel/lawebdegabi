@@ -337,7 +337,7 @@ div#InicioAncho #slider p.gancho {
 		
 	.enlacesmarphones td{
 		border-collapse: collapse;
-		font-size: 20px;
+		font-size: 25px;
 	border:1 px solid #000;/*Crea un borde interior en negro*/
 	padding: 16px;
 	text-align:center;
@@ -4289,7 +4289,8 @@ table{
 		}
 
 		.enlacesmarphones{
-			margin-left: 30px;
+			/*display: none;*/
+			/*margin-left: 30px;*/
 			/*width: 365px;*/
 			width: 100%;
 		}
