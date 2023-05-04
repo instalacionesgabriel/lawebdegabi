@@ -566,11 +566,29 @@ header img:hover{
 /*Para el boton desde aqui hasta aqui*/
 
 
+/*Botones para historia*/
+miboton {
+	margin: 10px;
+	padding: 10px;
+	background: transparent;
+	font-weight: semibold;
+	color: #444;
+	font-size:  1rem;
+	padding: 1 rem 1.5rem;
+	border:  5px solid #eee;
+	border-radius: .5rem;
+	cursor: pointer;
+	transition:all 1s ease;
+	box-shadow: .5rem .5rem 1rem #ccc, .5rem .5rem 1rem #fff;
+}
 
+miboton:hover {
+	box-shadow: .5rem .5rem 1rem #fff, .5rem .5rem 1rem #ccc;
+}
 
-
-
-
+miboton:active {
+	box-shadow: inset .2rem 1rem #fff, inset .2rem 1rem #ccc;
+}
 					
 
 
@@ -2989,6 +3007,7 @@ table{
 			}
 
 	#nav {
+		
 		cursor: default;
 		/*background-color: #333;*/
 		background-color: #004a60;
@@ -3044,6 +3063,7 @@ table{
 				}
 
 					#nav > ul > li.current:before {
+						
 						-moz-transform: rotateZ(45deg);
 						-webkit-transform: rotateZ(45deg);
 						-ms-transform: rotateZ(45deg);
@@ -3077,6 +3097,7 @@ table{
 
 				#nav > ul > li > ul {
 					display: none;
+					
 				}
 
 /* Dropotron */
@@ -4199,6 +4220,16 @@ table{
     
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
+
+
+	#jumpMenu{
+	
+		width: 6%;
+		margin: 40px;
+		margin-left: 10px;	
+		}
+	
+	}
 	
 	.table_utilidades img{
 		width: 400px;
@@ -4259,6 +4290,16 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
+	
+
+	#jumpMenu{
+	
+		width: 25%;
+		
+		margin: 0px;
+		
+		
+		}
 
 	.table_utilidades img{
 		width: 400px;
