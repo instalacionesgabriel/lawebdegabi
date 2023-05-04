@@ -4426,6 +4426,15 @@ table{
 @media (min-width: 668px) and (max-width: 1279px){
 	/*794px 292px pantalla movil horizontal*/
 	
+	.table_campeonatos{
+		/*display: none;*/
+	/*margin-left: 12px;*/
+	max-width: 720px;
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+
+}
 
 
 
@@ -4461,7 +4470,7 @@ table{
 		text-align: center;
 }
 
-
+/*794px 292px pantalla movil horizontal*/
 	.table_utilidades{
 		margin-left: 30px;
 		width: 750px;	
@@ -4474,25 +4483,9 @@ table{
 	}
 		
 	
-		.table_campeonatos{
-			/*display: block;*/
-			display: none;
-			/*display: none;*/
-		/*margin-left: 12px;*/
-		max-width: 50px;
-		
-		overflow-x: auto;
-		white-space: nowrap;
-	
-	}
-		
-
 	.table_utilidades img:hover{
 		transform: scale(1.15);
 	}
-
-
-
 
 	.table_musica{
 		margin-left: 25px;
@@ -4500,29 +4493,21 @@ table{
 		margin-right: 20px;
 	}
 
-
 	.elegiraño{
 		/*display: none;*/
 		padding-left: 130px;
 	}
-	
-	
-	
-	
-	
+
+	/*794px 292px pantalla movil horizontal*/
 	.btn {
-		
-		
-		
 		display: inline-block;
 		
 		padding: 4px 4px 4px 4px;
 		
-		margin: 14px;
+		margin: 13px;
 		
 			}
 
-	
 	.categorias{
 		padding-left: 210px;
 	 }
@@ -4543,6 +4528,7 @@ table{
     text-align: center;    
 }
 
+	/*794px 292px pantalla movil horizontal*/
  #Div3 {
 	
     	
