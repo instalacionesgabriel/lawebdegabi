@@ -137,6 +137,7 @@ margin: 5px;
 
 
 #Div4 a{
+	border-radius: 10px;
 
 		font-size: 1.8em;
 	cursor: pointer;

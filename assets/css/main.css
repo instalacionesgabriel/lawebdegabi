@@ -523,9 +523,9 @@ header img:hover{
 						color: white;
 						text-decoration: none;
 						font-size: 20px;
-						padding: 14px 34px;
+						padding: 14px 34px 10px 10px;
 						font-family: sans-serif;
-						display: inline-block;
+						display: inline-block;    
 						margin: 5px;
 						box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
 						transition: all 300ms ease-in-out;
@@ -4198,6 +4198,8 @@ table{
     
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
+	
+
 
 	.btn {
 		padding-left: 70px;
@@ -4247,6 +4249,14 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
+
+	.btn {
+		padding-left: 34px;
+
+
+	}
+
+
 	div#InicioAncho #slider {
 		border-radius: 10px;
 		border: 2px solid #000;
@@ -4331,6 +4341,15 @@ table{
 
 @media (min-width: 668px) and (max-width: 1279px){
 	/*pantalla movil horizontal*/
+
+
+
+	.table_inicio img{
+		display: inline;
+		width: 350px;
+		margin-top: 15px;
+	}
+
     .Eliga-any {
     margin-left: 300px;
 	}
@@ -4356,8 +4375,8 @@ table{
 			
 			padding: 4px 4px 4px 4px;
 			
+			margin: 20.7px;
 			
-			margin: 21px;
 				}
 
 
@@ -4498,10 +4517,10 @@ table{
 			
 			display: inline-block;
 			
-			padding: 1px 1px ;
+			padding: 1px 1px 1px 1px;
 			
+			margin: 17.5px;
 			
-			margin: 17px;
 				}
 
 
