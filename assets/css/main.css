@@ -507,6 +507,7 @@ header img:hover{
 	
 	
 					  .table_responsive{
+						
 					padding-bottom: 90px;
 					}
 
@@ -4199,6 +4200,15 @@ table{
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
 	
+	.table_utilidades img{
+		width: 400px;
+		transition: all 300ms;
+	position: relative;	
+	}
+	
+	.table_utilidades img:hover{
+		transform: scale(1.15);
+	}
 
 
 	.btn {
@@ -4249,6 +4259,16 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
+
+	.table_utilidades img{
+		width: 400px;
+		transition: all 300ms;
+	position: relative;	
+	}
+	
+	.table_utilidades img:hover{
+		transform: scale(1.15);
+	}
 
 	.btn {
 		padding-left: 34px;
@@ -4340,8 +4360,90 @@ table{
 }
 
 @media (min-width: 668px) and (max-width: 1279px){
-	/*pantalla movil horizontal*/
+	/*794px 292px pantalla movil horizontal*/
+	.link_enlaces{
+		display: flexbox;
+		min-width: 700px;
+		max-width: 800px;
+		margin: 0px;
+	}
 
+
+.table_responsive{
+	overflow-x: auto;
+		white-space: nowrap;
+
+}
+
+.enlacesmarphones{
+	display: none;
+}
+	
+	.table_descargas{
+		/*display: none;*/
+		text-align: center;
+		width: 100%;
+	}
+
+	.table_humor{
+		/*display: none;*/
+		width: 750px;
+		margin-left: 10px;
+		
+		text-align: center;
+}
+
+
+	.table_utilidades{
+		margin-left: 30px;
+		width: 750px;	
+}
+
+	.table_utilidades img{
+		width: 45%;
+		transition: all 300ms;
+	position: relative;	
+	}
+		/*394px 720px*/ /*pantalla movil*/
+	.table_utilidades img:hover{
+		transform: scale(1.15);
+	}
+
+
+
+
+	.table_musica{
+		margin-left: 25px;
+		
+		margin-right: 20px;
+	}
+
+
+	.elegiraño{
+		/*display: none;*/
+		padding-left: 130px;
+	}
+	
+	
+	
+	
+	
+	.btn {
+		
+		
+		
+		display: inline-block;
+		
+		padding: 4px 4px 4px 4px;
+		
+		margin: 14px;
+		
+			}
+
+	
+	.categorias{
+		padding-left: 210px;
+	 }
 
 
 	.table_inicio img{
@@ -4441,7 +4543,8 @@ table{
 	}
 	.table_musica{
 		margin-left: 25px;
-		margin-right: 20px;	
+		
+		margin-right: 20px;
 	}
 
 
