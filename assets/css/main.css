@@ -1,6 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
+
 .table_campeonatos td{
 	color: rgb(0, 0, 0);
 	font-size: 13px;
@@ -9,10 +10,11 @@
 .table_campeonatos{
 			/*display: none;*/
 		/*margin-left: 12px;*/
-		max-width: 1200px;
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
+		/*max-width: 1200px;*/
+		/*display: block;*/
+		/*overflow-x: auto;*/
+		/*white-space: nowrap;*/
+		
 
 }
 
@@ -540,7 +542,8 @@ header img:hover{
 						color: white;
 						text-decoration: none;
 						font-size: 20px;
-						padding: 14px 34px 10px 10px;
+						text-align: center;
+						padding: 5px 5px 5px 5px;
 						font-family: sans-serif;
 						display: inline-block;    
 						margin: 5px;
@@ -579,6 +582,20 @@ header img:hover{
 			
 					}
 
+					.btn-green {
+						background: #377a2e;
+				
+						}
+
+					.btn-orange {
+						background: #7f6f29;
+					
+							}		
+
+					.btn-blue {
+						background: #2b1e9e;
+							
+							}
 /*Para el boton desde aqui hasta aqui*/
 
 
@@ -4262,7 +4279,7 @@ table{
 
 
 	.btn {
-		padding-left: 70px;
+		padding-left: 50px;
 
 	}
 
@@ -4313,10 +4330,11 @@ table{
 	.table_campeonatos{
 		/*display: none;*/
 	/*margin-left: 12px;*/
-	max-width: 960px;
-	display: block;
-	overflow-x: auto;
-	white-space: nowrap;
+	/*max-width: 960px;*/
+	/*display: block;*/
+	/*overflow-x: auto;*/
+	/*white-space: nowrap;*/
+	
 
 }
 	
@@ -4341,7 +4359,7 @@ table{
 	}
 
 	.btn {
-		padding-left: 34px;
+		padding-left: 23px;
 
 
 	}
@@ -4502,9 +4520,9 @@ table{
 	.btn {
 		display: inline-block;
 		
-		padding: 4px 4px 4px 4px;
+		padding: 1px 1px 1px 1px;
 		
-		margin: 13px;
+		margin: 4px;
 		
 			}
 
@@ -4537,6 +4555,10 @@ table{
     
 }
 
+.table_campeonatos {
+/*	display: none;*/
+	padding-bottom: 20px;
+}
 @media (min-width: 375px) and (max-width: 667px){
 		/*394px 720px*/ /*pantalla movil*/
 		.table_campeonatos{
@@ -4554,8 +4576,8 @@ table{
 			display: inline-block;
 			
 			padding: 4px 4px 4px 4px;
-			
-			margin: 20.7px;
+		
+			margin: 5.7px;
 			
 				}
 
@@ -4695,7 +4717,7 @@ table{
 			
 			padding: 1px 1px 1px 1px;
 			
-			margin: 17.5px;
+			margin: 4px;
 			
 				}
 
