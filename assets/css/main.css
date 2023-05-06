@@ -4,91 +4,6 @@
 
 
 
-.enlacesmarphones {
-	width:100%;
-	height: auto;
-	border: 1 px solid black;
-	border: 1;
-	display:none;
-	text-align:center;
-	
-	
-
-}
-	
-	
-	
-.enlacesmarphones td{
-	border-collapse: collapse;
-	
-border:1 px solid #000;/*Crea un borde interior en negro*/
-padding: 16px;
-text-align:center;
-	}
-
-
-
-.table_responsive td {
-	font: 18px Helvetica, Sans-Serif;
-}
-
-ul.tabs {
-	
-	margin: 5px;
-	padding-top: 0px;
-	width: 100%;
-	background: #fff;
-	list-style: none;
-	display: inline-flex;
-	flex-wrap: wrap;
-}
-
-ul.tabs a {
-	
-	border: 1px solid #000;
-}
-
-
-ul.tabs a:hover{
-
-	background-color:#4682B4;
-}
-
-
-ul.tabs li {
-width: 20%;
-/*	display: none;*/
-}
-
-ul.tabs li a {
-color: rgb(53, 166, 25);
-text-decoration: none;
-font: 14px Helvetica, Sans-Serif;
-text-align: center;
-display: block;
-padding: 5px 0px;
-/*font: bold 13px Helvetica, Sans-Serif; te poner la fuente en negrita*/
-}
-
-
-
-
-
-
-
-
-
-.table_campeonatos td{
-	font: 13px Helvetica, Sans-Serif;
-	/*font: bold 13px Helvetica, Sans-Serif;  Para poner en negrita*/
-	
-}
-
-
-
-
-
-
 /*
 	Arcana by HTML5 UP
 	html5up.net | @ajlkn
@@ -112,19 +27,16 @@ text-align: center;
 		margin: 0;
 		padding: 0;
 		border: 0;
-		
 		font-size: 100%;
 		/*color: #37c0fb;*/
-			
+		
 		/*color: #666;*/
 		color: rgb(0, 0, 0);
-		font: 15px Helvetica, Sans-Serif;		
+		
 	font-family: inherit;
 		/*vertical-align: baseline;*/
 	}
-header{
-	margin-bottom: 150px;
-}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -409,7 +321,24 @@ div#InicioAncho #slider p.gancho {
 
 
 			
-	
+	.enlacesmarphones {
+		width:100%;
+		height: auto;
+		border: 1 px solid black;
+		border: 1;
+		display:none;
+		text-align:center;
+		
+	}
+		
+		
+		
+	.enlacesmarphones td{
+		font-size: 14px;
+	border:1 px solid #000;/*Crea un borde interior en negro*/
+	padding: 16px;
+	text-align:center;
+		}
 
 
 header img{
@@ -483,10 +412,9 @@ header img:hover{
 	.titulo {
 	text-align: center;
 	margin-top: 0px;
-	margin-right: 12px;
-	margin-bottom: 100px;
-	margin-left: 12px;
-
+	margin-right: auto;
+	margin-bottom: 200px;
+	margin-left: auto;
 }
 	
 	
@@ -575,259 +503,14 @@ header img:hover{
 	
 	
 					  .table_responsive{
-						
 					padding-bottom: 90px;
 					}
-
-
-
-/*Para el boton desde aqui*/
-					*, ::before, ::after {
-						margin: 0;
-						padding: 0;
-						box-sizing: border-box;
-					}
-			
-					.btn {
-						color: white;
-						text-decoration: none;
-						font-size: 20px;
-						text-align: center;
-						padding: 5px 5px 5px 5px;
-						font-family: sans-serif;
-						display: inline-block;    
-						margin: 5px;
-						box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-						transition: all 300ms ease-in-out;
-					}
-			
-					.btn:hover {
-							opacity: .7;
-					}
-			
-					.btn-primary {
-						background: #2980b9;
-			
-					}
-			
-			
-					.btn-success{
-						background: #2ecc71;
-					}
-			
-					.btn-info {
-						background: #e67e22;
-					}	
-			
-					.btn-warning {
-						background: #1289a7;
-					}
-			
-					.btn-danger {
-						background: #d63031;
-					}
-			
-					.btn-dark {
-					background: #34495e;
-			
-					}
-
-					.btn-green {
-						background: #377a2e;
-				
-						}
-
-					.btn-orange {
-						background: #7f6f29;
-					
-							}		
-
-					.btn-blue {
-						background: #2b1e9e;
-							
-							}
-/*Para el boton desde aqui hasta aqui*/
-
-
-/*Botones para historia*/
-miboton {
-	margin: 10px;
-	padding: 10px;
-	background: transparent;
-	font-weight: semibold;
-	color: #444;
-	font-size:  1rem;
-	padding: 1 rem 1.5rem;
-	border:  5px solid #eee;
-	border-radius: .5rem;
-	cursor: pointer;
-	transition:all 1s ease;
-	box-shadow: .5rem .5rem 1rem #ccc, .5rem .5rem 1rem #fff;
-}
-
-miboton:hover {
-	box-shadow: .5rem .5rem 1rem #fff, .5rem .5rem 1rem #ccc;
-}
-
-miboton:active {
-	box-shadow: inset .2rem 1rem #fff, inset .2rem 1rem #ccc;
-}
-					
-
-
-#Div3 p{
-
-    margin-top: 25px;
-
-	font-size: 1.8em;
-cursor:default;
-	background-color: rgba(124, 127, 128, 0.97);
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-	background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-	background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-	padding: 16px;
-	color: black;
-}
-
-
-
-.Titulo-motos{
-	text-align: center;
-	background: #004a60;
-	font-size: 20px;
-	margin: 0px;
-	margin-bottom: 0px;
-	margin-top: 0px;	
-	color: white;
-}
-
-.wrap{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: 100%;
-	max-width: 100%;
-	margin: 0px;
-	
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.Eliga-any {
-    border: 8px solid #CCC;
-    background-color: #E0E0E0;
-    padding: .5em;
-    overflow: hidden;
-    margin-left: 0px;
-     
-    
-}
-
-
-
-
-
-
-.active-depor {
-	/*background-color:rgba(181, 48, 48, 0.97);*/
-	/*background-color:rgba(181, 48, 48, 0.97);*/
-	background: #6aa95f;
-	
-}
-
-.secciones{
-	width: 100%;
-	
-	
-}
-
-.secciones h1{
-	margin-top: 0px;
-	margin-left: 0px;
-
-}
-
-.secciones article table {
-/*	text-align: justify;*/
-	margin-left: 0px;
-	
-}
-
-.categorias{
-	width: 100%;
-	display: inline-flex;
-	flex-wrap: wrap;
-	margin: 0px;
-	padding: 0px;
-	padding-left: 430px;
-	margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.categorias li{
-	display: inline-flex;
-	justify-content: center;
-	flex-wrap: wrap;
-    width: 100px;
-    height: 35px;
-    padding: 3px 0 0 0;
-    margin: 4px 4px;
-    background: #4682B4;
-    background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
- 
-    box-shadow: inset 0px 0px 6px #fff;
-    -webkit-box-shadow: inset 0px 0px 6px #fff;
-    border: 1px solid #62C2F9;
-    border-radius: 10px;
-	font: 15px Helvetica, Sans-Serif;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #3090C7;
-    text-shadow: 0px 1px 2px #62C2F9;
-}
-
-
-.categorias li a:hover{
-	color: #000;
-}
-
-.categorias li a  {
-	padding-top: 6px;
-    color: #004a60;
-}
-.activocat {
-	background: #b53030;
-    margin-bottom: 8px;
-    
-	border-radius: 5px;
-		color: #000;
-}
-
-
-
-
-
 
 
 					@media screen and (max-width: 1680px) {
         
         /*si*/
-		
-		
+
         
 .historia {
 	display: inline;
@@ -888,7 +571,9 @@ cursor:default;
 		}
 			
 	
-			
+			.enlacesmarphones{
+			  display: inline;
+	  }
 	
 	
 			.container.\31 25\25 {
@@ -991,7 +676,9 @@ cursor:default;
 	}
 		
 
-		
+		.enlacesmarphones{
+		  display: inline;
+  }
 
         
 		.container.\31 25\25 {
@@ -3212,7 +2899,6 @@ table{
 /* Header */
 
 	#header {
-		
 		text-align: center;
 		padding: 3em 0 0 0;
 		background-color: #fff;
@@ -3234,7 +2920,6 @@ table{
 			}
 
 	#nav {
-		
 		cursor: default;
 		/*background-color: #333;*/
 		background-color: #004a60;
@@ -3290,7 +2975,6 @@ table{
 				}
 
 					#nav > ul > li.current:before {
-						
 						-moz-transform: rotateZ(45deg);
 						-webkit-transform: rotateZ(45deg);
 						-ms-transform: rotateZ(45deg);
@@ -3324,7 +3008,6 @@ table{
 
 				#nav > ul > li > ul {
 					display: none;
-					
 				}
 
 /* Dropotron */
@@ -3364,9 +3047,8 @@ table{
 		.dropotron.level-0 {
 			border-radius: 0 0 5px 5px;
 			font-size: 0.9em;
-			padding-top: 2px;
-			/*margin-top: -1px;*/
-			margin-top: -2px;
+			padding-top: 0;
+			margin-top: -1px;
 		}
 
 /* Banner */
@@ -4099,6 +3781,9 @@ table{
 		}
 	
 	
+.Titulo-motos{
+	margin-top: 15px;	
+	}
 	
 }
 
@@ -4108,7 +3793,9 @@ table{
     
     
 
-	
+	.Titulo-motos{
+	margin-top: 15px;	
+	}
 	
 	
     
@@ -4130,7 +3817,9 @@ table{
 	   text-align: center;
 	   
    }
-	
+	#Div3 {
+		   margin-top: -50px;
+   }
 	   
    }
    /*7-1920X1080*/
@@ -4151,7 +3840,9 @@ table{
     text-align: center;
     
 }
- 
+ #Div3 {
+    	margin-top: -50px;
+}
     
 }
 /*7-1920X1080*/
@@ -4169,7 +3860,9 @@ table{
     text-align: center;
     
 }
- 
+ #Div3 {
+    	margin-top: -50px;
+}
     
 }
 /*6-1680x1050*/
@@ -4206,6 +3899,9 @@ table{
     text-align: center;
     
 }
+ #Div3 {
+    	margin-top: -50px;
+}
     
     
     
@@ -4216,8 +3912,12 @@ table{
     
 }
     
+    ul.tabs li {
+	width: 95px;
+/*		margin: auto;*/
 
-    
+		}
+	
 	
 	
 	header img:hover{
@@ -4232,7 +3932,12 @@ table{
 	margin-bottom: 46px;
 	}
 	
+	.Titulo-motos{
+	margin-top: auto;
+		font-size: 25px;
+		width:auto;
 	
+}
 
 }
 @media (min-width: 100px) and (max-width: 320px){
@@ -4424,39 +4129,7 @@ table{
 
     
 @media (min-width: 1665px) and (max-width: 1680px){
-    /*pantalla LG 1680*899 */
-	
-	
-	
-	
-
-
-	#jumpMenu{
-	
-		width: 6%;
-		margin: 40px;
-		margin-left: 10px;	
-		}
-	
-	
-	
-	.table_utilidades img{
-		width: 400px;
-		transition: all 300ms;
-	position: relative;	
-	}
-	
-	.table_utilidades img:hover{
-		transform: scale(1.15);
-	}
-
-
-	.btn {
-		padding-left: 50px;
-
-	}
-
-
+    /*pantalla LG*/
 	.categorias{
         
 		width: 100%;
@@ -4491,44 +4164,14 @@ table{
     text-align: center;
     
 }
- 
+ #Div3 {
+    	margin-top: -50px;
+}
     
 }
 
 @media screen and (max-width: 1280px) {
-	/*Pantalla Asus 1280*570 */
-	.table_responsive td {
-		font: 14px Helvetica, Sans-Serif;
-	}
-	
-	
-
-	#jumpMenu{
-	
-		width: 25%;
-		
-		margin: 0px;
-		
-		
-		}
-
-	.table_utilidades img{
-		width: 400px;
-		transition: all 300ms;
-	position: relative;	
-	}
-	
-	.table_utilidades img:hover{
-		transform: scale(1.15);
-	}
-
-	.btn {
-		padding-left: 23px;
-
-
-	}
-
-
+	/*Pantalla Asus*/
 	div#InicioAncho #slider {
 		border-radius: 10px;
 		border: 2px solid #000;
@@ -4542,18 +4185,18 @@ table{
 		width: 95%;
 	}
 
+
+
 	.link_enlaces{
 		display: flexbox;
 		min-width: 900px;
 		max-width: 1000px;
 		margin: 25px;
 	}
-		/*Pantalla Asus*/
+
 	.table_podios_españoles {
-		width: 100%;
+		width: 1000px;
 		}
-		
-		
 		.categorias{
 		   padding-left: 315px;
 		}
@@ -4573,13 +4216,21 @@ table{
 			overflow-x: auto;
 			white-space: nowrap;
 		}
-		/*Pantalla Asus*/
+		
 		table tbody {
 			display: table;
 			width: 100%;
 	
-		}
-	
+				
+				
+	}
+	.table_campeonatos{
+		display: block;
+		max-width: 960px;
+		
+		overflow-x: auto;
+		white-space: nowrap;
+	}
 	
 	.container.\31 25\25 {
 		width: 100%;
@@ -4590,7 +4241,7 @@ table{
 	.container.\37 5\25 {
 		width: 720px;
 	}
-	/*Pantalla Asus*/
+
 	.container.\35 0\25 {
 		width: 480px;
 	}
@@ -4603,248 +4254,74 @@ table{
 		width: 960px;
 	}
 
-	
-
 }
 
 @media (min-width: 668px) and (max-width: 1279px){
-	/*794px 292px pantalla movil horizontal*/
-	
-	.enlacesmarphones{
-		display: none;
-	}
-	
-
-
-	.table_campeonatos{
-		/*display: none;*/
-	/*margin-left: 12px;*/
-	max-width: 720px;
-	display: block;
-	overflow-x: auto;
-	white-space: nowrap;
-
-}
-
-
-
-	.link_enlaces{
-		display: flexbox;
-		min-width: 700px;
-		max-width: 800px;
-		margin: 0px;
-	}
-
-
-.table_responsive{
-	overflow-x: auto;
-		white-space: nowrap;
-		
-
-}
-
-	
-	.table_descargas{
-		/*display: none;*/
-		text-align: center;
-		width: 100%;
-	}
-
-	.table_humor{
-		/*display: none;*/
-		width: 750px;
-		margin-left: 10px;
-		
-		text-align: center;
-}
-
-/*794px 292px pantalla movil horizontal*/
-
-
-	.table_utilidades{
-		margin-left: 30px;
-		width: 750px;	
-}
-
-	.table_utilidades img{
-		width: 45%;
-		transition: all 300ms;
-	position: relative;	
-	}
-		
-	
-	.table_utilidades img:hover{
-		transform: scale(1.15);
-	}
-
-	.table_musica{
-		margin-left: 25px;
-		
-		margin-right: 20px;
-	}
-
-	.elegiraño{
-		/*display: none;*/
-		padding-left: 130px;
-	}
-
-	/*794px 292px pantalla movil horizontal*/
-	.btn {
-		display: inline-block;
-		
-		padding: 1px 1px 1px 1px;
-		
-		margin: 4px;
-		
-			}
-
-	.categorias{
-		padding-left: 210px;
-	 }
-
-
-	.table_inicio img{
-		display: inline;
-		width: 350px;
-		margin-top: 15px;
-	}
-
+	/*pantalla movil horizontal*/
     .Eliga-any {
     margin-left: 300px;
-	}
+	
+	
     
-	#Div4 {
+}
+    #Div4 {
+	
 	color: #fffefe;
-    text-align: center;    
-}
-
-	/*794px 292px pantalla movil horizontal*/
- 
+    text-align: center;
     
-
-
-.table_campeonatos {
-/*	display: none;*/
-	padding-bottom: 20px;
+}
+ #Div3 {
+    	margin-top: -50px;
+}
+    
 }
 
-}
 @media (min-width: 375px) and (max-width: 667px){
-		/*394px 720px*/ /*pantalla movil*/
-		
+		/*400px 720px*/ /*pantalla movil*/
 		.enlacesmarphones{
-			display: inline;
+			
 			width: 100%;
-			
-			
 		}
-
-		.enlacesmarphones td{
-			font-size: 25px;
-		}
-
-		.enlacesmarphones td span{
-			font-size: 25px;
-		}
-		
-		.enlacesmarphones td h1{
-			font-size: 25px;
-		}
-		
-		.btn {
-			
-			display: inline-block;
-			
-			padding: 4px 4px 4px 4px;
-		
-			margin: 5.7px;
-			
-				}
-
-
-		.fa-stack-2x{
-			
-			margin-left: -25px;
-		}
-
-		table {
-			display: block;
-			overflow-x: none;
-			white-space: normal;
-		}
-
-		
 
 	.table_descargas{
 		/*display: none;*/
 		text-align: center;
 		width: 100%;
 	}
+
+
+	
 		.table_humor{
 		/*display: none;*/
-		width: 360px;
-		margin-left: 10px;
-		
+		width: 95%;
 		text-align: center;
 }
-		/*394px 720px*/ /*pantalla movil*/
+
+
 	.table_musica img{
 		/*Centrar imagen*/
 		display: block;
-		
+		width: 60%;
 		margin-left: auto;
 		margin-right: auto;
 		
 	}
-/*Para aumentar imagen
-.table_musica img{
-		width: 100%;
-	transition: all 300ms;
-	position: relative;	
-	}
 
-	.table_musica img:hover{
-		transform: scale(1.15);
-	}
-*/		/*394px 720px*/ /*pantalla movil*/
-	.table_musica img{
-		width: 60%;
-	transition: all 300ms;
-	position: relative;	
-	}
-
-	.table_musica img:hover{
-		transform: scale(1.15);
-	}
-	.table_musica{
-		margin-left: 25px;
+	.table_campeonatos{
+		display: block;
+		max-width: 395px;
 		
-		margin-right: 20px;
+		overflow-x: auto;
+		white-space: nowrap;
 	}
 
-
-		.table_utilidades{
-		margin-left: 30px;
-		width: 370px;	
-}
-
-		/*394px 720px*/ /*pantalla movil*/
-	 	
 	.table_calendario {
 	/*display: none;*/
-	width: 380px;
+	width: 395px;
 	padding-left: 10px;
+	
 	}
 
-	.table_utilidades img{
-		width: 90%;
-		transition: all 300ms;
-	position: relative;	
-	}
-		/*394px 720px*/ /*pantalla movil*/
-	.table_utilidades img:hover{
-		transform: scale(1.15);
-	}
 
 	.table_inicio img{
 		display: inline;
@@ -4852,6 +4329,10 @@ table{
 		margin-top: 15px;
 	}
 	
+	
+
+
+
 	.categorias{
 		padding-left: 50px;
 	 }
@@ -4864,169 +4345,41 @@ table{
 		display: none;
 	}
 
-	/*394px 720px*/ /*pantalla movil*/    
+        
     .Eliga-any {
-    margin-left: 94px;   
+    margin-left: 94px;
+    
+   
 }
-
-    #Div4 {	
-	color: #fffefe;
-    text-align: center;	    
-}
- 
+    #Div4 {
 	
+	color: #fffefe;
+    text-align: center;
+    
+}
+ #Div3 {
+    	margin-top: -50px;
+}
     
 }
 
+
+
 @media (min-width: 100px) and (max-width: 374px){
-  		/*Redmi  355px X 618px */
-		  .enlacesmarphones{
-			display: inline;
-			margin-left: 10px;
-			/*width: 365px;*/
-			width: 100%;
-		}
-		  
-
-		  .btn {
-			
-			display: inline-block;
-			
-			padding: 1px 1px 1px 1px;
-			
-			margin: 4px;
-			
-				}
-
-
-
-		.elegiraño{
-			/*display: none;*/
-			padding-left: 120px;
-		}
-
-		.fa-stack-2x{
-			
-			margin-left: -30px;
-		}
-
-
-		  table {
-			display: block;
-			overflow-x: none;
-			white-space: normal;
-		}
-
-
-		
-
-	.table_descargas{
-		/*display: none;*/
-		text-align: center;
-		width: 100%;
-	}
-
-
-	/*Redmi  355px X 618px */
-		.table_humor{
-		/*display: none;*/
-		width: 360px;
-		margin-left: 10px;
-		
-		text-align: center;
-}
-
-
-	.table_musica img{
-		/*Centrar imagen*/
-		display: block;
-		
-		margin-left: auto;
-		margin-right: auto;
-		
-	}
-
-	.table_musica img{
-		width: 60%;
-	transition: all 300ms;
-	position: relative;	
-	}
-		/*Redmi  355px X 618px */
-	.table_musica img:hover{
-		transform: scale(1.15);
-	}
-	.table_musica{
-		margin-left: 25px;
-		margin-right: 20px;	
-	}
-
-
-		.table_utilidades{
-		margin-left: 30px;
-		width: 330px;	
-}
-
-
-
-
-
+    /*no*/
 	
 	
-		/*Redmi  355px X 618px */
-	.table_calendario {
-	/*display: none;*/
-	width: 345px;
-	padding-left: 10px;
-	
-	}
-
-	.table_utilidades img{
-		width: 90%;
-		transition: all 300ms;
-	position: relative;	
-	}
-
-
-	.table_utilidades img:hover{
-		transform: scale(1.15);
-	}
-
-	.table_inicio img{
-		display: inline;
-		width: 350px;
-		margin-top: 15px;
-	}
-		/*Redmi  355px X 618px */
-	.categorias{
-		padding-left: 10px;
-	 }
-	 
-	 .link_enlaces{
-		display: none;
-	 }
-
-	.table_responsive{
-		display: none;
-	}
-       
-    .Eliga-any {
-    margin-left: 94px;   
-}
-    #Div4 {	
-	color: #fffefe;
-    text-align: center;    
-}
-
+	.Eliga-any {
+    margin-left: 100px;
      
-
-#jumpMenu{
-	
-	width: 95%;
-	margin: 20px;
-	margin-left: 10px;	
-	}
-
+    
 }
-
-
-
+    #Div4 {
+	
+	color: #fffefe;
+    text-align: center;
+    
+}
+ #Div3 {
+    	margin-top: -50px;
+}
