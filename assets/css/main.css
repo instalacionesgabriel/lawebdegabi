@@ -2,6 +2,51 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
+.active-depor {
+	background-color:rgba(181, 48, 48, 0.97);
+	
+}
+
+
+ul.tabs {
+	
+	margin: 5px;
+	padding-top: 0px;
+	width: 100%;
+	background: #fff;
+	list-style: none;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+ul.tabs a {
+	
+	border: 1px solid #000;
+}
+
+
+ul.tabs a:hover{
+
+	background-color:#4682B4;
+}
+
+
+ul.tabs li {
+width: 20%;
+/*	display: none;*/
+}
+
+ul.tabs li a {
+color: rgb(53, 166, 25);
+text-decoration: none;
+font: 14px Helvetica, Sans-Serif;
+text-align: center;
+display: block;
+padding: 5px 0px;
+/*font: bold 13px Helvetica, Sans-Serif; te poner la fuente en negrita*/
+}
+
+
 
 
 /*
@@ -4278,6 +4323,11 @@ table{
 
 @media (min-width: 375px) and (max-width: 667px){
 		/*400px 720px*/ /*pantalla movil*/
+		
+		.enlacesmarphones td{
+			font-size: 25px;
+		}
+		
 		.enlacesmarphones{
 			
 			width: 100%;
