@@ -3862,10 +3862,7 @@ table{
 	   text-align: center;
 	   
    }
-	#Div3 {
-		   margin-top: -50px;
-   }
-	   
+		   
    }
    /*7-1920X1080*/
 
@@ -3885,9 +3882,6 @@ table{
     text-align: center;
     
 }
- #Div3 {
-    	margin-top: -50px;
-}
     
 }
 /*7-1920X1080*/
@@ -3905,9 +3899,7 @@ table{
     text-align: center;
     
 }
- #Div3 {
-    	margin-top: -50px;
-}
+ 
     
 }
 /*6-1680x1050*/
@@ -3943,9 +3935,6 @@ table{
 	color: #fffefe;
     text-align: center;
     
-}
- #Div3 {
-    	margin-top: -50px;
 }
     
     
@@ -4209,9 +4198,7 @@ table{
     text-align: center;
     
 }
- #Div3 {
-    	margin-top: -50px;
-}
+ 
     
 }
 
@@ -4302,8 +4289,29 @@ table{
 }
 
 @media (min-width: 668px) and (max-width: 1279px){
-	/*pantalla movil horizontal*/
-    .Eliga-any {
+	/*pantalla movil horizontal 779 X 284*/
+	.table_campeonatos{
+		display: block;
+		max-width: 710px;
+		
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+
+	.categorias{
+        padding-left: 210px;
+		width: 100%;
+	}
+
+
+    .table_inicio img{
+		display: inline;
+		width: 430px;
+		margin-top: 25px;
+	}
+	
+	
+	.Eliga-any {
     margin-left: 300px;
 	
 	
@@ -4316,7 +4324,8 @@ table{
     
 }
  #Div3 {
-    	margin-top: -50px;
+    	margin-top: 0px;
+		margin-bottom: 50px;
 }
     
 }
@@ -4333,6 +4342,19 @@ table{
 			width: 100%;
 		}
 
+		.table_utilidades{
+			width: 350px;
+			margin-left: 30px;	
+		}
+
+		.table_utilidades img{
+			width: 250px;
+		}
+
+		.table_utilidades img:hover{
+			width: 280px;
+		}
+
 	.table_descargas{
 		/*display: none;*/
 		text-align: center;
@@ -4343,11 +4365,18 @@ table{
 	
 		.table_humor{
 		/*display: none;*/
-		width: 95%;
+		padding: 35px;
+		width: 430px;
 		text-align: center;
 }
 
+		.table_musica{
+			
+			margin-left: 50px;
+		width: 330px;
+		text-align: center;
 
+}
 	.table_musica img{
 		/*Centrar imagen*/
 		display: block;
@@ -4407,9 +4436,6 @@ table{
     text-align: center;
     
 }
- #Div3 {
-    	margin-top: -50px;
-}
     
 }
 
@@ -4430,6 +4456,4 @@ table{
     text-align: center;
     
 }
- #Div3 {
-    	margin-top: -50px;
-}
+} 
