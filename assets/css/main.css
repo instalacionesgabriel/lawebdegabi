@@ -4448,7 +4448,8 @@ table{
 
 
 @media (min-width: 100px) and (max-width: 374px){
-    /*Redmi 9 340px 480px*/
+    /*Redmi 9 340px 600px*/
+	
 
 	.table_descargas{
 		width: 350px;
@@ -4500,10 +4501,14 @@ table{
 
 
 	.enlacesmarphones td{
-		font-size: 17px;
+		font-size: 16px;
 	}
 	
+	
+	
 	.enlacesmarphones{
+
+		
 		/*Lo de abajo quita la barra de desplazamiento*/
 		overflow-x: hidden;
   color:black;
@@ -4512,7 +4517,7 @@ table{
   width:100%;
   margin: 0px;
   padding: 0px;
-  padding-top: -1000px;
+  
 
 	}
 
