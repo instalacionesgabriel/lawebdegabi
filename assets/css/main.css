@@ -4333,6 +4333,12 @@ table{
 @media (min-width: 375px) and (max-width: 667px){
 		/*400px 720px*/ /*pantalla movil*/
 		
+
+		.secciones h1{
+		width: 370px;
+		margin: 5px;
+}
+
 		.enlacesmarphones td{
 			font-size: 25px;
 		}
@@ -4450,6 +4456,12 @@ table{
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+	.secciones h1{
+		width: 300px;
+		margin: 5px;
+}
+
+
 	ul.tabs li {
 		width: 65px;
 	/*		margin: auto;*/
