@@ -8,7 +8,7 @@ table {
 	width: 100%;
 	margin: 0px;
 	padding: 5px;
-	margin-top: 20px;
+	margin-top: 0px;
 	border-collapse: collapse;
 	border-spacing: 0px;
 	font-size: 13px;
@@ -121,7 +121,8 @@ table th {
 
 #Div3 p{
 margin: 5px;
-    margin-top: 80px;
+    margin-top: 30px;
+	margin-bottom: 40px;
    
 		font-size: 1.8em;
 	cursor:default;
@@ -158,6 +159,7 @@ margin: 5px;
     
 	font-size: 1.8em;
 	margin: 0px;
+	padding-top: 10px;
 	text-align: center;
 	color: #fffefe;
 

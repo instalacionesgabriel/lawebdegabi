@@ -1,6 +1,9 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
+
+
+
 /*
 	Arcana by HTML5 UP
 	html5up.net | @ajlkn
@@ -3251,14 +3254,37 @@ table{
 
 @media (min-width: 668px) and (max-width: 1279px){
 	/*pantalla movil horizontal*/
-
+	.elegiraño{
+		display: none;
+	}
  
 
 }
 /*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
+@media (min-width: 668px) and (max-width: 1279px){
+	/*pantalla movil horizontal 779 X 284*/
+
+
+}
+
+
+
 @media (min-width: 375px) and (max-width: 667px){
 	/*pantalla movil*/
+	.elegiraño{
+		margin: 160px;
+		margin-top: -200px;
+	}
+
+	.elegircircuito{
+		padding-left: 150px;
+	}
 	
+	.table_circuito{
+		display: none;
+	}
+
+
 	.table_pantalla td img{
 		/*centrar imagen
 		display: block;
@@ -3287,3 +3313,5 @@ table{
 
 	}
     
+
+

@@ -22,7 +22,6 @@ ul.tabs {
 }
 
 
-
 ul.tabs a {
 	
 	border: 1px solid #000;
@@ -4170,10 +4169,6 @@ table{
     
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
-
-	.elegiraño{
-		padding-left: 540px;
-	}
 	.categorias{
         
 		width: 100%;
@@ -4343,10 +4338,6 @@ table{
 @media (min-width: 375px) and (max-width: 667px){
 		/*400px 720px*/ /*pantalla movil*/
 
-		.elegiraño{
-			padding-left: 150px;
-		}
-
 		
 		.centrado{
 			width: 350px;
@@ -4405,8 +4396,8 @@ table{
 
 	.table_descargas{
 		/*display: none;*/
-		padding-left: 150px;
-		
+		margin: 10px;
+		width: 380px;
 	}
 
 	.table_descargas h1{
@@ -4419,6 +4410,7 @@ table{
 		width: 430px;
 		text-align: center;
 }
+	
 		
 
 	.table_campeonatos{
