@@ -4449,8 +4449,38 @@ table{
 
 
 @media (min-width: 100px) and (max-width: 374px){
-    /*Redmi 9 340px 600px*/
+    /*Redmi 9 340px 604px*/
+	ul.tabs li {
+		width: 65px;
+	/*		margin: auto;*/
 	
+			}
+
+
+	.table_campeonatos{
+		display: block;
+		max-width: 330px;
+		
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	#Div3 {
+    	margin-top: 0px;
+		margin-bottom: 40px;
+}
+
+.table_calendario{
+	width: 315px;
+	margin-left: 10px;
+}
+
+
+	.categorias{
+        padding-left: 5px;
+		width: 100%;
+	}
+
+
 	.table_inicio img{
 		display: inline;
 		width: 320px;
