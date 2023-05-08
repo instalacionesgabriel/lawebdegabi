@@ -4299,8 +4299,18 @@ table{
 
 }
 
-@media (min-width: 668px) and (max-width: 1279px){
-	/*pantalla movil horizontal 779 X 284*/
+
+@media (min-width: 668px) and (max-width: 669px){
+		/*pantalla movil horizontal 779 X 284*/
+
+	.centrado{
+		width: 650px;
+	}
+
+	.table_podios_españoles {
+		width: 680px;
+		margin-left: 30px;
+		}
 
 	.table_musica{
 		display: inline;
@@ -4352,11 +4362,12 @@ table{
 		margin-left: 200px;
 		
 	}
+	
 
 	.enlacesmarphones{
 		display: none;
 	}
-}
+
 
 	.table_responsive {
 		
