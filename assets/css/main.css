@@ -4421,8 +4421,16 @@ table{
 @media (min-width: 375px) and (max-width: 667px){
 		/*400px 720px*/ /*pantalla movil 459*705*/
 
+
+		#Div2{
+			text-align: center;
+			font-size: 1.2em;
+			margin: 10px;
+			padding-bottom: 10px;
+			}
+
 		.elegiraño{
-			padding-left: 150px;
+			padding-left: 105px;
 		}
 
 		
