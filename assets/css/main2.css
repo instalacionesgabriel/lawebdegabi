@@ -3237,10 +3237,18 @@ table{
 		width: 200px;
 
 	}
+
+	.elegircircuito{
+		padding-left: 520px;
+	}
 }
 
 @media screen and (max-width: 1280px) {
 	   /*Pantalla Asus*/
+
+	   .elegircircuito{
+		padding-left: 420px;
+	}
  
 	   .table_pantalla td img{
 		/*centrar imagen
