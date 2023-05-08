@@ -4311,7 +4311,7 @@ table{
 }
 
 
-@media (min-width: 668px) and (max-width: 669px){
+@media (min-width: 668px) and (max-width: 800px){
 		/*pantalla movil horizontal 779 X 284*/
 
 	.centrado{
@@ -4416,6 +4416,8 @@ table{
 	
     
 }
+
+	
     #Div4 {
 	
 	color: #fffefe;
