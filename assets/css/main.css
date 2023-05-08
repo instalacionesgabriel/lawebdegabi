@@ -4476,6 +4476,8 @@ table{
 		
 		.table_musica{
 			display: inline;
+			width: 350px;
+			margin-left: 35px;
 		}
 
 		.table_musica a img{
@@ -4502,7 +4504,7 @@ table{
 
 	.table_descargas{
 		/*display: none;*/
-		padding-left: 150px;
+		padding-left: 125px;
 		
 		
 	}
@@ -4577,6 +4579,17 @@ table{
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+		.botonera{
+			padding-right: 10px;
+		}
+
+	.table_podios_españoles{
+		margin: 10px;
+		width: 315px;
+
+	}
+
+
 	.secciones h1{
 		width: 300px;
 		margin: 5px;
@@ -4615,8 +4628,7 @@ table{
 
 
 	.table_inicio img{
-		/*display: inline;*/
-		display: none;
+		display: inline;
 		width: 320px;
 		margin-top: 40px;
 	}

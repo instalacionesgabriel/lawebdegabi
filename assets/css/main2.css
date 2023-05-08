@@ -3309,7 +3309,7 @@ table{
 
 
 @media (min-width: 100px) and (max-width: 374px){
-    /*Pantalla Redmi9*/
+    /*Redmi 9 340px 604px*/
 	
 	.table_pantalla td img{
 		/*centrar imagen
@@ -3317,6 +3317,10 @@ table{
 		margin: auto;*/
 		width: 50px;
 
+	}
+
+	.elegircircuito{
+		padding-left: 110px;
 	}
 
 	}
