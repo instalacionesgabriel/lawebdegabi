@@ -3315,3 +3315,15 @@ table{
     
 
 
+
+
+	
+
+	@media (min-width: 668px) and (max-width: 669px){
+		/*pantalla movil  redmi horizontal 648 X 268*/
+		.elegircircuito{
+			padding-left: 230px;
+		}
+
+		
+	}
