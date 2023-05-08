@@ -4170,10 +4170,14 @@ table{
     
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
-
 	
+	.elegircircuito{
+		
+		padding-left: 140px;
+	}
 	.elegiraño{
-		padding-left: 540px;
+		
+		padding-left: 140px;
 	}
 	.categorias{
         
@@ -4215,6 +4219,13 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
+	
+
+	.elegiraño{
+		
+		padding-left: 120px;
+	}
+
 	div#InicioAncho #slider {
 		border-radius: 10px;
 		border: 2px solid #000;
