@@ -4581,6 +4581,15 @@ table{
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+	#Div2{
+		text-align: center;
+		font-size: 1.2em;
+		margin: 10px;
+		padding-bottom: 10px;
+		}
+
+
+
 		.botonera{
 			padding-right: 10px;
 		}
