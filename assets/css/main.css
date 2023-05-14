@@ -4170,6 +4170,14 @@ table{
     
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
+
+	#Div2{
+		text-align: center;
+		font-size: 1.2em;
+		margin: 0px;
+		padding-bottom: 20px;
+		}
+
 	
 	.elegircircuito{
 		
@@ -4259,7 +4267,7 @@ table{
 		text-align: center;
 		font-size: 1.2em;
 		margin: 0px;
-		padding-bottom: 0px;
+		padding-bottom: 20px;
 		}
 		table{
 			font-size: 15px;
