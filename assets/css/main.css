@@ -4227,7 +4227,13 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
+
+	ul.tabs li a {
+		padding: 10px 10px;
+		
+	}
 	
+
 
 	.elegiraño{
 		
