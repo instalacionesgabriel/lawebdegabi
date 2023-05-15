@@ -4723,6 +4723,18 @@ margin-left: 400px;
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+
+
+	.enlacesmarphones td{
+		font-size: 24px;
+	}
+	
+	.enlacesmarphones{
+		margin-top: -100px;
+		width: 100%;
+	}
+
+
 	.Titulo-categorias{
 		text-align: center;
 		background: #004a60;
@@ -4845,6 +4857,9 @@ margin-left: 400px;
 		display: none;
 	}
 
+
+	
+
 	.secciones h1{
 		width: 300px;
 		margin: 5px;
@@ -4872,26 +4887,11 @@ margin-left: 400px;
 
 
 
-	.enlacesmarphones td{
-		font-size: 16px;
-	}
 	
 	
 	
-	.enlacesmarphones{
-
-		
-		/*Lo de abajo quita la barra de desplazamiento*/
-		overflow-x: hidden;
-  color:black;
-  font-family:'Opens Sans',helvetica;  
-  height:100%;
-  width:100%;
-  margin: 0px;
-  padding: 0px;
-  
-
-	}
+	
+	
 
 
 	
