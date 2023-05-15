@@ -181,6 +181,18 @@ ul.tabs li a {
 	/*	display: none;*/
 	}
 	
-	
+	ul.tabs {
+		margin-left: 5px;
+	}
+
+}
+
+@media (min-width: 100px) and (max-width: 374px){
+    /*Redmi 9 340px 604px*/
+
+	ul.tabs {
+		margin-left: 25px;
+	}
+
 
 }
