@@ -4723,6 +4723,19 @@ margin-left: 400px;
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+	.Titulo-categorias{
+		text-align: center;
+		background: #004a60;
+		font-size: 20px;
+		margin: 0px;
+		margin-bottom: 5px;
+		margin-top: 10px;	
+		color: white;
+		width: 100%;
+	}
+	
+	
+	
 	.centrado{
 		width: 310px;
 	}
@@ -4745,7 +4758,7 @@ margin-left: 400px;
 
 
 .table_pantalla{
-	width: 320px;
+	width: 325px;
 }
 
 	.table_podios_españoles{
