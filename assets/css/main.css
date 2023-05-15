@@ -4616,8 +4616,8 @@ table{
 	
 		.table_humor{
 		/*display: none;*/
-		padding: 35px;
-		width: 330px;
+		padding: 60px;
+		width: 425px;
 		text-align: center;
 }
 		
@@ -4658,7 +4658,9 @@ table{
 		
 	}
 
-
+	.table_responsive{
+		display: none;
+	}
 
 	.categorias{
 		padding-left: 30px;
@@ -4668,9 +4670,7 @@ table{
 		display: none;
 	 }
 
-	.table_responsive{
-		display: none;
-	}
+	
 
         
     .Eliga-any {
