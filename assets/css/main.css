@@ -1,7 +1,13 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-
+.table_campeonatos{
+	display: block;
+	width: 800px;px;
+	margin: 5px;
+	overflow-x: auto;
+	white-space: nowrap;
+}
 
 
 
@@ -13,47 +19,6 @@
 }
 
 
-ul.tabs {
-	
-	margin: 5px;
-	padding-top: 0px;
-	width: 100%;
-	background: #fff;
-	list-style: none;
-	display: inline-flex;
-	flex-wrap: wrap;
-}
-
-
-
-ul.tabs a {
-	
-	border: 1px solid #000;
-}
-
-
-
-ul.tabs a:hover{
-
-	background-color:#4682B4;
-}
-
-
-ul.tabs li {
-width: 20%;
-/*	display: none;*/
-}
-
-
-ul.tabs li a {
-color: rgb(53, 166, 25);
-text-decoration: none;
-font: 14px Helvetica, Sans-Serif;
-text-align: center;
-display: block;
-padding: 5px 0px;
-/*font: bold 13px Helvetica, Sans-Serif; te poner la fuente en negrita*/
-}
 
 
 
@@ -3846,12 +3811,7 @@ table{
 	
 
     
-    ul.tabs li {
-	width: 55px;
-/*		margin: auto;*/
-
-		}
-	
+    
 	
 	
 }
@@ -3968,12 +3928,7 @@ table{
     
 }
     
-    ul.tabs li {
-	width: 95px;
-/*		margin: auto;*/
-
-		}
-	
+    
 	
 	
 	header img:hover{
@@ -4183,14 +4138,9 @@ table{
     /*pantalla LG*/
 
 	.Titulo-motos{
-		margin-left: 160px;
+		margin-left: 0px;
 	}
 
-	ul.tabs {
-	
-		margin-left: 160px;
-		width: 890px;
-	}
 
 	
 
@@ -4257,6 +4207,18 @@ table{
 
 }
 
+.table_musica img{
+	width: 250px;
+}
+
+.table_musica img:hover{
+	width: 280px;
+}
+
+
+
+
+
 
 .table_utilidades img{
 	width: 250px;
@@ -4286,9 +4248,14 @@ table{
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
 
+	.Titulo-categorias{
+		margin-left: 30px;
+
+	}
+
 	.table_campeonatos{
 		display: block;
-		max-width: 1000px;
+		width: 770px;
 		margin: 5px;
 		overflow-x: auto;
 		white-space: nowrap;
@@ -4325,6 +4292,16 @@ table{
 
 }
 
+
+
+.table_musica img{
+	width: 150px;
+}
+
+.table_musica img:hover{
+	width: 180px;
+}
+
 .table_utilidades img{
 width: 250px;
 }
@@ -4350,19 +4327,10 @@ margin-left: 400px;
 
 
 	.Titulo-motos{
-		margin-left: 70px;
+		margin-left: 0px;
 	}
 
-	ul.tabs {
 	
-		margin-left: 70px;
-		width: 850px;
-	}
-
-	ul.tabs li a {
-		padding: 10px 10px;
-		
-	}
 	
 
 
@@ -4436,6 +4404,18 @@ margin-left: 400px;
 
 @media (min-width: 668px) and (max-width: 800px){
 		/*pantalla movil horizontal 779 X 284*/
+
+		.Titulo-categorias{
+			text-align: center;
+			background: #004a60;
+			font-size: 20px;
+			margin: 0px;
+			margin-bottom: 5px;
+			margin-top: 10px;	
+			color: white;
+			width: 100%;
+		}
+
 
 	.centrado{
 		width: 650px;
@@ -4560,22 +4540,22 @@ margin-left: 400px;
 			padding-right: 20px;
 		}
 
+		.Titulo-categorias{
+			text-align: center;
+			background: #004a60;
+			font-size: 20px;
+			margin: 0px;
+			margin-bottom: 5px;
+			margin-top: 10px;	
+			color: white;
+			width: 100%;
+		}
+
 		.Titulo-motos{
 			margin-left: 10px;
 		}
 	
-		ul.tabs {
 		
-			margin-left: 10px;
-			width: 390px;
-		}
-		
-
-		ul.tabs li a {
-			padding: 0px 0px;
-			
-		}
-
 
 		#Div2{
 			text-align: center;
@@ -4615,7 +4595,7 @@ margin-left: 400px;
 
 		.table_podios_españoles{
 			margin: 0px;
-			width: 425px;
+			width: 390px;
 
 		}
 		
@@ -4737,18 +4717,7 @@ margin-left: 400px;
 		margin-left: 10px;
 	}
 
-	ul.tabs {
-		
-		margin-left: 10px;
-		width: 340px;
-	}
 	
-
-	ul.tabs li a {
-		padding: 0px 0px;
-		
-	}
-
 
 	#Div2{
 		text-align: center;
@@ -4858,12 +4827,7 @@ margin-left: 400px;
 }
 
 
-	ul.tabs li {
-		width: 65px;
-	/*		margin: auto;*/
 	
-			}
-
 
 	
 	#Div3 {
