@@ -65,10 +65,7 @@ table th {
 	font-size: 13px;
 }
 
-.table_campeonatos{
-	width: 1200px;
-	overflow: auto;
-}
+
 
 .table_movil td{
 	color: black;

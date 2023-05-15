@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
+#navPanel .link:hover {
+	/*Cambiar el color del menu en movil*/
+	background: rgba(181, 48, 48, 0.97);
+	
+}
+
 
 
 /*

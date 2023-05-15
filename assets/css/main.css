@@ -4,6 +4,9 @@
 
 
 
+
+
+
 .active-depor {
 	background-color:rgba(181, 48, 48, 0.97);
 	
@@ -3850,9 +3853,6 @@ table{
 		}
 	
 	
-.Titulo-motos{
-	margin-top: 15px;	
-	}
 	
 }
 
@@ -3862,9 +3862,7 @@ table{
     
     
 
-	.Titulo-motos{
-	margin-top: 15px;	
-	}
+	
 	
 	
     
@@ -3990,12 +3988,7 @@ table{
 	margin-bottom: 46px;
 	}
 	
-	.Titulo-motos{
-	margin-top: auto;
-		font-size: 25px;
-		width:auto;
 	
-}
 
 }
 @media (min-width: 100px) and (max-width: 320px){
@@ -4189,6 +4182,16 @@ table{
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
 
+	.Titulo-motos{
+		margin-left: 160px;
+	}
+
+	ul.tabs {
+	
+		margin-left: 160px;
+		width: 890px;
+	}
+
 	
 
 	#Div2{
@@ -4226,9 +4229,7 @@ table{
 			margin: 40px;
 		}
 
-	.table_movil{
-		display: none;
-	}    
+	    
 	
 	.Eliga-any {
     margin-left: 520px;
@@ -4240,6 +4241,10 @@ table{
 	color: #fffefe;
     text-align: center;
     
+}
+
+.table_movil{
+	display: none;
 }
 
 .table_humor{
@@ -4280,6 +4285,79 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
+
+	.table_campeonatos{
+		display: block;
+		max-width: 1000px;
+		margin: 5px;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+
+
+	table{
+		font-size: 15px;
+	}	
+	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+
+			
+			
+}
+
+
+
+.table_humor{
+	/*display: none;*/
+	padding: 35px;
+	width: 400px;
+	text-align: center;
+
+	
+
+}
+
+.table_utilidades img{
+width: 250px;
+}
+
+.table_utilidades img:hover{
+width: 280px;
+}
+
+
+.table_descargas{
+width: 990px;
+padding: 0px;
+}
+
+.table_descargas h1{
+text-align: center;
+}
+
+.table_descargas a{
+margin-left: 400px;
+
+}
+
+
+	.Titulo-motos{
+		margin-left: 70px;
+	}
+
+	ul.tabs {
+	
+		margin-left: 70px;
+		width: 850px;
+	}
 
 	ul.tabs li a {
 		padding: 10px 10px;
@@ -4328,64 +4406,7 @@ table{
 		margin: 0px;
 		padding-bottom: 20px;
 		}
-		table{
-			font-size: 15px;
-		}	
 		
-		table {
-			display: block;
-			overflow-x: auto;
-			white-space: nowrap;
-		}
-		
-		table tbody {
-			display: table;
-			width: 100%;
-	
-				
-				
-	}
-	.table_campeonatos{
-		display: block;
-		max-width: 960px;
-		
-		overflow-x: auto;
-		white-space: nowrap;
-	}
-
-
-	.table_humor{
-		/*display: none;*/
-		padding: 35px;
-		width: 400px;
-		text-align: center;
-
-		
-
-}
-
-.table_utilidades img{
-	width: 250px;
-}
-
-.table_utilidades img:hover{
-	width: 280px;
-}
-
-
-.table_descargas{
-	width: 990px;
-	padding: 0px;
-}
-
-.table_descargas h1{
-	text-align: center;
-}
-
-.table_descargas a{
-	margin-left: 400px;
-	
-}
 
 	
 	.container.\31 25\25 {
@@ -4535,7 +4556,20 @@ table{
 
 @media (min-width: 375px) and (max-width: 667px){
 		/*400px 720px*/ /*pantalla movil 459*705*/
+		.botonera{
+			padding-right: 20px;
+		}
 
+		.Titulo-motos{
+			margin-left: 10px;
+		}
+	
+		ul.tabs {
+		
+			margin-left: 10px;
+			width: 390px;
+		}
+		
 
 		ul.tabs li a {
 			padding: 0px 0px;
@@ -4575,11 +4609,13 @@ table{
 			width: 100%;
 		}
 
-		
+		.table_pantalla{
+			width: 410px;
+		}
 
 		.table_podios_españoles{
-			margin: 10px;
-			width: 360px;
+			margin: 0px;
+			width: 425px;
 
 		}
 		
@@ -4623,9 +4659,10 @@ table{
 		
 
 	.table_campeonatos{
+		
 		display: block;
-		max-width: 360px;
-		margin: 15px;
+		max-width: 370px;
+		margin: 5px;
 		overflow-x: auto;
 		white-space: nowrap;
 	}
@@ -4645,8 +4682,8 @@ table{
 	}
 	
 	.table_descargas{
-		width: 600px;
-		padding: 80px;
+		width: 450px;
+		padding: 0px;
 	}
 
 	.table_descargas h1{
@@ -4654,7 +4691,7 @@ table{
 	}
 
 	.table_descargas a{
-		margin-left: 150px;
+		margin-left: 10px;
 		
 	}
 
@@ -4692,6 +4729,27 @@ table{
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+	.centrado{
+		width: 310px;
+	}
+
+	.Titulo-motos{
+		margin-left: 10px;
+	}
+
+	ul.tabs {
+		
+		margin-left: 10px;
+		width: 340px;
+	}
+	
+
+	ul.tabs li a {
+		padding: 0px 0px;
+		
+	}
+
+
 	#Div2{
 		text-align: center;
 		font-size: 1.2em;
@@ -4705,9 +4763,14 @@ table{
 			padding-right: 10px;
 		}
 
+
+.table_pantalla{
+	width: 320px;
+}
+
 	.table_podios_españoles{
 		margin: 10px;
-		width: 315px;
+		width: 320px;
 
 	}
 
@@ -4729,11 +4792,10 @@ table{
 	}
 	
 	.table_campeonatos{
-		display: block;
-		max-width: 330px;
-		
-		overflow-x: auto;
-		white-space: nowrap;
+		/*display: none;*/
+		/*display: inline;*/
+		width: 315px;
+		overflow: auto;
 	}
 
 	.table_calendario{
