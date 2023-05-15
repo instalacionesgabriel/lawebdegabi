@@ -532,7 +532,7 @@ header img:hover{
 					.linea {
 						border-top: 1px solid black;
 						height: 2px;
-						max-width: 300px;
+						max-width: 350px;
 						padding: 0;
 						margin: 10px auto 0 auto;
 						padding: 10px;
@@ -2842,6 +2842,9 @@ table{
 		text-decoration: none;
 		font-weight: 600;
 		letter-spacing: -0.025em;
+		width: 270px;
+		height: 55px;
+		
 	}
 
 		input[type="submit"]:hover,
@@ -4265,6 +4268,14 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
+.linea{
+	padding: 10px;
+	width: 700px;
+	margin-left: 350px;
+}
+
+
+
 
 	.Titulo-categorias{
 		margin-left: 30px;
@@ -4337,7 +4348,7 @@ padding: 0px;
 }
 
 .table_descargas h1{
-text-align: center;
+margin-left: 500px;
 }
 
 .table_descargas a{
@@ -4558,6 +4569,16 @@ margin-left: 400px;
 
 @media (min-width: 375px) and (max-width: 667px){
 		/*400px 720px*/ /*pantalla movil 459*705*/
+		.linea {
+			border-top: 1px solid black;
+			height: 2px;
+			max-width: 350px;
+			padding: 0;
+			margin: 10px auto 0 auto;
+			padding: 10px;
+		  }
+
+
 		.botonera{
 			padding-right: 20px;
 		}
@@ -4688,9 +4709,12 @@ margin-left: 400px;
 		padding: 0px;
 	}
 
+	
 	.table_descargas h1{
-		text-align: center;
-	}
+		margin-left: 200px;
+		}
+		
+	
 
 	.table_descargas a{
 		margin-left: 10px;
@@ -4731,6 +4755,16 @@ margin-left: 400px;
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+
+	.linea {
+		border-top: 1px solid black;
+		height: 2px;
+		width: 240px;
+		text-align: center;
+		padding: 0;
+		margin: 10px auto 0 auto;
+		padding: 5px;
+	  }
 
 
 	.enlacesmarphones td{
@@ -4792,11 +4826,11 @@ margin-left: 400px;
 	.table_descargas{
 		
 		width: 400px;
-		padding: 80px;
+		padding: 10px;
 	}
 
 	.table_descargas h1{
-		text-align: center;
+		margin-left: 150px;
 	}
 
 	.table_descargas a{
