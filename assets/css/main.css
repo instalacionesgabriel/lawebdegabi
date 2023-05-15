@@ -4225,10 +4225,11 @@ table{
 
 .table_musica img{
 	width: 250px;
+	transition: all 300ms;
 }
 
 .table_musica img:hover{
-	width: 280px;
+	transform: scale(1.15);
 }
 
 
@@ -4238,10 +4239,11 @@ table{
 
 .table_utilidades img{
 	width: 250px;
+	transition: all 300ms;
 }
 
 .table_utilidades img:hover{
-	width: 280px;
+	transform: scale(1.15);
 }
  
 .table_descargas{
@@ -4312,18 +4314,20 @@ table{
 
 .table_musica img{
 	width: 150px;
+	transition: all 300ms;
 }
 
 .table_musica img:hover{
-	width: 180px;
+	transform: scale(1.15);
 }
 
 .table_utilidades img{
 width: 250px;
+transition: all 300ms;
 }
 
 .table_utilidades img:hover{
-width: 280px;
+	transform: scale(1.15);
 }
 
 
@@ -4450,18 +4454,20 @@ margin-left: 400px;
 
 	.table_musica a img{
 		width: 150px;
+		transition: all 300ms;
 	}
 
 	.table_musica img:hover{
-		width: 200px;	
+		transform: scale(1.15);
 	}
 
 	.table_utilidades img{
 		width: 250px;
+		transition: all 300ms;
 	}
 
 	.table_utilidades img:hover{
-		width: 280px;
+		transform: scale(1.15);
 	}
 
 	.table_utilidades{
@@ -4622,19 +4628,21 @@ margin-left: 400px;
 
 		.table_musica a img{
 			width: 150px;
+			transition: all 300ms;
 		}
 
 		.table_musica img:hover{
-			width: 200px;	
+			transform: scale(1.15);
 		}
 
 
 		.table_utilidades img{
 			width: 250px;
+			transition: all 300ms;
 		}
 
 		.table_utilidades img:hover{
-			width: 280px;
+			transform: scale(1.15);
 		}
 
 		.table_utilidades{
@@ -4826,10 +4834,11 @@ margin-left: 400px;
 	
 	.table_utilidades img{
 		width: 250px;
+		transition: all 300ms;
 	}
 
 	.table_utilidades img:hover{
-		width: 280px;
+		transform: scale(1.15);
 	}
 
 	.table_utilidades{
@@ -4847,10 +4856,11 @@ margin-left: 400px;
 
 	.table_musica a img{
 		width: 150px;
+		transition: all 300ms;
 	}
 
 	.table_musica img:hover{
-		width: 200px;	
+		transform: scale(1.15);	
 	}
 
 	.table_responsive{
@@ -4927,10 +4937,11 @@ margin-left: 400px;
 
 	.table_musica a img{
 		width: 150px;
+		transition: all 300ms;
 	}
 
 	.table_musica img:hover{
-		width: 200px;	
+		transform: scale(1.15);
 	}
 
 
@@ -4962,10 +4973,11 @@ margin-left: 400px;
 
 		.table_utilidades img{
 			width: 250px;
+			transition: all 300ms;
 		}
 
 		.table_utilidades img:hover{
-			width: 280px;
+			transform: scale(1.15);
 		}
 
 		.table_utilidades{
