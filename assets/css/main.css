@@ -4271,7 +4271,7 @@ table{
 .linea{
 	padding: 10px;
 	width: 700px;
-	margin-left: 350px;
+	text-align: center;
 }
 
 
@@ -4348,11 +4348,11 @@ padding: 0px;
 }
 
 .table_descargas h1{
-margin-left: 500px;
+margin-left: 450px;
 }
 
 .table_descargas a{
-margin-left: 400px;
+margin-left: 350px;
 
 }
 
@@ -4567,6 +4567,11 @@ margin-left: 400px;
     
 }
 
+
+
+
+
+
 @media (min-width: 375px) and (max-width: 667px){
 		/*400px 720px*/ /*pantalla movil 459*705*/
 		.linea {
@@ -4692,7 +4697,7 @@ margin-left: 400px;
 
 	.table_calendario {
 	/*display: none;*/
-	width: 385px;
+	width: 360px;
 	padding-left: 15px;
 	
 	}
@@ -4749,6 +4754,9 @@ margin-left: 400px;
 }
     
 }
+
+
+
 
 
 
@@ -4846,7 +4854,9 @@ margin-left: 400px;
 	}
 
 	.table_calendario{
-		width: 315px;
+		/*display: none;*/
+		/*315*/
+		width: 320px;
 		margin-left: 10px;
 	}
 
@@ -5058,3 +5068,6 @@ margin-left: 400px;
 		display: none;
 	}
 }
+
+
+

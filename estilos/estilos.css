@@ -22,7 +22,9 @@ body {
 .ir-arriba {
 	display:none;
 	padding:20px;
-	background:#024959;
+	/*background:#024959;*/
+	background: white;
+	
 	font-size:20px;
 	color:#fff;
 	cursor:pointer;
@@ -32,6 +34,10 @@ body {
 	z-index: 2;/*Para que quede el boton arriba pones z-index: 2; y 1 para quede debajo*/
 }
 
+.ir-arriba:hover{
+	background: rgb(211, 208, 208);
+
+}
 
 @font-face {
   font-family: 'icomoon';
