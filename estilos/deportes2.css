@@ -189,6 +189,12 @@ ul.tabs li a {
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+	ul.tabs li {
+	
+		width: 13.8%;
+	/*	display: none;*/
+	}
+
 
 	ul.tabs {
 		margin-left: 5px;
