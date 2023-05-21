@@ -4738,6 +4738,7 @@ margin-left: 350px;
 	}
 
 	.categorias{
+		display: none;
 		padding-left: 30px;
 	 }
 	 
