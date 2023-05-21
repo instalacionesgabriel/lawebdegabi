@@ -428,7 +428,7 @@ header img:hover{
 	
 		}
 	
-		.moto{	
+.moto{	
 		column-count: 3; /*Sirve para poner el texto en columna Por defecto seria 2*/
 		-webkit-column-count: 3; /*Sirve para poner el texto en columna Por defecto seria 2*/
 		-webkit-column-rule: 0.5px dotted red;
@@ -4156,6 +4156,8 @@ table{
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
 
+	
+
 	.Titulo-motos{
 		margin-left: 0px;
 	}
@@ -4573,7 +4575,11 @@ margin-left: 350px;
 
 
 @media (min-width: 375px) and (max-width: 667px){
-		/*400px 720px*/ /*pantalla movil 459*705*/
+		/*400px 720px*/ /*pantalla movil 459*705*/	
+		.moto{
+			margin-right: 15px;
+		}
+		
 		.linea {
 			border-top: 1px solid black;
 			height: 2px;
@@ -4636,7 +4642,8 @@ margin-left: 350px;
 		}
 
 		.table_pantalla{
-			width: 410px;
+			margin: 5px;
+			width: 420px;
 		}
 
 		.table_podios_españoles{
