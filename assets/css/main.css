@@ -2,31 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
-.btn_transparent{
-	cursor: pointer;
-	border: 3px solid transparent;
-	background-color: transparent;
-	color: transparent;
-	padding: 10px 10px;
-}
-
-#btn_transparent a{
-		
-	color: transparent;	
-}
-
-
-
-.table_campeonatos{
-	display: block;
-	width: 800px;px;
-	margin: 5px;
-	overflow-x: auto;
-	white-space: nowrap;
-}
-
-
-
 
 
 .active-depor {
@@ -35,6 +10,47 @@
 }
 
 
+ul.tabs {
+	
+	margin: 5px;
+	padding-top: 0px;
+	width: 100%;
+	background: #fff;
+	list-style: none;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+
+
+ul.tabs a {
+	
+	border: 1px solid #000;
+}
+
+
+
+ul.tabs a:hover{
+
+	background-color:#4682B4;
+}
+
+
+ul.tabs li {
+width: 20%;
+/*	display: none;*/
+}
+
+
+ul.tabs li a {
+color: rgb(53, 166, 25);
+text-decoration: none;
+font: 14px Helvetica, Sans-Serif;
+text-align: center;
+display: block;
+padding: 5px 0px;
+/*font: bold 13px Helvetica, Sans-Serif; te poner la fuente en negrita*/
+}
 
 
 
@@ -63,7 +79,6 @@ text-align: center;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		
 		/*color: #37c0fb;*/
 		
 		/*color: #666;*/
@@ -75,7 +90,6 @@ text-align: center;
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
-		
 	}
 
 	body {
@@ -428,7 +442,7 @@ header img:hover{
 	
 		}
 	
-.moto{	
+		.moto{	
 		column-count: 3; /*Sirve para poner el texto en columna Por defecto seria 2*/
 		-webkit-column-count: 3; /*Sirve para poner el texto en columna Por defecto seria 2*/
 		-webkit-column-rule: 0.5px dotted red;
@@ -532,7 +546,7 @@ header img:hover{
 					.linea {
 						border-top: 1px solid black;
 						height: 2px;
-						max-width: 350px;
+						max-width: 200px;
 						padding: 0;
 						margin: 10px auto 0 auto;
 						padding: 10px;
@@ -2842,9 +2856,6 @@ table{
 		text-decoration: none;
 		font-weight: 600;
 		letter-spacing: -0.025em;
-		width: 270px;
-		height: 55px;
-		
 	}
 
 		input[type="submit"]:hover,
@@ -3005,7 +3016,6 @@ table{
 				#nav > ul > li:hover a {
 					color: #fff;
 					
-					
 
 					
 					
@@ -3036,7 +3046,6 @@ table{
 					#nav > ul > li.current a {
 						color: #fff;
 						
-						
 					}
 
 				#nav > ul > li.active a {
@@ -3046,16 +3055,10 @@ table{
 
 				#nav > ul > li.active.current:before {
 					opacity: 0;
-					
 				}
 
 				#nav > ul > li > ul {
 					display: none;
-				}
-
-
-				#Nav li a.link.depth-0{
-					background-color: #1eb8fb;
 				}
 
 /* Dropotron */
@@ -3588,15 +3591,7 @@ table{
 					line-height: 48px;
 					padding: 0 1em 0 1em;
 					text-decoration: none;
-					
 				}
-
-				#navPanel .link:hover {
-					/*Cambiar el color del menu en movil*/
-					background: rgba(181, 48, 48, 0.97);
-					
-				}
-
 
 					#navPanel .link:first-child {
 						border-top: 0;
@@ -3830,8 +3825,16 @@ table{
 	
 
     
-    
+    ul.tabs li {
+	width: 55px;
+/*		margin: auto;*/
+
+		}
 	
+	
+.Titulo-motos{
+	margin-top: 15px;	
+	}
 	
 }
 
@@ -3841,7 +3844,9 @@ table{
     
     
 
-	
+	.Titulo-motos{
+	margin-top: 15px;	
+	}
 	
 	
     
@@ -3947,7 +3952,12 @@ table{
     
 }
     
-    
+    ul.tabs li {
+	width: 95px;
+/*		margin: auto;*/
+
+		}
+	
 	
 	
 	header img:hover{
@@ -3962,7 +3972,12 @@ table{
 	margin-bottom: 46px;
 	}
 	
+	.Titulo-motos{
+	margin-top: auto;
+		font-size: 25px;
+		width:auto;
 	
+}
 
 }
 @media (min-width: 100px) and (max-width: 320px){
@@ -3991,6 +4006,7 @@ table{
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
+	
 	
 	}
 
@@ -4090,7 +4106,8 @@ table{
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
-	}
+		
+}
 
 }
 
@@ -4103,22 +4120,27 @@ table{
 	font-size: 1.2em;
 	margin: 0px;
 	padding-bottom: 0px;
-	}
+	
+}
 	
 	
 	table {
 		display: block;
 		overflow-x: auto;
 		white-space: nowrap;
+		display: none;
+
 	}
 	
 	table tbody {
 		display: table;
 		width: 100%;
-
-			
+		display: none;
+		
 			
 }
+
+
 
 	
 }
@@ -4156,30 +4178,16 @@ table{
 @media (min-width: 1665px) and (max-width: 1680px){
     /*pantalla LG*/
 
-	
-
-	.Titulo-motos{
-		margin-left: 0px;
-	}
-
-
-	
-
 	#Div2{
 		text-align: center;
 		font-size: 1.2em;
 		margin: 0px;
-		padding-bottom: 20px;
+		padding-bottom: 12px;
+		
 		}
-
 	
-	.elegircircuito{
-		
-		padding-left: 140px;
-	}
 	.elegiraño{
-		
-		padding-left: 140px;
+		padding-left: 540px;
 	}
 	.categorias{
         
@@ -4200,7 +4208,9 @@ table{
 			margin: 40px;
 		}
 
-	    
+	.table_movil{
+		display: none;
+	}    
 	
 	.Eliga-any {
     margin-left: 520px;
@@ -4213,165 +4223,12 @@ table{
     text-align: center;
     
 }
-
-.table_movil{
-	display: none;
-}
-
-.table_humor{
-	/*display: none;*/
-	padding: 35px;
-	width: 430px;
-	text-align: center;
-
-	
-
-}
-
-.table_musica img{
-	width: 250px;
-	transition: all 300ms;
-}
-
-.table_musica img:hover{
-	transform: scale(1.15);
-}
-
-
-
-
-
-
-.table_utilidades img{
-	width: 250px;
-	transition: all 300ms;
-}
-
-.table_utilidades img:hover{
-	transform: scale(1.15);
-}
  
-.table_descargas{
-	width: 1250px;
-	padding: 0px;
-}
-
-.table_descargas h1{
-	text-align: center;
-}
-
-.table_descargas a{
-	margin-left: 500px;
-	
-}    
-
-
+    
 }
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
-.linea{
-	padding: 10px;
-	width: 700px;
-	text-align: center;
-}
-
-
-
-
-	.Titulo-categorias{
-		margin-left: 30px;
-
-	}
-
-	.table_campeonatos{
-		display: block;
-		width: 770px;
-		margin: 5px;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
-
-
-	table{
-		font-size: 15px;
-	}	
-	
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-	}
-	
-	table tbody {
-		display: table;
-		width: 100%;
-
-			
-			
-}
-
-
-
-.table_humor{
-	/*display: none;*/
-	padding: 35px;
-	width: 400px;
-	text-align: center;
-
-	
-
-}
-
-
-
-.table_musica img{
-	width: 150px;
-	transition: all 300ms;
-}
-
-.table_musica img:hover{
-	transform: scale(1.15);
-}
-
-.table_utilidades img{
-width: 250px;
-transition: all 300ms;
-}
-
-.table_utilidades img:hover{
-	transform: scale(1.15);
-}
-
-
-.table_descargas{
-width: 990px;
-padding: 0px;
-}
-
-.table_descargas h1{
-margin-left: 450px;
-}
-
-.table_descargas a{
-margin-left: 350px;
-
-}
-
-
-	.Titulo-motos{
-		margin-left: 0px;
-	}
-
-	
-	
-
-
-	.elegiraño{
-		
-		padding-left: 120px;
-	}
-
 	div#InicioAncho #slider {
 		border-radius: 10px;
 		border: 2px solid #000;
@@ -4405,10 +4262,33 @@ margin-left: 350px;
 		text-align: center;
 		font-size: 1.2em;
 		margin: 0px;
-		padding-bottom: 20px;
+		padding-bottom: 12px;
+		
+		}
+		table{
+			font-size: 15px;
+		}	
+		
+		table {
+			display: block;
+			overflow-x: auto;
+			white-space: nowrap;
 		}
 		
-
+		table tbody {
+			display: table;
+			width: 100%;
+	
+				
+				
+	}
+	.table_campeonatos{
+		display: block;
+		max-width: 960px;
+		
+		overflow-x: auto;
+		white-space: nowrap;
+	}
 	
 	.container.\31 25\25 {
 		width: 100%;
@@ -4434,98 +4314,8 @@ margin-left: 350px;
 
 }
 
-
-@media (min-width: 668px) and (max-width: 800px){
-		/*pantalla movil horizontal 779 X 284*/
-
-		.Titulo-categorias{
-			text-align: center;
-			background: #004a60;
-			font-size: 20px;
-			margin: 0px;
-			margin-bottom: 5px;
-			margin-top: 10px;	
-			color: white;
-			width: 100%;
-		}
-
-
-	.centrado{
-		width: 650px;
-	}
-
-	.table_podios_españoles {
-		width: 680px;
-		margin-left: 30px;
-		}
-
-	.table_musica{
-		display: inline;
-		width: 700px;
-		margin-left: 55px;
-	}
-
-	.table_musica a img{
-		width: 150px;
-		transition: all 300ms;
-	}
-
-	.table_musica img:hover{
-		transform: scale(1.15);
-	}
-
-	.table_utilidades img{
-		width: 250px;
-		transition: all 300ms;
-	}
-
-	.table_utilidades img:hover{
-		transform: scale(1.15);
-	}
-
-	.table_utilidades{
-		width: 720px;
-		margin-left: 30px;	
-	}
-
-	.table_humor{
-		/*display: none;*/
-		padding: 35px;
-		width: 750px;
-		text-align: center;
-
-		
-
-}
-
-	.table_descargas{
-		width: 750px;
-		padding: 80px;
-	}
-
-	.table_descargas h1{
-		text-align: center;
-	}
-
-	.table_descargas a{
-		margin-left: 200px;
-		
-	}
-	
-
-	.enlacesmarphones{
-		display: none;
-	}
-
-
-	.table_responsive {
-		
-		width: 720px;
-		height: 1200px;
-		
-		/*overflow: scroll;*/
-	}
-
+@media (min-width: 668px) and (max-width: 1279px){
+	/*pantalla movil horizontal 779 X 284*/
 	.table_campeonatos{
 		display: block;
 		max-width: 710px;
@@ -4541,7 +4331,6 @@ margin-left: 350px;
 
 
     .table_inicio img{
-
 		display: inline;
 		width: 430px;
 		margin-top: 25px;
@@ -4554,8 +4343,6 @@ margin-left: 350px;
 	
     
 }
-
-	
     #Div4 {
 	
 	color: #fffefe;
@@ -4569,55 +4356,11 @@ margin-left: 350px;
     
 }
 
-
-
-
-
-
 @media (min-width: 375px) and (max-width: 667px){
-		/*400px 720px*/ /*pantalla movil 459*705*/	
-		.moto{
-			margin-right: 15px;
-		}
-		
-		.linea {
-			border-top: 1px solid black;
-			height: 2px;
-			max-width: 350px;
-			padding: 0;
-			margin: 10px auto 0 auto;
-			padding: 10px;
-		  }
-
-
-		.botonera{
-			padding-right: 20px;
-		}
-
-		.Titulo-categorias{
-			text-align: center;
-			background: #004a60;
-			font-size: 20px;
-			margin: 0px;
-			margin-bottom: 5px;
-			margin-top: 10px;	
-			color: white;
-			width: 100%;
-		}
-
-		
-	
-		
-
-		#Div2{
-			text-align: center;
-			font-size: 1.2em;
-			margin: 10px;
-			padding-bottom: 10px;
-			}
+		/*400px 720px*/ /*pantalla movil 459*705*/
 
 		.elegiraño{
-			padding-left: 122px;
+			padding-left: 150px;
 		}
 
 		
@@ -4641,41 +4384,34 @@ margin-left: 350px;
 			width: 100%;
 		}
 
-		.table_pantalla{
-			margin: 5px;
-			width: 385px;
-		}
+		
 
 		.table_podios_españoles{
-			margin: 0px;
-			width: 390px;
+			margin: 10px;
+			width: 360px;
 
 		}
 		
 		
 		.table_musica{
 			display: inline;
-			width: 350px;
-			margin-left: 35px;
 		}
 
 		.table_musica a img{
 			width: 150px;
-			transition: all 300ms;
 		}
 
 		.table_musica img:hover{
-			transform: scale(1.15);
+			width: 200px;	
 		}
 
 
 		.table_utilidades img{
 			width: 250px;
-			transition: all 300ms;
 		}
 
 		.table_utilidades img:hover{
-			transform: scale(1.15);
+			width: 280px;
 		}
 
 		.table_utilidades{
@@ -4683,28 +4419,36 @@ margin-left: 350px;
 			margin-left: 30px;	
 		}
 
-	
+	.table_descargas{
+		/*display: none;*/
+		padding-left: 150px;
+		
+		
+	}
+
+	.table_descargas h1{
+		text-align: center;
+	}
 	
 		.table_humor{
 		/*display: none;*/
-		padding: 60px;
-		width: 425px;
+		padding: 35px;
+		width: 430px;
 		text-align: center;
 }
 		
 
 	.table_campeonatos{
-		
 		display: block;
-		max-width: 370px;
-		margin: 5px;
+		max-width: 360px;
+		margin: 15px;
 		overflow-x: auto;
 		white-space: nowrap;
 	}
 
 	.table_calendario {
 	/*display: none;*/
-	width: 360px;
+	width: 385px;
 	padding-left: 15px;
 	
 	}
@@ -4716,29 +4460,11 @@ margin-left: 350px;
 		margin-top: 15px;
 	}
 	
-	.table_descargas{
-		width: 450px;
-		padding: 0px;
-	}
-
-	
-	.table_descargas h1{
-		margin-left: 200px;
-		}
-		
 	
 
-	.table_descargas a{
-		margin-left: 10px;
-		
-	}
 
-	.table_responsive{
-		display: none;
-	}
 
 	.categorias{
-		
 		padding-left: 30px;
 	 }
 	 
@@ -4746,7 +4472,9 @@ margin-left: 350px;
 		display: none;
 	 }
 
-	
+	.table_responsive{
+		display: none;
+	}
 
         
     .Eliga-any {
@@ -4766,107 +4494,44 @@ margin-left: 350px;
 
 
 
-
-
-
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
-
-	.linea {
-		border-top: 1px solid black;
-		height: 2px;
-		width: 240px;
-		text-align: center;
-		padding: 0;
-		margin: 10px auto 0 auto;
-		padding: 5px;
-	  }
-
-
-	.enlacesmarphones td{
-		font-size: 24px;
-	}
-	
-	.enlacesmarphones{
-		margin-top: -100px;
-		width: 100%;
-	}
-
-
-	.Titulo-categorias{
-		text-align: center;
-		background: #004a60;
-		font-size: 20px;
-		margin: 0px;
-		margin-bottom: 5px;
-		margin-top: 10px;	
-		color: white;
-		width: 100%;
-	}
-	
-	
-	
-	.centrado{
-		width: 310px;
-	}
-
-
-	
-
-	#Div2{
-		text-align: center;
-		font-size: 1.2em;
-		margin: 10px;
-		padding-bottom: 10px;
-		}
-
-
-
-		.botonera{
-			padding-right: 10px;
-		}
-
-
-.table_pantalla{
-	width: 325px;
+	.secciones h1{
+		width: 300px;
+		margin: 5px;
 }
 
-	.table_podios_españoles{
-		margin: 10px;
-		width: 320px;
 
-	}
-
-
+	ul.tabs li {
+		width: 65px;
+	/*		margin: auto;*/
 	
-	.table_descargas{
-		
-		width: 400px;
-		padding: 10px;
-	}
+			}
 
-	.table_descargas h1{
-		margin-left: 150px;
-	}
 
-	.table_descargas a{
-		margin-left: 0px;
-		
-	}
-	
 	.table_campeonatos{
-		/*display: none;*/
-		/*display: inline;*/
-		width: 315px;
-		overflow: auto;
+		display: block;
+		max-width: 330px;
+		
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	#Div3 {
+    	margin-top: 0px;
+		margin-bottom: 40px;
+}
+
+.table_calendario{
+	width: 315px;
+	margin-left: 10px;
+}
+
+
+	.categorias{
+        padding-left: 5px;
+		width: 100%;
 	}
 
-	.table_calendario{
-		/*display: none;*/
-		/*315*/
-		width: 320px;
-		margin-left: 10px;
-	}
 
 	.table_inicio img{
 		display: inline;
@@ -4875,6 +4540,14 @@ margin-left: 350px;
 	}
 
 
+	.table_descargas{
+		width: 350px;
+		padding: 50px;
+	}
+
+	.table_descargas h1{
+		text-align: center;
+	}
 	
 	.table_humor{
 		/*display: none;*/
@@ -4886,11 +4559,10 @@ margin-left: 350px;
 	
 	.table_utilidades img{
 		width: 250px;
-		transition: all 300ms;
 	}
 
 	.table_utilidades img:hover{
-		transform: scale(1.15);
+		width: 280px;
 	}
 
 	.table_utilidades{
@@ -4908,55 +4580,41 @@ margin-left: 350px;
 
 	.table_musica a img{
 		width: 150px;
-		transition: all 300ms;
 	}
 
 	.table_musica img:hover{
-		transform: scale(1.15);	
+		width: 200px;	
 	}
 
+
+
+
+	.enlacesmarphones td{
+		font-size: 16px;
+	}
+	
+	
+	
+	.enlacesmarphones{
+
+		
+		/*Lo de abajo quita la barra de desplazamiento*/
+		overflow-x: hidden;
+  color:black;
+  font-family:'Opens Sans',helvetica;  
+  height:100%;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+  
+
+	}
+
+
+	
 	.table_responsive{
 		display: none;
 	}
-
-
-	
-
-	.secciones h1{
-		width: 300px;
-		margin: 5px;
-}
-
-
-	
-
-	
-	#Div3 {
-    	margin-top: 0px;
-		margin-bottom: 40px;
-}
-
-
-
-
-	.categorias{
-        padding-left: 5px;
-		width: 100%;
-	}
-
-
-	
-
-
-
-	
-	
-	
-	
-	
-
-
-	
 
 
 
@@ -4973,109 +4631,3 @@ margin-left: 350px;
     
 }
 } 
-
-
-
-
-/*@media (min-width: 668px) and (max-width: 1279px){
-/*pantalla movil horizontal 779 X 284*/
-
-
-@media (min-width: 668px) and (max-width: 669px){
-	/*pantalla movil  redmi horizontal 648 X 268*/
-	.table_musica{
-		display: inline;
-	}
-
-	.table_musica a img{
-		width: 150px;
-		transition: all 300ms;
-	}
-
-	.table_musica img:hover{
-		transform: scale(1.15);
-	}
-
-
-	.table_inicio img{
-		display: inline;
-		width: 300px;
-		margin-top: 35px;
-	}	
-
-
-	.categorias{
-        padding-left: 125px;
-		width: 100%;
-	}
-
-	.table_podios_españoles {
-		width: 520px;
-		margin-left: 30px;
-		}
-
-		.table_campeonatos{
-			display: block;
-			max-width: 550px;
-			
-			overflow-x: auto;
-			white-space: nowrap;
-		}
-
-
-		.table_utilidades img{
-			width: 250px;
-			transition: all 300ms;
-		}
-
-		.table_utilidades img:hover{
-			transform: scale(1.15);
-		}
-
-		.table_utilidades{
-			width: 550px;
-			margin-left: 30px;	
-		}
-
-		.table_humor{
-			/*display: none;*/
-			padding: 35px;
-			width: 600px;
-			text-align: center;
-
-			
-
-	}
-
-
-	.table_descargas{
-		width: 650px;
-		padding: 50px;
-	}
-
-	.table_descargas h1{
-		text-align: center;
-	}
-
-	.table_descargas a{
-		margin-left: 200px;
-		
-	}
-
-	.table_responsive {
-		
-		width: 590px;
-		height: 600px;
-		
-		/*overflow: scroll;*/
-	}
-
-	
-
-	.enlacesmarphones{
-		display: none;
-	}
-}
-
-
-
