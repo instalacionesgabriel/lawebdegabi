@@ -807,7 +807,18 @@ table td:hover {
 		
 	}	
 	
+	@media (min-width: 531px) and (max-width: 657px){
+		/*516x850*/
+		.table_responsive{
+			display: none;
+		}
+		.enlacesmarphones{
+			display: inline;
+			margin-left: 10px;
+		}
+
 		
+	}	
 
 	@media (min-width: 320px) and (max-width: 479px){
 	
