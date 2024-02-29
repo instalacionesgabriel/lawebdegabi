@@ -822,10 +822,7 @@ table td:hover {
 
 	@media (min-width: 320px) and (max-width: 479px){
 	
-		.table_responsive{
-			display: none;
-		}
-
+		
 		header img:hover {
 		margin-right: 105px;
 		}	
