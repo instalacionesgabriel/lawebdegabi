@@ -822,31 +822,14 @@ table td:hover {
 			@media (min-width: 400px) and (max-width: 720px){
 				/*Redmi 11*/
 				.table_responsive{
-					
 					display: none;
-					
 				}
 				.enlacesmarphones{
 					display: inline;
 					margin-left: 10px;
 				}
-			
 				}
 			
-@media (min-width: 531px) and (max-width: 547px){
-	/*Redmi 11 y 9*/
-	.table_responsive{
-		
-		display: none;
-		
-	}
-	.enlacesmarphones{
-		display: inline;
-		margin-left: 10px;
-	}
-
-	}
-
 	
 	@media (min-width: 320px) and (max-width: 479px){
 	
@@ -862,7 +845,16 @@ table td:hover {
 		width: 95%;
 		margin: 20px;	
 		}
-		
-		
+		.table_responsive{
+					
+			display: none;
+			
+		}
+		.enlacesmarphones{
+			display: inline;
+			margin-left: 10px;
+		}
+	
+		}
 	}
 
