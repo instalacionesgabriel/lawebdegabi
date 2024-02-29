@@ -704,112 +704,762 @@ table td:hover {
 	color: #000000;
 }
 
+
+.table_inicio img {
+	display: none;
+}
+
+.table_responsive td{
+	font-size: 14px;
+	color: #000000;
+}
+
+table {
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+table tbody {
+	display: table;
+	width: 100%;
+
+
+
+}
+
+.table_pantalla  td{
+	margin-top: auto;
+	font-size: 25px;
+	width: auto;
+
+}
+
+
 @media (min-width: 1920px) and (max-width: 1936px){
 	/*Pantalla Manolo 1920x919*/
+	.categorias{
+		width: 100%;
+		display: inline-flex;
+		flex-wrap: wrap;
+		margin: 0px;
+		padding: 0px;
+		padding-left: 530px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.categorias li{
+		display: inline-flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100px;
+		height: 35px;
+		padding: 3px 0 0 0;
+		margin: 4px 4px;
+		background: #4682B4;
+		background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+	 
+		box-shadow: inset 0px 0px 6px #fff;
+		-webkit-box-shadow: inset 0px 0px 6px #fff;
+		border: 1px solid #62C2F9;
+		border-radius: 10px;
+	 
+		font: bold 15px Helvetica, Sans-Serif;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #3090C7;
+		text-shadow: 0px 1px 2px #62C2F9;
+	}
+	
+	
+	.categorias li a:hover{
+		color: #000;
+	}
+	
+	.categorias li a  {
+		color: #004a60;
+	}
+	div#InicioAncho {
+		display: inline;
+	}
+
 	.table_responsive{
 		
 		margin-left: 65px;
 		
 	}
-	
-
+	.table_movil{
+		display: none;
 	}
+	.link_enlaces{
+	width: 95%;
+}
+.table_responsive td{
+	font-size: 20px;
+}
+
+}
+	
 
 	@media (min-width: 1584px) and (max-width: 1600px){
 		/*1600x1200*/
+		.categorias{
+			width: 100%;
+			display: inline-flex;
+			flex-wrap: wrap;
+			margin: 0px;
+			padding: 0px;
+			padding-left: 440px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		
+		.categorias li{
+			display: inline-flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			width: 100px;
+			height: 35px;
+			padding: 3px 0 0 0;
+			margin: 4px 4px;
+			background: #4682B4;
+			background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+		 
+			box-shadow: inset 0px 0px 6px #fff;
+			-webkit-box-shadow: inset 0px 0px 6px #fff;
+			border: 1px solid #62C2F9;
+			border-radius: 10px;
+		 
+			font: bold 15px Helvetica, Sans-Serif;
+			text-align: center;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #3090C7;
+			text-shadow: 0px 1px 2px #62C2F9;
+		}
+		
+		
+		.categorias li a:hover{
+			color: #000;
+		}
+		
+		.categorias li a  {
+			color: #004a60;
+		}
+
+
+
+
+		div#InicioAncho {
+			display: inline;
+		}
+	
 		.table_responsive{
 			
 			margin-left: 50px;
 			
 		}
-		
-	
+		.table_movil{
+			display: none;
+		}
+		.table_responsive{
+			width: 100%;
+			margin-left: 25px;
+			
+		}
+		.table_responsive td{
+			font-size: 20px;
+		}
 		}
 	
 
 
 @media (min-width: 1678px) and (max-width: 1680px){
 	/*Pantalla Lg*/
+
+	.categorias{
+		width: 100%;
+		display: inline-flex;
+		flex-wrap: wrap;
+		margin: 0px;
+		padding: 0px;
+		padding-left: 430px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.categorias li{
+		display: inline-flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100px;
+		height: 35px;
+		padding: 3px 0 0 0;
+		margin: 4px 4px;
+		background: #4682B4;
+		background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+	 
+		box-shadow: inset 0px 0px 6px #fff;
+		-webkit-box-shadow: inset 0px 0px 6px #fff;
+		border: 1px solid #62C2F9;
+		border-radius: 10px;
+	 
+		font: bold 15px Helvetica, Sans-Serif;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #3090C7;
+		text-shadow: 0px 1px 2px #62C2F9;
+	}
+	
+	
+	.categorias li a:hover{
+		color: #000;
+	}
+	
+	.categorias li a  {
+		color: #004a60;
+	}
+
+	
+
+	div#InicioAncho {
+		display: inline;
+	}
+
+
 	.table_responsive{
 		
 		margin-left: 45px;
 		
 	}
 	
+	.table_responsive td{
+		font-size: 16px;
+		color: #000;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
 
+		.table_movil{
+			display: none;
+		}
 	}
 
 	@media (min-width: 1424px) and (max-width: 1440px){
 		/*1440x900*/
+	
+		.categorias{
+			width: 100%;
+			display: inline-flex;
+			flex-wrap: wrap;
+			margin: 0px;
+			padding: 0px;
+			padding-left: 430px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		
+		.categorias li{
+			display: inline-flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			width: 100px;
+			height: 35px;
+			padding: 3px 0 0 0;
+			margin: 4px 4px;
+			background: #4682B4;
+			background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+		 
+			box-shadow: inset 0px 0px 6px #fff;
+			-webkit-box-shadow: inset 0px 0px 6px #fff;
+			border: 1px solid #62C2F9;
+			border-radius: 10px;
+		 
+			font: bold 15px Helvetica, Sans-Serif;
+			text-align: center;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #3090C7;
+			text-shadow: 0px 1px 2px #62C2F9;
+		}
+		
+		
+		.categorias li a:hover{
+			color: #000;
+		}
+		
+		.categorias li a  {
+			color: #004a60;
+		}
+		div#InicioAncho {
+			display: inline;
+		}
+	
+	
 		.table_responsive{
 			
 			margin-left: 45px;
 			
 		}
-		
-	
+		.table_movil{
+			display: none;
 		}
+		.table_responsive{
+			width: 100%;
+			margin-left: 25px;
+			
+		}
+		.table_responsive td{
+			font-size: 20px;
+		}
+		}
+		
 	
 
-		@media (min-width: 1348px) and (max-width: 1400px){
+		@media (min-width: 1384px) and (max-width: 1400px){
 			/*1400x900*/
-			.table_responsive{
-				
-				margin-left: 45px;
-				
+
+			.categorias{
+				width: 100%;
+				display: inline-flex;
+				flex-wrap: wrap;
+				margin: 0px;
+				padding: 0px;
+				padding-left: 430px;
+				margin-top: 0px;
+				margin-bottom: 0px;
 			}
 			
-		
+			.categorias li{
+				display: inline-flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				width: 100px;
+				height: 35px;
+				padding: 3px 0 0 0;
+				margin: 4px 4px;
+				background: #4682B4;
+				background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+			 
+				box-shadow: inset 0px 0px 6px #fff;
+				-webkit-box-shadow: inset 0px 0px 6px #fff;
+				border: 1px solid #62C2F9;
+				border-radius: 10px;
+			 
+				font: bold 15px Helvetica, Sans-Serif;
+				text-align: center;
+				text-transform: uppercase;
+				text-decoration: none;
+				color: #3090C7;
+				text-shadow: 0px 1px 2px #62C2F9;
+			}
+			
+			
+			.categorias li a:hover{
+				color: #000;
+			}
+			
+			.categorias li a  {
+				color: #004a60;
+			}
+			div#InicioAncho {
+				display: inline;
 			}
 		
+	
+			.table_responsive{
+				
+				margin-left: 55px;
+				
+			}
+			.table_responsive td{
+				font-size: 20px;
+			}
+			
+			.table_movil{
+				display: none;
+			}
+		
+			
+		}	
 
 			
 			@media (min-width: 1334px) and (max-width: 1350px){
 				/*1334x750*/
-				.table_responsive{
-				
-					margin-left: 45px;
-					
+				.categorias{
+					width: 100%;
+					display: inline-flex;
+					flex-wrap: wrap;
+					margin: 0px;
+					padding: 0px;
+					padding-left: 435px;
+					margin-top: 0px;
+					margin-bottom: 0px;
 				}
 				
+				.categorias li{
+					display: inline-flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					width: 100px;
+					height: 35px;
+					padding: 3px 0 0 0;
+					margin: 4px 4px;
+					background: #4682B4;
+					background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+				 
+					box-shadow: inset 0px 0px 6px #fff;
+					-webkit-box-shadow: inset 0px 0px 6px #fff;
+					border: 1px solid #62C2F9;
+					border-radius: 10px;
+				 
+					font: bold 15px Helvetica, Sans-Serif;
+					text-align: center;
+					text-transform: uppercase;
+					text-decoration: none;
+					color: #3090C7;
+					text-shadow: 0px 1px 2px #62C2F9;
+				}
+				
+				
+				.categorias li a:hover{
+					color: #000;
+				}
+				
+				.categorias li a  {
+					color: #004a60;
+				}
+				div#InicioAncho {
+					display: inline;
+				}
+			
+
+				.table_responsive{
+				
+					margin-left: 55px;
+					
+				}
+				.table_responsive td{
+					font-size: 20px;
+				}
+				
+				.table_movil{
+					display: none;
+				}
 			}
 
 			@media (min-width: 1264px) and (max-width: 1280px){
-				/*1280x720*/
+				/*1280x720 Asus*/
+				
+.categorias{
+	width: 100%;
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 320px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.categorias li{
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    width: 100px;
+    height: 35px;
+    padding: 3px 0 0 0;
+    margin: 4px 4px;
+    background: #4682B4;
+    background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+ 
+    box-shadow: inset 0px 0px 6px #fff;
+    -webkit-box-shadow: inset 0px 0px 6px #fff;
+    border: 1px solid #62C2F9;
+    border-radius: 10px;
+ 
+    font: bold 15px Helvetica, Sans-Serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3090C7;
+    text-shadow: 0px 1px 2px #62C2F9;
+}
+
+
+.categorias li a:hover{
+	color: #000;
+}
+
+.categorias li a  {
+    color: #004a60;
+}
+				
+
+				div#InicioAncho {
+					display: inline;
+				}
+			
+	table {
+		font-size: 15px;
+	}
+
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+
+	table tbody {
+		display: table;
+		width: 100%;
+
+
+
+	}
+
+	.table_campeonatos {
+		display: block;
+		max-width: 960px;
+
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+
 				.table_responsive{
 				
 					margin-left: 15px;
 					
 				}
+
+
+				
 				.enlacesmarphones{
 					display: none;
 					
 				}
+				.table_responsive{
+				
+					margin-left: 55px;
+					
+				}
+				.table_responsive td{
+					font-size: 20px;
+				}
+				
+				.table_movil{
+					display: none;
+				}
+
+
 			}
 
 			@media (min-width: 1136px) and (max-width: 1152px){
 				/*1136x640*/
-				.table_responsive{
-				
-					margin-left: 15px;
-					
+				.categorias{
+					width: 100%;
+					display: inline-flex;
+					flex-wrap: wrap;
+					margin: 0px;
+					padding: 0px;
+					padding-left: 320px;
+					margin-top: 0px;
+					margin-bottom: 0px;
 				}
 				
+				.categorias li{
+					display: inline-flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					width: 100px;
+					height: 35px;
+					padding: 3px 0 0 0;
+					margin: 4px 4px;
+					background: #4682B4;
+					background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+				 
+					box-shadow: inset 0px 0px 6px #fff;
+					-webkit-box-shadow: inset 0px 0px 6px #fff;
+					border: 1px solid #62C2F9;
+					border-radius: 10px;
+				 
+					font: bold 15px Helvetica, Sans-Serif;
+					text-align: center;
+					text-transform: uppercase;
+					text-decoration: none;
+					color: #3090C7;
+					text-shadow: 0px 1px 2px #62C2F9;
+				}
+				
+				
+				.categorias li a:hover{
+					color: #000;
+				}
+				
+				.categorias li a  {
+					color: #004a60;
+				}
+				div#InicioAncho {
+					display: inline;
+				}
+			
+
+				.table_responsive{
+				
+					margin-left: 55px;
+					
+				}
+				.table_responsive td{
+					font-size: 20px;
+				}
+				
+				.table_movil{
+					display: none;
+				}
+
 			}
 			@media (min-width: 1024px) and (max-width: 1040px){
 				/*1024x600*/
+				.categorias{
+					width: 100%;
+					display: inline-flex;
+					flex-wrap: wrap;
+					margin: 0px;
+					padding: 0px;
+					padding-left: 320px;
+					margin-top: 0px;
+					margin-bottom: 0px;
+				}
+				
+				.categorias li{
+					display: inline-flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					width: 100px;
+					height: 35px;
+					padding: 3px 0 0 0;
+					margin: 4px 4px;
+					background: #4682B4;
+					background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+				 
+					box-shadow: inset 0px 0px 6px #fff;
+					-webkit-box-shadow: inset 0px 0px 6px #fff;
+					border: 1px solid #62C2F9;
+					border-radius: 10px;
+				 
+					font: bold 15px Helvetica, Sans-Serif;
+					text-align: center;
+					text-transform: uppercase;
+					text-decoration: none;
+					color: #3090C7;
+					text-shadow: 0px 1px 2px #62C2F9;
+				}
+				
+				
+				.categorias li a:hover{
+					color: #000;
+				}
+				
+				.categorias li a  {
+					color: #004a60;
+				}
+
+				div#InicioAncho {
+					display: inline;
+				}
+			
+
 				.table_responsive{
 				
 					margin-left: 15px;
 					
 				}
-				
-			}
-			@media (min-width: 629px) and (max-width: 645px){
-				/*1024x600*/
 				.table_responsive{
 				
-					margin-left: 15px;
+					margin-left: 55px;
+					
+				}
+				.table_responsive td{
+					font-size: 20px;
+				}
+				
+				.table_movil{
+					display: none;
+				}
+			}
+			@media (min-width: 629px) and (max-width: 645px){
+				/*645x552*/
+				.categorias{
+					width: 100%;
+					display: inline-flex;
+					flex-wrap: wrap;
+					margin: 0px;
+					padding: 0px;
+					padding-left: 110px;
+					margin-top: 0px;
+					margin-bottom: 0px;
+				}
+				
+				.categorias li{
+					display: inline-flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					width: 100px;
+					height: 35px;
+					padding: 3px 0 0 0;
+					margin: 4px 4px;
+					background: #4682B4;
+					background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+				 
+					box-shadow: inset 0px 0px 6px #fff;
+					-webkit-box-shadow: inset 0px 0px 6px #fff;
+					border: 1px solid #62C2F9;
+					border-radius: 10px;
+				 
+					font: bold 15px Helvetica, Sans-Serif;
+					text-align: center;
+					text-transform: uppercase;
+					text-decoration: none;
+					color: #3090C7;
+					text-shadow: 0px 1px 2px #62C2F9;
+				}
+				
+				
+				.categorias li a:hover{
+					color: #000;
+				}
+				
+				.categorias li a  {
+					color: #004a60;
+				}
+				.table_inicio img {
+					display: inline;
+					width: 230px;
+					margin-top: 25px;
+				}
+
+				.table_responsive{
+				
+					margin-left: 55px;
+					
+				}
+				.table_responsive td{
+					font-size: 20px;
+				}
+				
+				.table_movil{
 					display: none;
 				}
 				.enlacesmarphones{
@@ -821,18 +1471,79 @@ table td:hover {
 
 			@media (min-width: 400px) and (max-width: 720px){
 				/*Redmi 11*/
+				.categorias{
+					width: 100%;
+					display: inline-flex;
+					flex-wrap: wrap;
+					margin: 0px;
+					padding: 0px;
+					padding-left: 65px;
+					margin-top: 0px;
+					margin-bottom: 0px;
+				}
+				
+				.categorias li{
+					display: inline-flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					width: 100px;
+					height: 35px;
+					padding: 3px 0 0 0;
+					margin: 4px 4px;
+					background: #4682B4;
+					background: -moz-linear-gradient(top, #22a74a 0%, #4682B4 100%);
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+				 
+					box-shadow: inset 0px 0px 6px #fff;
+					-webkit-box-shadow: inset 0px 0px 6px #fff;
+					border: 1px solid #62C2F9;
+					border-radius: 10px;
+				 
+					font: bold 15px Helvetica, Sans-Serif;
+					text-align: center;
+					text-transform: uppercase;
+					text-decoration: none;
+					color: #3090C7;
+					text-shadow: 0px 1px 2px #62C2F9;
+				}
+				
+				
+				.categorias li a:hover{
+					color: #000;
+				}
+				
+				.categorias li a  {
+					color: #004a60;
+				}
+				
+				.table_inicio img {
+					display: inline;
+					width: 260px;
+					margin-top: 25px;
+				}
+
 				.table_responsive{
+				
+					margin-left: 55px;
+					
+				}
+				.table_responsive td{
+					font-size: 20px;
+				}
+				
+				.table_movil{
 					display: none;
 				}
-				.enlacesmarphones{
-					display: inline;
-					margin-left: 10px;
-				}
+				
 				}
 			
 	
 	@media (min-width: 320px) and (max-width: 479px){
-	
+		.table_inicio img {
+			display: inline;
+			width: 430px;
+			margin-top: 25px;
+		}
 		
 		header img:hover {
 		margin-right: 105px;
@@ -856,5 +1567,5 @@ table td:hover {
 		}
 	
 		}
-	}
+	
 
