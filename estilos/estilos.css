@@ -303,21 +303,530 @@ body {
 	}					
 
 
-
-
-@media (min-width: 320px) and (max-width: 479px){
+	.active-depor {
+		background-color: rgba(181, 48, 48, 0.97);
 	
-	header img:hover {
-	margin-right: 105px;
-	}	
-	.Eliga-any {
-	margin: 20px;
-	}
-	
-	#jumpMenu{
-	width: 95%;
-	margin: 20px;	
 	}
 	
 	
+	ul.tabs {
+	
+		margin: 5px;
+		padding-top: 0px;
+		width: 100%;
+		background: #fff;
+		list-style: none;
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+	
+	
+	
+	ul.tabs a {
+	
+		border: 1px solid #000;
+	}
+	
+	
+	
+	ul.tabs a:hover {
+	
+		background-color: #4682B4;
+	}
+	
+	
+	ul.tabs li {
+		width: 20%;
+		/*	display: none;*/
+	}
+	
+	
+	ul.tabs li a {
+		color: rgb(53, 166, 25);
+		text-decoration: none;
+		font: 14px Helvetica, Sans-Serif;
+		text-align: center;
+		display: block;
+		padding: 5px 0px;
+		/*font: bold 13px Helvetica, Sans-Serif; te poner la fuente en negrita*/
+	}
+	
+
+
+
+	.titulo {
+		text-align: center;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 200px;
+		margin-left: auto;
+	}
+	
+	
+	
+	
+	#linkpersonal {
+		text-align: center;
+		padding: 3em 0 0 0;
+		/*background-color: #fff;*/
+		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
+		background-position: top left, top left, top left;
+		background-size: 100% 6em, 100% 6em, auto;
+		background-repeat: no-repeat, no-repeat, repeat;
+	}
+	
+	#linkpersonal h4 {
+		/*padding: 0 0 2.75em 0;*/
+		text-align: center;
+		margin: 0;
+	}
+	
+	#linkpersonal h4 a {
+	
+		font-size: 1.0em;
+		letter-spacing: 0.025em;
+		border: 0;
+	}
+	
+	#linkpersonal h4 a:hover {
+		background: rgba(181, 48, 48, 0.97);
+		padding: 5px 15px 5px 15px;
+	}
+	
+	
+	
+	#linkpersonal h3 {
+		/*padding: 0 0 2.75em 0;*/
+		text-align: center;
+		margin: 0;
+	}
+	
+	#linkpersonal h3 a {
+	
+		font-size: 1.0em;
+		letter-spacing: -0.025em;
+		border: 0;
+	}
+	
+	
+	#linkpersonal tr td {
+		/*padding: 0 0 2.75em 0;*/
+		text-align: center;
+		margin: 0;
+	}
+	
+	#linkpersonal tr td a {
+	
+		font-size: 1.0em;
+		letter-spacing: -0.025em;
+		border: 0;
+	}
+	
+	#linkpersonal a {
+	
+		font-size: 1.0em;
+		letter-spacing: -0.025em;
+		border: 0;
+	}
+	
+	
+	
+	.table_inicio img {
+		display: none;
+	}
+	
+	
+	
+	.linea {
+		border-top: 1px solid black;
+		height: 2px;
+		max-width: 200px;
+		padding: 0;
+		margin: 10px auto 0 auto;
+		padding: 10px;
+	}
+	
+	
+	
+	
+	em {
+	color: white;
+	/*background: #004a60;*/
+	background: rgba(181, 48, 48, 0.97);
+	;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
 }
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*color: #37c0fb;*/
+
+	/*color: #666;*/
+	color: rgb(0, 0, 0);
+
+	font-family: inherit;
+	/*vertical-align: baseline;*/
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+	
+
+.enlaces {
+	width: 100%;
+	height: auto;
+	border: 1 px solid black;
+	border: 1;
+	display: none;
+	text-align: center;
+}
+
+
+
+.enlaces td {
+
+	width: auto;
+	height: auto;
+	border: 1 px solid black;
+	color: black;
+	padding: 1px;
+}
+.enlacesmarphones {
+	width: 100%;
+	height: auto;
+	border: 1 px solid black;
+	border: 1;
+	display: none;
+	text-align: center;
+
+}
+
+
+
+.enlacesmarphones td {
+	font-size: 24px;
+	border: 1 px solid #000;
+	/*Crea un borde interior en negro*/
+	padding: 16px;
+	text-align: center;
+}
+
+
+
+
+	/*si*/
+	
+	
+	.historia {
+		display: inline;
+		color: #FFF;
+	}	
+
+
+
+	/* Tables */
+
+table {
+	border: 1px solid #ccc;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+
+}
+
+
+table tr {
+	border: 1px solid #ddd;
+	padding: 3px;
+}
+
+table th,
+table td {
+	padding: 5px;
+	text-align: center;
+}
+
+table th {
+	/*text-transform: uppercase;*/
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+table tr:hover {
+	background: #37c0fb
+}
+
+/*Te hace un marcador en todas las filas de color gris*/
+
+table td:hover {
+	background: white;
+	/*background: #37c0fb;*/
+	/*Te hace un marcador en  una sola columna de color azul  #024959 Este en verde*/
+	color: #474747;
+	/*Color amarillo*/
+	font-size: auto;
+}
+
+/*Y un color en blanco de fuente*/
+
+
+.table_podios_españoles th {
+	font-size: 14px;
+	color: #000000;
+}
+
+.table_podios_españoles td {
+	font-size: 14px;
+	color: #000000;
+}
+
+@media (min-width: 1601px) and (max-width: 1920px){
+	/*1920x919*/
+	.table_responsive{
+		
+		margin-left: 70px;
+		
+	}
+
+	}
+
+
+
+
+@media (min-width: 1500px) and (max-width: 1600px){
+	/*1600x1200 - 1600x860*/
+	.table_responsive{
+		
+		margin-left: 50px;
+		
+	}
+}
+
+	@media (min-width: 1424px) and (max-width: 1440px){
+		/*1440x900*/
+		.table_responsive{
+	
+			margin-left: 50px;
+			
+		}
+		
+	
+	}
+	@media (min-width: 1384px) and (max-width: 1400px){
+		/*1400x900*/
+		.table_responsive{
+	
+			margin-left: 50px;
+			
+		}
+		
+	
+	}
+
+	@media (min-width: 1334px) and (max-width: 1350px){
+		/*1334x750*/
+		.table_responsive{
+	
+			margin-left: 50px;
+			
+		}
+		
+	
+	}
+
+	@media (min-width: 1264px) and (max-width: 1280px){
+		/*1280x720*/
+		.table_responsive{
+	
+			margin-left: 10px;
+			
+		}
+		
+	
+	}
+
+	@media (min-width: 1136px) and (max-width: 1152px){
+		/*1136x640*/
+		.table_responsive{
+	display: none;
+			
+			
+		}
+		.enlacesmarphones{
+			display: inline;
+			margin-left: 20px;
+		}
+	
+	}
+	
+	@media (min-width: 1024px) and (max-width: 1040px){
+		/*1024x600*/
+		.table_responsive{
+			display: none;
+		}
+		.enlacesmarphones{
+			display: inline;
+			margin-left: 10px;
+		}
+	}
+		
+	@media (min-width: 629px) and (max-width: 645px){
+		/*645x552*/
+		.table_responsive{
+			display: none;
+		}
+		.enlacesmarphones{
+			display: inline;
+			margin-left: 10px;
+		}
+
+		
+	}	
+	
+		
+
+	@media (min-width: 320px) and (max-width: 479px){
+	
+		.table_responsive{
+			display: none;
+		}
+
+		header img:hover {
+		margin-right: 105px;
+		}	
+		.Eliga-any {
+		margin: 20px;
+		}
+		
+		#jumpMenu{
+		width: 95%;
+		margin: 20px;	
+		}
+		
+		
+	}
+
