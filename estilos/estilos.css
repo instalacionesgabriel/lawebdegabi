@@ -800,7 +800,15 @@ table tbody {
 .table_responsive td{
 	font-size: 20px;
 }
+.table_campeonatos {
+	display: block;
+	width: 150%;
+	margin-left: 150px;
+	
 
+	overflow-x: auto;
+	white-space: nowrap;
+}
 }
 	
 
@@ -1397,6 +1405,13 @@ table tbody {
 				.table_movil{
 					display: none;
 				}
+				.table_campeonatos {
+					display: block;
+					max-width: 960px;
+			
+					overflow-x: auto;
+					white-space: nowrap;
+				}
 			}
 			@media (min-width: 629px) and (max-width: 645px){
 				/*645x552*/
@@ -1467,9 +1482,10 @@ table tbody {
 					margin-left: 10px;
 				}			
 				
+				
 			}
 
-			@media (min-width: 400px) and (max-width: 720px){
+			@media (min-width: 375px) and (max-width: 725px){
 				/*Redmi 11*/
 				.categorias{
 					width: 100%;
@@ -1518,13 +1534,13 @@ table tbody {
 				
 				.table_inicio img {
 					display: inline;
-					width: 320px;
-					margin-top: 40px;
+					width: 300px;
+					margin-top: 10px;
 				}
 
 				.table_responsive{
 				
-					margin-left: 55px;
+					margin-left: 0px;
 					
 				}
 				.table_responsive td{
@@ -1534,7 +1550,14 @@ table tbody {
 				.table_movil{
 					display: none;
 				}
-				
+
+				.table_campeonatos {
+					display: block;
+					max-width: 460px;
+			
+					overflow-x: auto;
+					white-space: nowrap;
+				}
 				}
 			
 	
