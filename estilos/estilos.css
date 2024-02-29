@@ -807,7 +807,7 @@ table td:hover {
 		
 	}	
 	
-	@media (min-width: 531px) and (max-width: 657px){
+	@media (min-width: 500px) and (max-width: 516px){
 		/*516x850*/
 		.table_responsive{
 			display: none;
