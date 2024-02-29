@@ -704,122 +704,137 @@ table td:hover {
 	color: #000000;
 }
 
-@media (min-width: 1601px) and (max-width: 1920px){
-	/*1920x919*/
+@media (min-width: 1920px) and (max-width: 1936px){
+	/*Pantalla Manolo 1920x919*/
 	.table_responsive{
 		
-		margin-left: 70px;
+		margin-left: 65px;
 		
 	}
+	
 
 	}
 
+	@media (min-width: 1584px) and (max-width: 1600px){
+		/*1600x1200*/
+		.table_responsive{
+			
+			margin-left: 50px;
+			
+		}
+		
+	
+		}
+	
 
 
-
-@media (min-width: 1500px) and (max-width: 1600px){
-	/*1600x1200 - 1600x860*/
+@media (min-width: 1678px) and (max-width: 1680px){
+	/*Pantalla Lg*/
 	.table_responsive{
 		
-		margin-left: 50px;
+		margin-left: 45px;
 		
 	}
-}
+	
+
+	}
 
 	@media (min-width: 1424px) and (max-width: 1440px){
 		/*1440x900*/
 		.table_responsive{
-	
-			margin-left: 50px;
+			
+			margin-left: 45px;
 			
 		}
 		
 	
-	}
-	@media (min-width: 1384px) and (max-width: 1400px){
-		/*1400x900*/
-		.table_responsive{
+		}
 	
-			margin-left: 50px;
+
+		@media (min-width: 1348px) and (max-width: 1400px){
+			/*1400x900*/
+			.table_responsive{
+				
+				margin-left: 45px;
+				
+			}
 			
-		}
 		
-	
-	}
+			}
+		
 
-	@media (min-width: 1334px) and (max-width: 1350px){
-		/*1334x750*/
-		.table_responsive{
-	
-			margin-left: 50px;
 			
-		}
+			@media (min-width: 1334px) and (max-width: 1350px){
+				/*1334x750*/
+				.table_responsive{
+				
+					margin-left: 45px;
+					
+				}
+				
+			}
+
+			@media (min-width: 1264px) and (max-width: 1280px){
+				/*1280x720*/
+				.table_responsive{
+				
+					margin-left: 15px;
+					
+				}
+				.enlacesmarphones{
+					display: none;
+					
+				}
+			}
+
+			@media (min-width: 1136px) and (max-width: 1152px){
+				/*1136x640*/
+				.table_responsive{
+				
+					margin-left: 15px;
+					
+				}
+				
+			}
+			@media (min-width: 1024px) and (max-width: 1040px){
+				/*1024x600*/
+				.table_responsive{
+				
+					margin-left: 15px;
+					
+				}
+				
+			}
+			@media (min-width: 629px) and (max-width: 645px){
+				/*1024x600*/
+				.table_responsive{
+				
+					margin-left: 15px;
+					display: none;
+				}
+				.enlacesmarphones{
+					display: inline;
+					margin-left: 10px;
+				}			
+				
+			}
+
+
+@media (min-width: 531px) and (max-width: 547px){
+	/*Redmi 11 y 9*/
+	.table_responsive{
 		
-	
+		display: none;
+		
+	}
+	.enlacesmarphones{
+		display: inline;
+		margin-left: 10px;
 	}
 
-	@media (min-width: 1264px) and (max-width: 1280px){
-		/*1280x720*/
-		.table_responsive{
-	
-			margin-left: 10px;
-			
-		}
-		
-	
 	}
 
-	@media (min-width: 1136px) and (max-width: 1152px){
-		/*1136x640*/
-		.table_responsive{
-	display: none;
-			
-			
-		}
-		.enlacesmarphones{
-			display: inline;
-			margin-left: 20px;
-		}
 	
-	}
-	
-	@media (min-width: 1024px) and (max-width: 1040px){
-		/*1024x600*/
-		.table_responsive{
-			display: none;
-		}
-		.enlacesmarphones{
-			display: inline;
-			margin-left: 10px;
-		}
-	}
-		
-	@media (min-width: 629px) and (max-width: 645px){
-		/*645x552*/
-		.table_responsive{
-			display: none;
-		}
-		.enlacesmarphones{
-			display: inline;
-			margin-left: 10px;
-		}
-
-		
-	}	
-	
-	@media (min-width: 500px) and (max-width: 516px){
-		/*516x850*/
-		.table_responsive{
-			display: none;
-		}
-		.enlacesmarphones{
-			display: inline;
-			margin-left: 10px;
-		}
-
-		
-	}	
-
 	@media (min-width: 320px) and (max-width: 479px){
 	
 		
