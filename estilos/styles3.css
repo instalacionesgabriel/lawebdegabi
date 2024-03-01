@@ -57,12 +57,6 @@ table th {
 .table_pantalla td{
 	color: rgb(0, 0, 0);
 	font-size: 14px;
-	
-
-}
-
-.table_pantalla {
-	padding-top: 0px;
 }
 
 
@@ -71,10 +65,7 @@ table th {
 	font-size: 13px;
 }
 
-.table_campeonatos{
-	width: 1200px;
-	overflow: auto;
-}
+
 
 .table_movil td{
 	color: black;
@@ -154,6 +145,7 @@ margin: 5px;
 		background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		padding: 16px ;
+		border-radius: 8px;
 				
 }
 

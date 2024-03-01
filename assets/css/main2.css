@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
+#navPanel .link:hover {
+	/*Cambiar el color del menu en movil*/
+	background: rgba(181, 48, 48, 0.97);
+	
+}
+
 
 
 /*
@@ -3237,10 +3243,18 @@ table{
 		width: 200px;
 
 	}
+
+	.elegircircuito{
+		padding-left: 520px;
+	}
 }
 
 @media screen and (max-width: 1280px) {
 	   /*Pantalla Asus*/
+
+	   .elegircircuito{
+		padding-left: 420px;
+	}
  
 	   .table_pantalla td img{
 		/*centrar imagen
@@ -3257,7 +3271,10 @@ table{
 	.elegiraño{
 		display: none;
 	}
- 
+	.elegircircuito{
+		padding-left: 295px;;
+	}
+
 
 }
 /*3 2 y 1-375x667 320x568 y 290x568 pantalla pequeña*/
@@ -3301,7 +3318,7 @@ table{
 
 
 @media (min-width: 100px) and (max-width: 374px){
-    /*Pantalla Redmi9*/
+    /*Redmi 9 340px 604px*/
 	
 	.table_pantalla td img{
 		/*centrar imagen
@@ -3311,7 +3328,23 @@ table{
 
 	}
 
+	.elegircircuito{
+		padding-left: 110px;
+	}
+
 	}
     
 
 
+
+
+	
+
+	@media (min-width: 668px) and (max-width: 669px){
+		/*pantalla movil  redmi horizontal 648 X 268*/
+		.elegircircuito{
+			padding-left: 230px;
+		}
+
+		
+	}

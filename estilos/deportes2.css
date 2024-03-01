@@ -1,11 +1,16 @@
+
+
+
+
 .Titulo-motos{
 	text-align: center;
 	background: #004a60;
 	font-size: 20px;
 	margin: 0px;
 	margin-bottom: 5px;
-	margin-top: -20px;	
+	margin-top: -60px;	
 	color: white;
+	width: 100%;
 }
 
 .wrap{
@@ -21,8 +26,8 @@
 
 ul.tabs {
 	
-	margin: 5px;
-	padding-top: -20px;
+	margin: 0px;
+	padding-top: 0px;
 	width: 100%;
 	background: #fff;
 	list-style: none;
@@ -37,15 +42,7 @@ ul.tabs a {
 	border: 1px solid #000;
 }
 
-.Eliga-any {
-    border: 8px solid #CCC;
-    background-color: #E0E0E0;
-    padding: .5em;
-    overflow: hidden;
-    margin-left: 0px;
-     
-    
-}
+
 
 
 ul.tabs a:hover{
@@ -54,7 +51,7 @@ ul.tabs a:hover{
 
 
 ul.tabs li {
-	width: 20%;
+	width: 7%;
 /*	display: none;*/
 }
 
@@ -65,7 +62,7 @@ ul.tabs li a {
 	font-size: 16px;
 	text-align: center;
 	display: block;
-	padding: 5px 0px;
+	padding: 1px 0px;
 }
 
 
@@ -145,3 +142,63 @@ ul.tabs li a {
 }
 
 
+
+
+
+@media (min-width: 1665px) and (max-width: 1680px){
+    /*pantalla LG*/
+
+	.Titulo-motos{
+		margin-left: 160px;
+	}
+
+	
+
+	
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+	/*Pantalla Asus*/
+
+	ul.tabs li {
+		width: 18%;
+	/*	display: none;*/
+	}
+
+}
+
+@media (min-width: 375px) and (max-width: 667px){
+	/*400px 720px*/ /*pantalla movil 459*705*/
+	ul.tabs li {
+	
+		width: 14%;
+	/*	display: none;*/
+	}
+	
+	ul.tabs {
+		margin-left: 5px;
+	}
+
+}
+
+@media (min-width: 100px) and (max-width: 374px){
+    /*Redmi 9 340px 604px*/
+	ul.tabs li {
+	
+		width: 13.8%;
+	/*	display: none;*/
+	}
+
+
+	ul.tabs {
+		margin-left: 5px;
+	}
+
+
+}
