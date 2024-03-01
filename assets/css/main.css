@@ -3890,11 +3890,13 @@ table{
 @media (min-width: 1920px) and (max-width: 1936px){
     /*Manolo*/
 	.table_responsive{
-		margin-left: 70px;
+		margin-left: 0px;
 		
 	}
 
-
+	.link_enlaces{
+		margin-left: 100px;
+	}
 
 	.Eliga-any {
     margin-left: 600px;
@@ -3913,10 +3915,18 @@ table{
 /*6-1680x1050*/
 
 
-@media (min-width: 1280px) and (max-width: 1680px){
-    /*si*/
+@media (min-width: 1384px) and (max-width: 1400px){
+    /*1400x900*/
 
+	.table_responsive{
+		display: flexbox;
+		min-width: 950px;
+		max-width: 1175px;
+		margin: 20px;
+		
+	}
 
+	
 
 	
 	.table_movil{
