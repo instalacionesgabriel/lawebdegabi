@@ -431,9 +431,7 @@ body {
 	
 	
 	
-	.table_inicio img {
-		display: none;
-	}
+	
 	
 	
 	
@@ -644,31 +642,24 @@ q:after {
 
 	/* Tables */
 
-table {
-	border: 1px solid #ccc;
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0;
-	border-collapse: collapse;
-	border-spacing: 0;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
+	table {
+		border: 1px solid #ccc;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
 
-}
+	table tr {
+		border: 1px solid #ddd;
+		padding: 5px;
+	}
 
-
-table tr {
-	border: 1px solid #ddd;
-	padding: 3px;
-}
-
-table th,
-table td {
-	padding: 5px;
-	text-align: center;
-}
+	table tr:nth-child(even) {
+		background-color: #999;
+		color: white;
+	}
 
 table th {
 	/*text-transform: uppercase;*/
@@ -676,12 +667,18 @@ table th {
 	letter-spacing: 1px;
 }
 
-table tr:hover {
-	background: #37c0fb
+table th {
+	text-transform: uppercase;
+	font-family: 18px;
+	letter-spacing: 1px;
 }
 
 /*Te hace un marcador en todas las filas de color gris*/
 
+
+table tr:hover {
+	background: #37c0fb
+}
 table td:hover {
 	background: white;
 	/*background: #37c0fb;*/
@@ -692,7 +689,9 @@ table td:hover {
 }
 
 /*Y un color en blanco de fuente*/
-
+.table_inicio img {
+	display: none;
+}
 
 .table_podios_españoles th {
 	font-size: 14px;
@@ -1632,7 +1631,7 @@ table tbody {
 				}
 				
 				.table_responsive{
-				
+					display: inline;
 					margin-left: 0px;
 					
 				}
@@ -1822,3 +1821,38 @@ table tbody {
 		}
 		} 
 
+/*Responsive tables*/
+@media screen and (max-width: 600px) {
+
+    table {
+      border: 0;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+      display: block;
+      text-align: left;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      /*text-transform: uppercase;*/
+      font-weight: bold;
+    }
+  }

@@ -3,6 +3,123 @@
 	font-size: 17px;
 }
 
+
+copiado
+
+
+table {
+	border: 1px solid #ccc;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+
+}
+
+
+table tr {
+	border: 1px solid #ddd;
+	padding: 3px;
+}
+
+table th,
+table td {
+	padding: 5px;
+	text-align: center;
+}
+
+table th {
+	/*text-transform: uppercase;*/
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+table tr:hover {
+	background: #37c0fb
+}
+
+/*Te hace un marcador en todas las filas de color gris*/
+
+table td:hover {
+	background: white;
+	/*background: #37c0fb;*/
+	/*Te hace un marcador en  una sola columna de color azul  #024959 Este en verde*/
+	color: #474747;
+	/*Color amarillo*/
+	font-size: auto;
+}
+
+/*Y un color en blanco de fuente*/
+.table_inicio img {
+	display: none;
+}
+
+.table_podios_españoles th {
+	font-size: 14px;
+	color: #000000;
+}
+
+.table_podios_españoles td {
+	font-size: 14px;
+	color: #000000;
+}
+
+
+.table_inicio img {
+	display: none;
+}
+
+.table_responsive td{
+	font-size: 14px;
+	color: #000000;
+}
+
+table {
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+table tbody {
+	display: table;
+	width: 100%;
+
+
+
+}
+
+.table_pantalla  td{
+	margin-top: auto;
+	font-size: 25px;
+	width: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hasta aqui
 table {
 	border: 1px solid #ccc;
 	width: 100%;
