@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
+
 .btn_transparent{
 	cursor: pointer;
 	border: 3px solid transparent;
@@ -15,8 +16,10 @@
 	color: transparent;	
 }
 
-
-
+/*Tables*/
+.table_responsive{
+	margin-bottom: 20px;
+}
 .table_campeonatos{
 	display: block;
 	width: 800px;px;
@@ -539,9 +542,7 @@ header img:hover{
 					  }
 	
 	
-					  .table_responsive{
-					padding-bottom: 90px;
-					}
+					  
 
 
 					@media screen and (max-width: 1680px) {
@@ -3886,9 +3887,15 @@ table{
     
 }
 /*7-1920X1080*/
-@media (min-width: 1681px) and (max-width: 1920px){
-    /*no*/
-	
+@media (min-width: 1920px) and (max-width: 1936px){
+    /*Manolo*/
+	.table_responsive{
+		margin-left: 70px;
+		
+	}
+
+
+
 	.Eliga-any {
     margin-left: 600px;
     
@@ -3900,8 +3907,8 @@ table{
     text-align: center;
     
 }
- 
-    
+
+  
 }
 /*6-1680x1050*/
 
@@ -3961,7 +3968,9 @@ table{
 	header img:hover {
 	margin-bottom: 46px;
 	}
-	
+	.table_responsive{
+		margin-left: 50px;
+	}
 	
 
 }
@@ -4518,14 +4527,7 @@ margin-left: 350px;
 	}
 
 
-	.table_responsive {
-		
-		width: 720px;
-		height: 1200px;
-		
-		/*overflow: scroll;*/
-	}
-
+	
 	.table_campeonatos{
 		display: block;
 		max-width: 710px;
@@ -4733,9 +4735,7 @@ margin-left: 350px;
 		
 	}
 
-	.table_responsive{
-		display: none;
-	}
+	
 
 	.categorias{
 		
@@ -4915,9 +4915,7 @@ margin-left: 350px;
 		transform: scale(1.15);	
 	}
 
-	.table_responsive{
-		display: none;
-	}
+	
 
 
 	
@@ -5062,13 +5060,7 @@ margin-left: 350px;
 		
 	}
 
-	.table_responsive {
-		
-		width: 590px;
-		height: 600px;
-		
-		/*overflow: scroll;*/
-	}
+	
 
 	
 
