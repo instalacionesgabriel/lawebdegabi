@@ -942,13 +942,12 @@ table tbody {
 
 
 	.table_responsive{
-		
-		margin-left: 45px;
+		margin-left: 20px;
 		
 	}
 	
 	.table_responsive td{
-		font-size: 16px;
+		font-size: 20px;
 		color: #000;
 		font-family: 'Source Sans Pro', sans-serif;
 	}
@@ -1485,8 +1484,108 @@ table tbody {
 				
 			}
 
-			@media (min-width: 375px) and (max-width: 725px){
-				/*Redmi 11*/
+			@media (min-width: 375px) and (max-width: 667px){
+				/*Redmi 11 400px 720px*/ /*pantalla movil 459*705*/
+				.elegiraño{
+					padding-left: 150px;
+				}
+
+				.centrado{
+					width: 350px;
+				}
+				
+				.secciones h1{
+					width: 370px;
+					margin: 5px;
+			}
+				.enlacesmarphones td{
+				font-size: 25px;
+			}
+			.enlacesmarphones{
+			
+				width: 100%;
+			}
+
+			.table_podios_españoles{
+				margin: 10px;
+				width: 360px;
+	
+			}
+
+			.table_musica{
+				display: inline;
+			}
+
+			.table_musica a img{
+				width: 150px;
+			}
+
+			.table_musica img:hover{
+				width: 200px;	
+			}
+	
+	
+			.table_utilidades img{
+				width: 250px;
+			}
+	
+			.table_utilidades img:hover{
+				width: 280px;
+			}
+	
+			.table_utilidades{
+				width: 350px;
+				margin-left: 30px;	
+			}
+	
+		.table_descargas{
+			/*display: none;*/
+			padding-left: 150px;
+			
+			
+		}
+	
+		.table_descargas h1{
+			text-align: center;
+		}
+		
+			.table_humor{
+			/*display: none;*/
+			padding: 35px;
+			width: 430px;
+			text-align: center;
+	}
+			
+	
+		.table_campeonatos{
+			display: block;
+			max-width: 360px;
+			margin: 15px;
+			overflow-x: auto;
+			white-space: nowrap;
+		}
+	
+		.table_calendario {
+		/*display: none;*/
+		width: 385px;
+		padding-left: 15px;
+		
+		}
+	
+	
+		.table_inicio img{
+			display: inline;
+			width: 350px;
+			margin-top: 15px;
+		}
+
+
+		#Div4 {
+	
+			color: #fffefe;
+			text-align: center;
+			
+		}
 				.categorias{
 					width: 100%;
 					display: inline-flex;
@@ -1532,12 +1631,6 @@ table tbody {
 					color: #004a60;
 				}
 				
-				.table_inicio img {
-					display: inline;
-					width: 300px;
-					margin-top: 10px;
-				}
-
 				.table_responsive{
 				
 					margin-left: 0px;
@@ -1591,4 +1684,141 @@ table tbody {
 	
 		}
 	
+		@media (min-width: 100px) and (max-width: 374px){
+			/*Redmi 9 340px 604px*/
+			.secciones h1{
+				width: 300px;
+				margin: 5px;
+		}
+		
+		
+			ul.tabs li {
+				width: 65px;
+			/*		margin: auto;*/
+			
+					}
+		
+		
+			.table_campeonatos{
+				display: block;
+				max-width: 330px;
+				
+				overflow-x: auto;
+				white-space: nowrap;
+			}
+			#Div3 {
+				margin-top: 0px;
+				margin-bottom: 40px;
+		}
+		
+		.table_calendario{
+			width: 315px;
+			margin-left: 10px;
+		}
+		
+		
+			.categorias{
+				padding-left: 5px;
+				width: 100%;
+			}
+		
+		
+			.table_inicio img{
+				display: inline;
+				width: 320px;
+				margin-top: 40px;
+			}
+		
+		
+			.table_descargas{
+				width: 350px;
+				padding: 50px;
+			}
+		
+			.table_descargas h1{
+				text-align: center;
+			}
+			
+			.table_humor{
+				/*display: none;*/
+				padding: 30px;
+				width: 360px;
+				text-align: center;
+		}
+			
+			
+			.table_utilidades img{
+				width: 250px;
+			}
+		
+			.table_utilidades img:hover{
+				width: 280px;
+			}
+		
+			.table_utilidades{
+				width: 290px;
+				margin-left: 35px;	
+			}
+		
+		
+		
+				.table_musica{
+					width: 300px;
+					margin-left: 30px;
+				}
+		
+		
+			.table_musica a img{
+				width: 150px;
+			}
+		
+			.table_musica img:hover{
+				width: 200px;	
+			}
+		
+		
+		
+		
+			.enlacesmarphones td{
+				font-size: 16px;
+			}
+			
+			
+			
+			.enlacesmarphones{
+		
+				
+				/*Lo de abajo quita la barra de desplazamiento*/
+				overflow-x: hidden;
+		  color:black;
+		  font-family:'Opens Sans',helvetica;  
+		  height:100%;
+		  width:100%;
+		  margin: 0px;
+		  padding: 0px;
+		  
+		
+			}
+		
+		
+			
+			.table_responsive{
+				display: none;
+			}
+		
+		
+		
+		
+			.Eliga-any {
+			margin-left: 100px;
+			 
+			
+		}
+			#Div4 {
+			
+			color: #fffefe;
+			text-align: center;
+			
+		}
+		} 
 
