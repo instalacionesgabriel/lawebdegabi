@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
+.link_enlaces{
+	margin-left: 40px;
+	margin-bottom: 30px;
+	
+}
+
 
 .btn_transparent{
 	cursor: pointer;
@@ -16,10 +22,8 @@
 	color: transparent;	
 }
 
-/*Tables*/
-.table_responsive{
-	margin-bottom: 20px;
-}
+
+
 .table_campeonatos{
 	display: block;
 	width: 800px;px;
@@ -542,7 +546,9 @@ header img:hover{
 					  }
 	
 	
-					  
+					  .table_responsive{
+					padding-bottom: 90px;
+					}
 
 
 					@media screen and (max-width: 1680px) {
@@ -3887,17 +3893,17 @@ table{
     
 }
 /*7-1920X1080*/
-@media (min-width: 1920px) and (max-width: 1936px){
-    /*Manolo*/
+@media (min-width: 1681px) and (max-width: 1920px){
+    /*no*/
 	.table_responsive{
 		margin-left: 0px;
-		
+
 	}
 
 	.link_enlaces{
 		margin-left: 100px;
+		
 	}
-
 	.Eliga-any {
     margin-left: 600px;
     
@@ -3909,24 +3915,16 @@ table{
     text-align: center;
     
 }
-
-  
+ 
+    
 }
 /*6-1680x1050*/
 
 
-@media (min-width: 1384px) and (max-width: 1400px){
-    /*1400x900*/
+@media (min-width: 1280px) and (max-width: 1680px){
+    /*si*/
 
-	.table_responsive{
-		display: flexbox;
-		min-width: 950px;
-		max-width: 1175px;
-		margin: 20px;
-		
-	}
 
-	
 
 	
 	.table_movil{
@@ -3947,7 +3945,9 @@ table{
 /*5-1440x900 Pantalla principal*/
 @media (min-width: 1280px) and (max-width: 1664px){
     /*no*/
-	
+	.table_responsive{
+		margin-left: 20px;
+	}
 	#Div4 {
 	
 	color: #fffefe;
@@ -3978,9 +3978,7 @@ table{
 	header img:hover {
 	margin-bottom: 46px;
 	}
-	.table_responsive{
-		margin-left: 50px;
-	}
+	
 	
 
 }
@@ -4216,7 +4214,7 @@ table{
 			display: flexbox;
 			min-width: 1200px;
 			max-width: 1300px;
-			margin: 40px;
+			
 		}
 
 	    
@@ -4289,6 +4287,16 @@ table{
 
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
+
+	.link_enlaces{
+		display: flexbox;
+		margin-left: 0px;
+		
+	}
+
+.table_responsive td{
+	font-size: 16px;
+}
 .linea{
 	padding: 10px;
 	width: 700px;
@@ -4406,12 +4414,7 @@ margin-left: 350px;
 
 
 
-	.link_enlaces{
-		display: flexbox;
-		min-width: 900px;
-		max-width: 1000px;
-		margin: 25px;
-	}
+	
 
 	.table_podios_españoles {
 		width: 1000px;
@@ -4453,7 +4456,23 @@ margin-left: 350px;
 
 }
 
+@media (min-width: 800px) and (max-width: 816px){
+	/*800x1280 samsung galaxy tab 8.9"*/
+.table_responsive{
+	display: none;
+}
+.enlacesmarphones{
+	display: inline;
+}
 
+
+.enlacesmarphones td{
+	font-size: 25px;
+border:1 px solid #000;/*Crea un borde interior en negro*/
+padding: 16px;
+text-align:center;
+	}
+}
 @media (min-width: 668px) and (max-width: 800px){
 		/*pantalla movil horizontal 779 X 284*/
 
@@ -4532,12 +4551,15 @@ margin-left: 350px;
 	}
 	
 
-	.enlacesmarphones{
-		display: none;
+
+	.table_responsive {
+		
+		width: 720px;
+		height: 1200px;
+		
+		/*overflow: scroll;*/
 	}
 
-
-	
 	.table_campeonatos{
 		display: block;
 		max-width: 710px;
@@ -4745,7 +4767,9 @@ margin-left: 350px;
 		
 	}
 
-	
+	.table_responsive{
+		display: none;
+	}
 
 	.categorias{
 		
@@ -4925,7 +4949,9 @@ margin-left: 350px;
 		transform: scale(1.15);	
 	}
 
-	
+	.table_responsive{
+		display: none;
+	}
 
 
 	
@@ -5070,7 +5096,13 @@ margin-left: 350px;
 		
 	}
 
-	
+	.table_responsive {
+		
+		width: 590px;
+		height: 600px;
+		
+		/*overflow: scroll;*/
+	}
 
 	
 
