@@ -3855,7 +3855,41 @@ table{
 }
 
 /*8-2560 x 1440*/
-@media (min-width: 2445px) and (max-width: 5000px){
+
+@media (min-width: 4320px) and (max-width: 7680px){
+	.link_enlaces{
+		margin-left: 100px;
+		
+	}
+
+	.Eliga-any {
+	   margin-left: 600px;
+	   
+	   
+	   
+		
+	   
+   }   
+	   #Div4 {
+	   
+	   color: #fffefe;
+	   text-align: center;
+	   
+   }
+		   
+   }
+
+
+
+
+
+
+@media (min-width: 2160px) and (max-width: 3840px){
+	.link_enlaces{
+		margin-left: 100px;
+		
+	}
+
 	.Eliga-any {
 	   margin-left: 600px;
 	   
@@ -3946,7 +3980,7 @@ table{
 @media (min-width: 1280px) and (max-width: 1664px){
     /*no*/
 	.table_responsive{
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 	#Div4 {
 	
@@ -4044,7 +4078,49 @@ table{
 
 }
 
+@media (min-width: 576px) and (max-width: 720px){
+	.table_responsive{
+		display: none;
+	}
+	
+	.enlacesmarphones td{
+		font-size: 25px;
+	}
 
+
+	#Div1{
+	font-size: 1.9em;
+	margin: 20px;
+	padding-bottom: 15px;
+	}	
+	
+	#Div2{
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	
+	}
+	
+	
+
+
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		display: table;
+		width: 100%;
+	}
+
+	
+
+	
+	
+}
 
 
 
