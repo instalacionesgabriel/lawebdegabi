@@ -4891,7 +4891,14 @@ text-align:center;
 
 
 
+@media (min-width: 375px) and (max-width: 667px){
+	/*Redmi 11 400px 720px*/ /*pantalla movil 459*705*/
 
+	.categorias{
+		display: none;
+	}
+
+}
 
 
 
