@@ -176,12 +176,8 @@ ul.tabs li a {
 }
 
 @media (min-width: 375px) and (max-width: 667px){
-	/*Redmi11 400px 720px*/ /*pantalla movil 459*705*/
-.categorias{
-	display: none;
-	
-}
-	
+	/*Redmi 11 400px 720px*/ /*pantalla movil 459*705*/
+
 	ul.tabs li {
 	
 		width: 14%;
