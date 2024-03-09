@@ -178,7 +178,8 @@ ul.tabs li a {
 @media (min-width: 375px) and (max-width: 667px){
 	/*Redmi9 400px 720px*/ /*pantalla movil 459*705*/
 .categorias{
-	margin-left: 20px;
+	margin-left: 10px;
+	
 }
 	
 	ul.tabs li {
