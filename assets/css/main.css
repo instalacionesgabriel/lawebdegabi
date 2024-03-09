@@ -4897,6 +4897,11 @@ text-align:center;
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+	.categorias{
+		display: none;
+        padding-left: 5px;
+		width: 100%;
+	}
 
 
 
@@ -5067,12 +5072,7 @@ text-align:center;
 
 
 
-	.categorias{
-		
-        padding-left: 5px;
-		width: 100%;
-	}
-
+	
 
 	
 
