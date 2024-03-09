@@ -1,6 +1,11 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
+.Eliga-any{
+	padding-left: 140px;
+}
+
+
 
 .link_enlaces{
 	margin-left: 40px;
@@ -4485,7 +4490,7 @@ margin-left: 350px;
 
 	
 	
-
+	
 
 	.elegiraño{
 		
@@ -4744,6 +4749,7 @@ text-align:center;
 
 		.elegiraño{
 			padding-left: 122px;
+			
 		}
 
 		
