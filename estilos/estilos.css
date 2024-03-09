@@ -325,5 +325,9 @@ body {
 	margin: 20px;	
 	}
 	
+
+	.categorias{
+		display: none;
+	}
 	
 }

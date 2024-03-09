@@ -554,6 +554,7 @@ header img:hover{
 					@media screen and (max-width: 1680px) {
         
         /*si*/
+		
 
         
 .historia {
@@ -3909,7 +3910,21 @@ table{
    /*7-1920X1080*/
 
 @media (min-width: 1920px) and (max-width: 2444px){
-	/*no*/
+	/*Manolo*/
+	.categorias{
+        margin-left: 100px;
+		width: 100%;
+	}
+		.categorias li{
+		 width: 100px;
+		height: 35px;
+			
+			
+			
+		}
+
+	
+
 	.Eliga-any {
     margin-left: 600px;
 	
@@ -3930,6 +3945,7 @@ table{
 @media (min-width: 1681px) and (max-width: 1920px){
     /*no*/
 	.table_responsive{
+	
 		margin-left: 0px;
 
 	}
@@ -3958,7 +3974,7 @@ table{
 @media (min-width: 1280px) and (max-width: 1680px){
     /*si*/
 
-
+	
 
 	
 	.table_movil{
@@ -4217,7 +4233,8 @@ table{
 }
 
 @media (min-width: 1335px) and (max-width: 1920px){
-		
+
+	
 	#Div2{
 	text-align: center;
 	font-size: 1.2em;
@@ -4683,7 +4700,6 @@ text-align:center;
 
 
 
-
 @media (min-width: 375px) and (max-width: 667px){
 		/*400px 720px*/ /*pantalla movil 459*705*/	
 		.moto{
@@ -4849,7 +4865,7 @@ text-align:center;
 
 	.categorias{
 		
-		padding-left: 30px;
+		padding-left: 45px;
 	 }
 	 
 	 .link_enlaces{
@@ -4881,6 +4897,8 @@ text-align:center;
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+
+
 
 	.linea {
 		border-top: 1px solid black;

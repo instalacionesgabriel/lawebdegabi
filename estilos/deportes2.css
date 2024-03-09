@@ -90,6 +90,7 @@ ul.tabs li a {
 }
 
 .categorias{
+	
 	width: 100%;
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -101,6 +102,7 @@ ul.tabs li a {
 }
 
 .categorias li{
+	
 	display: inline-flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -174,7 +176,11 @@ ul.tabs li a {
 }
 
 @media (min-width: 375px) and (max-width: 667px){
-	/*400px 720px*/ /*pantalla movil 459*705*/
+	/*Redmi9 400px 720px*/ /*pantalla movil 459*705*/
+.categorias{
+	margin-left: 20px;
+}
+	
 	ul.tabs li {
 	
 		width: 14%;
@@ -189,6 +195,8 @@ ul.tabs li a {
 
 @media (min-width: 100px) and (max-width: 374px){
     /*Redmi 9 340px 604px*/
+
+
 	ul.tabs li {
 	
 		width: 13.8%;
