@@ -1079,6 +1079,9 @@ header img:hover{
 	@media screen and (max-width: 1680px) {
 /*si*/
 		
+
+
+
 		.row > * {
 			padding: 40px 0 0 40px;
 		}
@@ -3917,6 +3920,7 @@ table{
 @media (min-width: 1920px) and (max-width: 2444px){
 	/*Manolo*/
 	.categorias{
+		
         margin-left: 100px;
 		width: 100%;
 	}
@@ -4059,6 +4063,7 @@ table{
 }
 
 #Div2{
+	
 	text-align: center;
 	font-size: 1.2em;
 	margin: 0px;
@@ -4089,6 +4094,7 @@ table{
 			
 }
 #Div2{
+	
 	text-align: center;
 	font-size: 1.2em;
 	margin: 0px;
@@ -4116,6 +4122,7 @@ table{
 	}	
 	
 	#Div2{
+		
 	text-align: center;
 	font-size: 1.2em;
 	margin: 0px;
@@ -4386,6 +4393,8 @@ table{
 @media screen and (max-width: 1280px) {
 	/*Pantalla Asus*/
 
+	
+	
 	.link_enlaces{
 		display: flexbox;
 		margin-left: 0px;
@@ -4486,6 +4495,8 @@ margin-left: 350px;
 
 	.Titulo-motos{
 		margin-left: 0px;
+		
+
 	}
 
 	
@@ -4522,7 +4533,8 @@ margin-left: 350px;
 		}
 			
 		#Div2{
-		text-align: center;
+		
+			text-align: center;
 		font-size: 1.2em;
 		margin: 0px;
 		padding-bottom: 20px;
@@ -4741,6 +4753,7 @@ text-align:center;
 		
 
 		#Div2{
+		
 			text-align: center;
 			font-size: 1.2em;
 			margin: 10px;
@@ -4962,6 +4975,7 @@ text-align:center;
 	
 
 	#Div2{
+		
 		text-align: center;
 		font-size: 1.2em;
 		margin: 10px;
@@ -4977,6 +4991,7 @@ text-align:center;
 
 .table_pantalla{
 	width: 325px;
+	
 }
 
 	.table_podios_españoles{
@@ -5223,3 +5238,29 @@ text-align:center;
 
 
 
+
+@media (min-width: 900px) and (max-width: 1600px){
+    /*pantalla LG*/
+
+	
+	.categorias{
+        
+		width: 100%;
+	}
+		.categorias li{
+		 width: 100px;
+		height: 35px;
+		
+			
+			
+		}
+
+		
+		.table_pantalla{
+			
+			margin: 10px;
+			width: 1210px;
+			
+		}
+
+}
